@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="V0040/ut_vfx/icons/app_banner_small.bmp" alt="UT_Central_Server Logo" width="400">
+  <img src="V0040/ut_vfx/icons/app_banner.bmp" alt="UT_Central_Server Logo" width="600">
 
   # 🎬 UTCAP VFX Studio & Central Server
   
