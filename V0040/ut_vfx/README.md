@@ -182,7 +182,7 @@ Proprietary - UT Studio Internal Use Only
 
 ## 🤝 Support
 
-**Issues:** Contact IT at `support@utvfx.com`  
+**Issues:** Contact IT at `capsuleutkarsh@gmail.com`  
 **Logs:** `%LOCALAPPDATA%\UTVFX\logs\`
 
 ---

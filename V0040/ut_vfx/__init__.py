@@ -8,7 +8,7 @@ from importlib import import_module
 from typing import Any
 
 __version__ = "BETA 2.0.21"
-__author__ = "Utkarsh Tripathi <utkarshtripathi771@gmail.com>"
+__author__ = "Utkarsh Tripathi <capsuleutkarsh@gmail.com>"
 
 _LAZY_IMPORTS = {
     "VFXFolderCreatorApp": ("ut_vfx.gui.main_window", "VFXFolderCreatorApp"),
