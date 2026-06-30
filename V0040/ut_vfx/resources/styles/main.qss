@@ -1,0 +1,273 @@
+/* 
+===================================================
+UTCAP NEXT-GEN THEME ENGINE - PREMIUM EDITION
+===================================================
+This stylesheet uses dynamic tokens parsed by ThemeManager.
+Do NOT hardcode colors here. Use the @TOKENS.
+*/
+
+* {
+    font-family: @FONT_UI;
+    font-size: 13px;
+    color: @TEXT_PRIMARY;
+    outline: none;
+}
+
+/* --- MAIN WINDOW & DIALOGS --- */
+QMainWindow, QDialog, QWidget {
+    background-color: @BG_MAIN;
+}
+
+QScrollArea > QWidget > QWidget {
+    background-color: transparent;
+}
+
+/* --- PANELS & CARDS (QGroupBox, QFrame) --- */
+QGroupBox, QFrame#PanelFrame {
+    background-color: @BG_PANEL;
+    border: 1px solid @BORDER;
+    border-radius: @RADIUS_MD;
+    margin-top: 20px; 
+    padding-top: 10px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 2px 8px;
+    margin-left: 15px;
+    color: @TEXT_MUTED;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    background-color: @BG_PANEL; /* Gives title a neat cutout effect */
+    border-radius: @RADIUS_SM;
+}
+
+/* --- BUTTONS (Premium feel with depth and smooth hovers) --- */
+QPushButton {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2A2A2A, stop: 1 @BG_ELEVATED);
+    border: 1px solid @BORDER;
+    border-radius: @RADIUS_SM;
+    padding: 7px 16px;
+    color: @TEXT_PRIMARY;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #3A3A3A, stop: 1 #2D2D2D);
+    border: 1px solid @BORDER_FOCUS;
+}
+
+QPushButton:pressed {
+    background-color: #111111;
+    border: 1px solid @ACCENT;
+    padding-top: 8px; /* Slight pushed down effect */
+    padding-bottom: 6px;
+}
+
+QPushButton:disabled {
+    color: #4A4A4A;
+    background-color: #161616;
+    border: 1px solid #1E1E1E;
+}
+
+/* Primary Accent Button */
+QPushButton#primaryButton, QPushButton.Primary {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 @ACCENT, stop: 1 #008CB4);
+    border: 1px solid #005F7A;
+    color: #000000;
+    font-weight: bold;
+}
+
+QPushButton#primaryButton:hover, QPushButton.Primary:hover {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 @ACCENT_HOVER, stop: 1 @ACCENT);
+    border: 1px solid #ffffff;
+}
+
+/* --- INPUT FIELDS --- */
+QLineEdit, QSpinBox, QDoubleSpinBox, QComboBox {
+    background-color: #121212; /* Deep inset feel */
+    border: 1px solid @BORDER;
+    border-radius: @RADIUS_SM;
+    padding: 6px 12px;
+    color: @TEXT_PRIMARY;
+    min-height: 22px;
+}
+
+QLineEdit:focus, QSpinBox:focus, QComboBox:focus {
+    border: 1px solid @ACCENT;
+    background-color: #181818;
+}
+
+QTextEdit, QPlainTextEdit {
+    background-color: #121212;
+    border: 1px solid @BORDER;
+    border-radius: @RADIUS_SM;
+    padding: 8px;
+    font-family: @FONT_MONO;
+    line-height: 1.4;
+}
+
+QTextEdit:focus, QPlainTextEdit:focus {
+    border: 1px solid @ACCENT;
+}
+
+/* --- COMBO BOX DROPDOWN --- */
+QComboBox::drop-down {
+    border: none;
+    width: 30px;
+}
+QComboBox::down-arrow {
+    image: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid @TEXT_MUTED;
+    margin-right: 8px;
+}
+QComboBox::down-arrow:hover {
+    border-top-color: @ACCENT;
+}
+
+/* --- TABS --- */
+QTabWidget::pane {
+    border: 1px solid @BORDER;
+    background-color: @BG_PANEL;
+    border-radius: @RADIUS_MD;
+    margin-top: -1px;
+}
+
+QTabBar::tab {
+    background-color: transparent;
+    color: @TEXT_MUTED;
+    padding: 10px 24px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
+
+QTabBar::tab:selected {
+    color: @TEXT_PRIMARY;
+    border-bottom: 3px solid @ACCENT;
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+QTabBar::tab:hover:!selected {
+    color: @TEXT_PRIMARY;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-bottom: 2px solid @BORDER_FOCUS;
+}
+
+/* --- DATA VIEWS (Tables, Trees, Lists) --- */
+QTableView, QTreeView, QListView, QTableWidget, QTreeWidget, QListWidget {
+    background-color: @BG_MAIN;
+    alternate-background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid @BORDER;
+    border-radius: @RADIUS_MD;
+    gridline-color: @BORDER;
+    selection-background-color: rgba(0, 180, 216, 0.15); /* Soft highlight */
+    selection-color: @TEXT_PRIMARY; 
+}
+
+QTableView::item:selected, QTreeView::item:selected, QListView::item:selected {
+    border-left: 3px solid @ACCENT; 
+}
+
+QHeaderView::section {
+    background-color: @BG_PANEL;
+    color: @TEXT_MUTED;
+    padding: 10px 12px;
+    border: none;
+    border-bottom: 2px solid @BORDER;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+/* --- SCROLLBARS (Sleek Mac/Win11 style) --- */
+QScrollBar:vertical {
+    border: none;
+    background: transparent;
+    width: 10px;
+    margin: 2px;
+}
+QScrollBar::handle:vertical {
+    background: #4A4A4A;
+    min-height: 30px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical:hover {
+    background: @ACCENT;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    border: none; background: none; height: 0px;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background: transparent;
+    height: 10px;
+    margin: 2px;
+}
+QScrollBar::handle:horizontal {
+    background: #4A4A4A;
+    min-width: 30px;
+    border-radius: 5px;
+}
+QScrollBar::handle:horizontal:hover {
+    background: @ACCENT;
+}
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal,
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    border: none; background: none; width: 0px;
+}
+
+/* --- PROGRESS BARS --- */
+QProgressBar {
+    border: 1px solid @BORDER;
+    border-radius: @RADIUS_SM;
+    background-color: #121212;
+    color: @TEXT_PRIMARY;
+    text-align: center;
+    font-weight: bold;
+    height: 18px;
+}
+QProgressBar::chunk {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 @ACCENT, stop: 1 #00E5FF);
+    border-radius: @RADIUS_SM;
+}
+
+/* --- CHECKBOXES --- */
+QCheckBox {
+    spacing: 10px;
+    color: @TEXT_PRIMARY;
+    font-weight: 500;
+}
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #121212;
+}
+QCheckBox::indicator:checked {
+    background-color: @ACCENT;
+    border-color: @ACCENT;
+    image: url(ut_vfx/resources/icons/check.png);
+}
+QCheckBox::indicator:hover {
+    border-color: @ACCENT;
+}
+
+/* --- TOOLTIPS --- */
+QToolTip {
+    background-color: @BG_PANEL;
+    color: @TEXT_PRIMARY;
+    border: 1px solid @BORDER_FOCUS;
+    border-radius: @RADIUS_SM;
+    padding: 6px 10px;
+    font-size: 11px;
+    font-weight: 500;
+}

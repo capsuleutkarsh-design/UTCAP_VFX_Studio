@@ -1,0 +1,38 @@
+{
+    "roles": {
+        "Developer": [
+            "ALL",
+            "Admin Panel",
+            "Tester Panel"
+        ],
+        "Supervisor": [
+            "Folder Creator",
+            "Move/Scan",
+            "Reports",
+            "Stock Browser",
+            "Rename Tool",
+            "Dashboard",
+            "Settings",
+            "Attendance",
+            "Admin Panel",
+            "Image Editor"
+        ],
+        "Artist": [
+            "Stock Browser",
+            "Rename Tool",
+            "Dashboard",
+            "Settings",
+            "Attendance",
+            "Image Editor"
+        ],
+        "Tester": [
+            "Folder Creator",
+            "Move/Scan",
+            "Rename Tool",
+            "Stock Browser",
+            "Tester Panel",
+            "Settings",
+            "Image Editor"
+        ]
+    }
+}
