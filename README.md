@@ -3,6 +3,12 @@
 
   # 🎬 UTCAP VFX Studio & Central Server
   
+  > 🚨 **IMPORTANT: FIRST TIME SETUP** 🚨
+  > Before doing anything else, you **MUST** run the setup script to download missing massive files (like FFprobe and PostgreSQL binaries) that were excluded from GitHub due to size limits.
+  > 
+  > ```bash
+  > python first_setup.py
+  > ```
   **The ultimate production hub, shot reviewer, and team management suite for professional VFX pipelines.**
   
   [![Version](https://img.shields.io/badge/version-2.0.21_BETA-blue.svg)]()
