@@ -59,3 +59,9 @@ VFX Studio Solution/
 *.pt
 *.bin
 *.onnx
+
+# Specific external tools & bundled environments
+V0040/external/
+V0040/OpenRV/
+V0040/ut_server/bin/
+V0040/ut_vfx/bin/
