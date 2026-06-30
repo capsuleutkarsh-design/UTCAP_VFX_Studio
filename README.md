@@ -79,7 +79,7 @@ Our complete architecture and logic guides are built-in. Start here:
 ## 🤝 Support and Help
 
 For technical support, feature requests, or enterprise pipeline integration, please contact the lead architect:
-**Utkarsh Tripathi** - [utkarshtripathi771@gmail.com](mailto:utkarshtripathi771@gmail.com)
+**Utkarsh Tripathi** - [capsuleutkarsh@gmail.com](mailto:capsuleutkarsh@gmail.com)
 
 <div align="center">
   <i>Designed and authored by <a href="https://github.com/capsuleutkarsh-design">CapsuleUtkarsh-Design</a>. All rights reserved.</i>
