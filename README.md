@@ -1,81 +1,80 @@
-# Capsule VFX Documentation Index
+<div align="center">
+  <img src="V0040/ut_vfx/icons/app_banner.bmp" alt="UT_Central_Server Logo" width="100%">
 
-Version: 1.3.0b0
-Last Updated: 2026-02-23
-Status: Active
+  # 🎬 UTCAP VFX Studio & Central Server
+  
+  **The ultimate production hub, shot reviewer, and team management suite for professional VFX pipelines.**
+  
+  [![Version](https://img.shields.io/badge/version-2.0.21_BETA-blue.svg)]()
+  [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)]()
+  [![Database](https://img.shields.io/badge/PostgreSQL-Ready-blue.svg)]()
+  [![License](https://img.shields.io/badge/License-GPL_v3.0-green.svg)](LICENSE)
 
----
-
-## Start Here
-
-- `USER_MANUAL.md`: operator workflows and day-to-day usage
-- `BUILD_INSTRUCTIONS.md`: local setup and build steps
-- `TESTING_GUIDE.md`: test commands and QA checklist
-- `TROUBLESHOOTING_GUIDE.md`: common problems and fixes
-- `CHANGELOG.md`: release and cleanup history
-
-## Architecture And Engineering
-
-- `SYSTEM_ARCHITECTURE.md`
-- `ARCHITECTURE.md`
-- `MODULE_REFERENCE.md`
-- `DEVELOPER_GUIDE.md`
-- `DATABASE_SCHEMA.md`
-- `NETWORK_STABILITY.md`
-- `DIRECTORY_STRUCTURE.md`
-
-## Deployment And Operations
-
-- `DEPLOYMENT_GUIDE.md`
-- `DEPLOYMENT_MANUAL.md`
-- `CREDENTIALS_SETUP.md`
-
-## Feature And Planning Notes
-
-- `VFX_PRODUCTION_LOGIC.md`
-- `PRODUCTION_TOOLS_LOGIC.md`
-- `FILE_MOVEMENT_LOGIC.md`
-- `PLAN_INCOMING_DELIVERY_MODE.md`
-- `OIIO_INTEGRATION_PLAN.md`
-- `FOCUSED_ENHANCEMENT_PLAN.md`
+</div>
 
 ---
 
-## Current Product Notes (2026-02)
+## 🚀 Overview
 
-- `Video Editor` tab is removed.
-- `Documents` tab is removed.
-- Stock Browser AI-tagging modules are removed.
-- Shot Review focuses on scan/render checking, annotation, approval, and lineup handoff.
-- Admin Panel Live Ops reads workstation JSON from `LiveStatus` and supports fleet export.
-- Attendance admin edit uses double-click in Team Overview.
+**UTCAP VFX Studio** is a completely reimagined production management software designed from the ground up for modern Visual Effects teams. Moving past traditional setups, it introduces a robust **PostgreSQL-backed Central Server** with a rich Desktop GUI tailored for Supervisors, Artists, and Production Managers.
+
+From checking render line-ups and annotating shot reviews to tracking live workstations and attendance—everything is seamlessly integrated into one unified environment.
 
 ---
 
-## Documentation Scope
+## ✨ Core Features
 
-This folder contains both:
-
-- active operational docs used by current builds, and
-- historical design notes from earlier phases.
-- archived Rez migration material in `tools/archive/rez_legacy/`.
-
-If two docs conflict, treat these as source of truth first:
-
-1. `CHANGELOG.md`
-2. `USER_MANUAL.md`
-3. `TROUBLESHOOTING_GUIDE.md`
-4. `TESTING_GUIDE.md`
+*   🎯 **Advanced Shot Review:** High-speed scanning and render checking with full annotation support, approval workflows, and lineup handoffs.
+*   📊 **Live Admin Panel & Fleet Management:** Instantly read live JSON workstation statuses from `LiveStatus` across your entire network, and export fleet telemetry with a single click.
+*   👥 **Team & Attendance Overview:** Beautiful, double-click administrative dashboards to manage team attendance and track user roles dynamically.
+*   🔗 **Seamless DCC Integrations:** Built-in hooks and menus for **Nuke**, **Blender**, **Natron**, and **Silhouette**.
+*   🏎️ **High-Performance DB Polling:** Integrated Database Speed Indicators (both compact and full modes) to constantly monitor your PostgreSQL latency.
+*   📂 **Kanban & Asset Tracking:** Built-in agile Kanban boards, fast embed caching, and strict naming validation for bulletproof pipelines.
 
 ---
 
-## License
+## 📦 Installation & Setup
 
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
+Since the `UTCAP_VFX_Studio` software handles heavy production loads, the required third-party binaries (like **FFmpeg**, **Olive Editor**, **OpenRV**, and **PostgreSQL**) are **not** bundled in this GitHub repository to maintain a lightweight footprint. 
+
+### Local Deployment
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/capsuleutkarsh-design/UTCAP_VFX_Studio.git
+   ```
+2. For complete setup, refer to the [BUILD_INSTRUCTIONS.md](docs/BUILD_INSTRUCTIONS.md) and [DEPLOYMENT_GUIDE.md](docs/DEPLOYMENT_GUIDE.md).
+
+*(Note: If you downloaded the pre-compiled `.exe` installer from our official releases, the PostgreSQL server and FFmpeg engines will be automatically configured for you).*
 
 ---
 
-## Support and Help
+## 📚 Documentation Index
 
-For technical support, feature requests, or general help regarding this software, please contact the author:
+Our complete architecture and logic guides are built-in. Start here:
+
+*   📖 [**User Manual**](docs/USER_MANUAL.md) - Operator workflows and day-to-day usage.
+*   🏗️ [**System Architecture**](docs/SYSTEM_ARCHITECTURE.md) - Deep dive into our client-server interactions.
+*   🔧 [**Troubleshooting Guide**](docs/TROUBLESHOOTING_GUIDE.md) - Common problems and fixes.
+*   🗄️ [**Database Schema**](docs/DATABASE_SCHEMA.md) - Vector indexes and SQL table relationships.
+*   🔄 [**Changelog**](docs/CHANGELOG.md) - Release history.
+
+---
+
+## 🛠 Integrations
+<div align="center">
+  <img src="https://img.shields.io/badge/Nuke-Foundry-black?style=flat-square&logo=nuke" height="30">
+  <img src="https://img.shields.io/badge/Blender-3D-orange?style=flat-square&logo=blender" height="30">
+  <img src="https://img.shields.io/badge/Natron-Compositing-purple?style=flat-square" height="30">
+  <img src="https://img.shields.io/badge/Silhouette-Rotoscoping-red?style=flat-square" height="30">
+</div>
+
+---
+
+## 🤝 Support and Help
+
+For technical support, feature requests, or enterprise pipeline integration, please contact the lead architect:
 **Utkarsh Tripathi** - [utkarshtripathi771@gmail.com](mailto:utkarshtripathi771@gmail.com)
+
+<div align="center">
+  <i>Designed and authored by <a href="https://github.com/capsuleutkarsh-design">CapsuleUtkarsh-Design</a>. All rights reserved.</i>
+</div>
