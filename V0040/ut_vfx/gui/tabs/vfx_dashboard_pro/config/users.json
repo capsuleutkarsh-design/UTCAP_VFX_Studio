@@ -1,0 +1,14 @@
+{
+  "artist": {
+    "password": null,
+    "role": "artist"
+  },
+  "supervisor": {
+    "password": "gAAAAABpQ7U5un7SLfY-l6meHvlRJF80Q1wG-JAts9Csh8cvJlrF-mD7NwlLs3iCujO9IiqolBAoQnP3PjQU-tVIP8RdcWLUSA==",
+    "role": "supervisor"
+  },
+  "producer": {
+    "password": "gAAAAABpQ7U5Pwr1jZ3TEnOQnvKqGMc9mxTe7Gnwu6P4b8767DV3adx5rcRDsVW383SOjJGeqzaR20HBxOM2DPjahMRCCSAeIw==",
+    "role": "producer"
+  }
+}

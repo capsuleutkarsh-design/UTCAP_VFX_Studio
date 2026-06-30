@@ -1,0 +1,54 @@
+{
+  "standard": {
+    "name": "Standard Pipeline (Studio)",
+    "description": "Standard pipeline structure matching Studio requirements v1.0",
+    "base_folders": [
+      "01_Frm Client",
+      "02_Edit",
+      "03_References",
+      "04_Production",
+      "05_Reels",
+      "06_Feedback",
+      "07_Outsource/01_To_Outsource",
+      "07_Outsource/02_Frm_Outsource",
+      "08_To Client"
+    ],
+    "production_subfolders": [
+      "01_ARTIST_SOW_SHEET",
+      "02_Contact_sheet"
+    ],
+    "outsource_subfolders": [],
+    "shot_folders": [
+      "00_Annotation",
+      "01_Scan/Denoise",
+      "01_Scan/EXR",
+      "01_Scan/Jpg",
+      "01_Scan/Mov",
+      "01_Scan/PNG",
+      "02_Dmp/Final",
+      "02_Dmp/Layer",
+      "02_Dmp/PSD",
+      "03_Cg/Lighting",
+      "03_Cg/Fx",
+      "03_Cg/Anim",
+      "03_Cg/Renders",
+      "03_Cg/Script",
+      "03_Cg/Render",
+      "04_Roto/Script",
+      "04_Roto/Output/Shape",
+      "04_Roto/Output/Matte",
+      "05_Prep/Render",
+      "05_Prep/Script",
+      "06_Cmm",
+      "07_Comp/Script",
+      "07_Comp/Output",
+      "08_Output/EXR",
+      "08_Output/MOV",
+      "08_Output/SLAPCOMP",
+      "09_Deage/Script",
+      "09_Deage/Output",
+      "10_AI/Plates",
+      "10_AI/Backgrounds"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "users": {
+        "admin": {
+            "password_hash": "$2b$12$y2TzieKZdj3xO0hKzWuvwelPz3EV/K8wjRQu2zZe4v/1i4xedCOge",
+            "roles": [
+                "Developer"
+            ],
+            "display_name": "System Admin",
+            "job_title": "Dev"
+        },
+        "artist": {
+            "password_hash": "$2b$12$p3kvPZLPuwqqvqusL5JoXOyA5ndnjyT3XdnPhttfTIEUd1qWvXUYC",
+            "roles": [
+                "Artist"
+            ],
+            "display_name": "Test Artist",
+            "job_title": "Roto"
+        },
+        "tester": {
+            "password_hash": "$2b$12$ofXgiTXfeBCojlpkzntW6.5.i29yndZpCYjjMPFjLjhEGM9FyK7XW",
+            "roles": [
+                "Tester"
+            ],
+            "display_name": "QA Tester",
+            "job_title": "QA"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+build/
+dist/
+installers/
+*.spec.bak
+
+# IDE/system
+.idea/
+.vscode/
+*.log
+Thumbs.db
+
+# Local runtime/cache/backups
+CapsuleVFX_Backups/
+debug_archive/
+capsule_vfx/resources/web/univer/
+capsule_vfx/backups/
+capsule_vfx/DB/*.db
+capsule_vfx/data/*.bak
+capsule_vfx/bin/*.exe
+capsule_vfx/gui/tabs/vfx_dashboard_pro/backups/
+capsule_vfx/gui/tabs/vfx_dashboard_pro/cache/
+capsule_vfx/gui/tabs/vfx_dashboard_pro/*_backup_*.xlsx
+capsule_vfx/gui/tabs/vfx_dashboard_pro/USER_GUIDE.md.metadata.json
+capsule_vfx/gui/tabs/vfx_dashboard_pro/USER_GUIDE.md.resolved*
+capsule_vfx/gui/tabs/vfx_dashboard_pro/ui/dashboard_widget.log
+capsule_vfx/gui/tabs/vfx_dashboard_pro/ui/debug_log.txt
+*.tmp

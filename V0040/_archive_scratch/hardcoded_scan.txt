@@ -1,0 +1,1732 @@
+=== HARDCODED PATHS AND IPS ===
+default_config.json:9: "db_host": "10.100.104.150",
+default_config.json:16: "update_manifest_url": "http://192.168.0.250/ut_vfx_updates/manifest.json",
+bin\OpenRV\lib\doctest.py:1271: 'Exception raised:\n' + _indent(_exception_traceback(exc_info)))
+bin\OpenRV\lib\doctest.py:1720: return 'Expected:\n%sGot:\n%s' % (_indent(want), _indent(got))
+bin\OpenRV\lib\doctest.py:1722: return 'Expected:\n%sGot nothing\n' % _indent(want)
+bin\OpenRV\lib\ipaddress.py:402: >>> ipaddress.ip_address("127.0.0.1").reverse_pointer
+bin\OpenRV\lib\ntpath.py:17: defpath = '.;C:\\bin'
+bin\OpenRV\lib\smtplib.py:270: addr = '127.0.0.1'
+bin\OpenRV\lib\socket.py:95: _LOCALHOST    = '127.0.0.1'
+bin\OpenRV\lib\tempfile.py:171: r'c:\temp', r'c:\tmp', r'\temp', r'\tmp' ])
+bin\OpenRV\lib\traceback.py:84: "another exception occurred:\n\n")
+bin\OpenRV\lib\webbrowser.py:544: iexplore = os.path.join(os.environ.get("PROGRAMFILES", "C:\\Program Files"),
+bin\OpenRV\lib\distutils\command\build_ext.py:628: fn = os.path.join("c:\\swig%s" % vers, "swig.exe")
+bin\OpenRV\lib\distutils\tests\test_dir_util.py:122: self.assertEqual(ensure_relative('c:\\home\\foo'), 'c:home\\foo')
+bin\OpenRV\lib\distutils\tests\test_util.py:214: return path.startswith('c:\\')
+bin\OpenRV\lib\distutils\tests\test_util.py:225: self.assertEqual(change_root('c:\\root', 'c:\\old\\its\\here'),
+bin\OpenRV\lib\distutils\tests\test_util.py:226: 'c:\\root\\old\\its\\here')
+bin\OpenRV\lib\distutils\tests\test_util.py:227: self.assertEqual(change_root('c:\\root', 'its\\here'),
+bin\OpenRV\lib\distutils\tests\test_util.py:228: 'c:\\root\\its\\here')
+bin\OpenRV\lib\distutils\tests\test_util.py:233: change_root, 'c:\\root', 'its\\here')
+bin\OpenRV\lib\idlelib\pyshell.py:66: HOST = '127.0.0.1' # python execution server on localhost loopback
+bin\OpenRV\lib\idlelib\rpc.py:71: LOCALHOST = '127.0.0.1'
+bin\OpenRV\lib\idlelib\run.py:41: LOCALHOST = '127.0.0.1'
+bin\OpenRV\lib\idlelib\run.py:257: "another exception occurred:\n", file=efile)
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:250: with mock.patch('os.path.expanduser', return_value='C:\\foo'):
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:252: self.assertEqual(conf.GetUserCfgDir(), 'C:\\foo\\.idlerc')
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:256: with mock.patch('os.getcwd', return_value='C:\\foo\\cpython'):
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:259: 'C:\\foo\\cpython\\.idlerc')
+bin\OpenRV\lib\idlelib\idle_test\test_pyparse.py:76: 'class C:\n'
+bin\OpenRV\lib\idlelib\idle_test\test_pyparse.py:110: 'class C:\n'
+bin\OpenRV\lib\idlelib\idle_test\test_pyparse.py:124: 'class C:\n'
+bin\OpenRV\lib\lib2to3\pgen2\tokenize.py:145: print("%d,%d-%d,%d:\t%s\t%s" % \
+bin\OpenRV\lib\lib2to3\tests\test_parser.py:492: self.validate("class C:\n"
+bin\OpenRV\lib\pydoc_data\topics.py:1729: 'a built-in function or method:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:1737: 'a class instance method:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:2253: '"print()" calls are executed:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:2554: 'exception is discarded:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:2581: 'last one executed:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:2698: 'multiple "with" statements were nested:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:8458: 'handled, both exceptions will be printed:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:8462: '   ... except Exception as exc:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:8495: 'occurred:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:10405: '"__getitem__()" or "__class_getitem__()" should be called:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:10442: '"__class_getitem__()" being called:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:11063: '   >>> class C:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:11604: '   all combinations of its values are stripped:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:11756: '   all combinations of its values are stripped:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:11945: '   stripped:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:12568: 'exception is discarded:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:12590: 'last one executed:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:12964: '   section Calls) can be applied:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:13589: '      Frame objects support one method:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:13678: '      Slice objects support one method:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:14258: '   >>> class C:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:14747: '   Lists also provide the following additional method:\n'
+bin\OpenRV\lib\pydoc_data\topics.py:15309: 'multiple "with" statements were nested:\n'
+bin\OpenRV\lib\site-packages\numpy\__config__.py:18: openblas64__info={'library_dirs': ['D:\\a\\1\\s\\numpy\\build\\openblas64__info'], 'libraries': ['openblas64__info'], 'language': 'f77', 'define_macros': [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None)]}
+bin\OpenRV\lib\site-packages\numpy\__config__.py:19: blas_ilp64_opt_info={'library_dirs': ['D:\\a\\1\\s\\numpy\\build\\openblas64__info'], 'libraries': ['openblas64__info'], 'language': 'f77', 'define_macros': [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None)]}
+bin\OpenRV\lib\site-packages\numpy\__config__.py:20: openblas64__lapack_info={'library_dirs': ['D:\\a\\1\\s\\numpy\\build\\openblas64__lapack_info'], 'libraries': ['openblas64__lapack_info'], 'language': 'f77', 'define_macros': [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None), ('HAVE_LAPACKE', None)]}
+bin\OpenRV\lib\site-packages\numpy\__config__.py:21: lapack_ilp64_opt_info={'library_dirs': ['D:\\a\\1\\s\\numpy\\build\\openblas64__lapack_info'], 'libraries': ['openblas64__lapack_info'], 'language': 'f77', 'define_macros': [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None), ('HAVE_LAPACKE', None)]}
+bin\OpenRV\lib\site-packages\numpy\distutils\mingw32ccompiler.py:270: winsxs_path = os.path.join(os.environ.get('WINDIR', r'C:\WINDOWS'),
+bin\OpenRV\lib\site-packages\numpy\distutils\system_info.py:271: default_lib_dirs = ['C:\\',
+bin\OpenRV\lib\site-packages\numpy\distutils\__config__.py:18: openblas64__info={'library_dirs': ['D:\\a\\1\\s\\numpy\\build\\openblas64__info'], 'libraries': ['openblas64__info'], 'language': 'f77', 'define_macros': [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None)]}
+bin\OpenRV\lib\site-packages\numpy\distutils\__config__.py:19: blas_ilp64_opt_info={'library_dirs': ['D:\\a\\1\\s\\numpy\\build\\openblas64__info'], 'libraries': ['openblas64__info'], 'language': 'f77', 'define_macros': [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None)]}
+bin\OpenRV\lib\site-packages\numpy\distutils\__config__.py:20: openblas64__lapack_info={'library_dirs': ['D:\\a\\1\\s\\numpy\\build\\openblas64__lapack_info'], 'libraries': ['openblas64__lapack_info'], 'language': 'f77', 'define_macros': [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None), ('HAVE_LAPACKE', None)]}
+bin\OpenRV\lib\site-packages\numpy\distutils\__config__.py:21: lapack_ilp64_opt_info={'library_dirs': ['D:\\a\\1\\s\\numpy\\build\\openblas64__lapack_info'], 'libraries': ['openblas64__lapack_info'], 'language': 'f77', 'define_macros': [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None), ('HAVE_LAPACKE', None)]}
+bin\OpenRV\lib\site-packages\numpy\f2py\cb_rules.py:253: 'pyobjfrom': {debugcapi: '    fprintf(stderr,"debug-capi:cb:#name#:%d:\\n",return_value_len);'},
+bin\OpenRV\lib\site-packages\numpy\f2py\cb_rules.py:427: 'pyobjfrom': [{debugcapi: '    fprintf(stderr,"debug-capi:cb:#varname#=\\"#showvalueformat#\\":%d:\\n",#varname_i#,#varname_i#_cb_len);'},
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test__datasource.py:44: '..\\system.dat', 'c:\\windows\\system.dat']
+bin\OpenRV\lib\site-packages\numpy\random\_examples\numba\extending_distributions.py:20: set PYTHON_HOME=c:\Anaconda
+bin\OpenRV\lib\site-packages\numpy\testing\_private\utils.py:1252: raise AssertionError("Some doctests failed:\n%s" % "\n".join(msg))
+bin\OpenRV\lib\site-packages\opentimelineio\adapters\cmx_3600.py:528: r'(\d\d:\d\d:\d\d:\d\d)\s+(\w*)(\s+|$)(.*)',
+bin\OpenRV\lib\site-packages\pip\_internal\utils\misc.py:633: "To modify pip, please run the following command:\n{}".format(
+bin\OpenRV\lib\site-packages\pip\_internal\vcs\versioncontrol.py:371: win32 ones start with drive (like c:\\folder)
+bin\OpenRV\lib\site-packages\pip\_vendor\pkg_resources\__init__.py:1629: >>> vrp(r'C:\\foo/bar.txt')
+bin\OpenRV\lib\site-packages\pip\_vendor\platformdirs\windows.py:57: """:return: data directory shared by users, e.g. ``C:\\ProgramData\\$appauthor\\$appname``"""
+bin\OpenRV\lib\site-packages\pip\_vendor\platformdirs\windows.py:82: """:return: cache directory shared by users, e.g. ``C:\\ProgramData\\$appauthor\\$appname\\Cache\\$version``"""
+bin\OpenRV\lib\site-packages\pip\_vendor\pygments\util.py:164: >>> shebang_matches('#!C:\\Python2.4\\Python.exe', r'python(2\.\d)?')
+bin\OpenRV\lib\site-packages\pip\_vendor\pygments\lexers\python.py:741: r'exception occurred:\n\n', Generic.Traceback),
+bin\OpenRV\lib\site-packages\pip\_vendor\rich\logging.py:248: log.info("Listening on http://127.0.0.1:8080")
+bin\OpenRV\lib\site-packages\pip\_vendor\rich\traceback.py:562: "\n[i]During handling of the above exception, another exception occurred:\n",
+bin\OpenRV\lib\site-packages\pkg_resources\__init__.py:1584: >>> vrp(r'C:\\foo/bar.txt')
+bin\OpenRV\lib\site-packages\pkg_resources\_vendor\platformdirs\windows.py:48: """:return: data directory shared by users, e.g. ``C:\\ProgramData\\$appauthor\\$appname``"""
+bin\OpenRV\lib\site-packages\PySide2\examples\opengl\textures\textures_rc.py:530: [pC\x00~\x8c:\xfe$\xf8[Y\x9c\xf2\xec\xb0\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:490: \xf7\xbb\xdf\xf9\x05\x04\x00###L\x9d:\x95d2\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:627: G\x1fe\xdb\xb6m\x15\xc7C:\xa8\x9a\xc2\x09\xd5K\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:659: $\x9dN\xb3n\xdd:\x02\x81\x00\xb6m\xf3\x9e\xf7\xbc\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:700: \xf7:\x8eC:\x9dFJI8\x1c\xc6\xb2,\x06\x06\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:769: \xe1hG\x93\xfc\x92R\xb2n\xdd:\x86\x86\x86X\xbd\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:790: \xdc\xc9\xb1\x0d:\x81L\x1c_r\xfbv\xd7\x96Rv\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:903: M\x04\xd9\x05!\x04\x08\x09\xd9C:\x0bM\xd6N\xa7\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:1121: \xfcrjjk\xd1C:\xf3\xe6\xcf\xa3\xb2\xaa\x92\xb9\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:1367: \xe7\xb4\x1d\x9b\xa6\xcaI\x18\xd2@\x00\xb9\x89\x83\xcc:\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:1623: \xeeoD:\xbeZX\xbbv-\xd1h\x94p8\x1c\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:1677: \x014\xd7?\xe7\x02\xbf/\xb7\xb7\xac:\x04~\xa0U\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:1693: \x02\x96cc:\x92\xd1\x91\x04r\x8ce_\xceL\xe6\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:1795: \xb6\xebB\x08\xfd\x90\x9f\x90\xfa\xfa\xfa\xdd\xabV\xad:\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:2216: tt\xf0\xee\xbb\xef\xda*\x22\x9dS\x0f\x1d:\xc4\xbe\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:2358: \xc4sS\xd6\xb4\xbd:\x83p\xda\x86\x1c\xebr\xeb8\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:2814: \x87k\xf8\xd1\xe9\xfdT\x99$\x85uiG\xfd:\xd5\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:3042: \xddX\x5cP\xd5\xfc:\xe1\x9e \x828\x83Gqf\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:3099: \xebj1{e6 \xee\x0e\xd5\x9c:\xcb\xc5\xe2\x13\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:3214: \x7f\x11\xde\x8f\xcd:\xa7\x88\x85\xd2\x14\x91\xf5`y\xfc\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:3528: \xf2\xa2\xcb\xe5:_M\xa9\x9c:\x13#\x14\xb5\x94j\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:3570: ]I\xb1\xf2\xb0\xf8[JZ:\xdf\x9f\xbd\x14\xae\xa6\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:3656: \x0e\x16U\x22\xf6RG\xbd:\xb9\x00,W\xf1\x02(\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:3803: \xe1\x05\xaa\xa3\xc9\xad\x85\xc9\xab\x1c:\xe29\x1e\xfb\xd9\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:4957: \xea\x8b/\xbe\x98\x1d;v\xf8\x11\xbd:\x89\xea4:\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:5633: \xe4\xea\x82\x8d\xb3>v#@z:\xc8\xae\xde\xbb\x99\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\animatedtiles\animatedtiles_rc.py:5845: <\x9cQ*\x95\xf4L&CDD:\xde\xa6\x985\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\appchooser\appchooser_rc.py:390: 2\xaad:\xcf<I\xca\xca\x95+\x13\xed\xc8\x91#\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\appchooser\appchooser_rc.py:409: \xcc\x0a\xa2\x19\xd7\x9e\x95$\xb4 A4\x0d:\x98\x03\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\appchooser\appchooser_rc.py:463: \xe9k\x86f\x93\xac[\xda\x8a\x12Sn\x00\x8c\xdd:\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\appchooser\appchooser_rc.py:515: 8\xfe:\xd6\xbb\xc0)~!\xfe\xf6~R,\xbc:\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\appchooser\appchooser_rc.py:562: 4\x05\x8d:\x5c\x99\xcd\xdae3P0c6\xe6\x1b\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\appchooser\appchooser_rc.py:1003: \x9e\xd4v\xec\xe8\x98\x8e\x1c:\xa44\xfeu\xeb\xce]\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\appchooser\appchooser_rc.py:1046: \x96+\xf9\x0et\x0eL\xbc_\xb7n\xdd?\xb5\xfd:\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\appchooser\appchooser_rc.py:1068: \xcc-!HV\x10-\xcd:\x15\x852\xd7Y\xbbK\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\appchooser\appchooser_rc.py:1110: \x7f\xc7\xfa/c\x00\xbe\x11E\x00\xd6\x02\xdc:\x92\x05\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\easing\easing_rc.py:102: $\x99\xdcx{\x92\xa1fC:\x83Oe\x04\xc3\xda\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\easing\easing_rc.py:244: pp03\x9c:\xf2\x96\xe1\xe6\xf9\xbf\x0cKkf\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\easing\easing_rc.py:253: \xac\xbd:\x99\xe1\xf0\x83\x0d\x0c\x7f\xfe\xfd\x82\x8c\x02\xa0\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard.py:104: block += 'public:\n'
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:237: \x9f\xdd:\xec\xf7 \xb1\xcf\x0b]#\xb3\xbfeE\x84\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:387: \x90\x9db\xe8\xfc#\xad:\xa4\x9bHdF\xd1r\xcf\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:1922: E\x8b\xf6\xe1\x99\x19\x8d\x1d\x195\xea\xac\xfc\x9d:\x1a\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:2026: \x09\x08\x1b\xdcq\x1d:\xb4\x94\xf8\x062\xac\x91!\xcf\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:2373: \x00,GN\x10\xacx\xf1dP\x87\x06\x0d:\x8f\xb1\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:2391: \xa4\x11\x7f\x09\x06\x83\x8d.;\xd8\x92:\xed:\x0f\x1e\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:2558: \xf8\xcfz:\xeeM4\xd4S\x8b\x84\xe8\xd9\xc6\xa3L\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:2818: @E\xc0*\xfe\x90\xa6\xb6d:\xd6\x03\x9f\x0fJ\x8c\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:3211: \xb4\xf5z\x8fa\xf5{j\xed:\x91\x8cHj/\xbe\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:3521: \xb5\xb1\x0d:\x0a\xd2\x033?\xe0\x5c\x80?\x82\x80\x10\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:3671: z:\x90T\xe2\x82\xc1\x87\xf5v\xc9\x99\x9e\x9c\x11\xd0\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\dialogs\classwizard\classwizard_rc.py:3680: z:\xae\x92\xfb\xe4P\x17\xdf>\xd2{y\x15\x92e\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\graphicsview\dragdroprobot\dragdroprobot_rc.py:90: \xf2\xd2c:\x1c-%\x13\xa0\xe4\x9c\xc7\xdc \xfd\x87\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\graphicsview\dragdroprobot\dragdroprobot_rc.py:197: *\x81ZJ\xc1\xacJ\x0aJZ:\x1c\x09[\xb6$\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\graphicsview\dragdroprobot\dragdroprobot_rc.py:547: \xb0$\x92\xf9\xbb--\x1a\xc7\x98LZ:\x1d[^\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\graphicsview\dragdroprobot\dragdroprobot_rc.py:763: \x13f\xb2\x82*\xf5\xbb\x9d:\xd9\x84\xd0\x85\x5c\xb4\xa2\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\graphicsview\dragdroprobot\dragdroprobot_rc.py:895: \xb6(Q\x83K$\x1cZ:\xe2\xa0 \x13\xcbFV\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\mainwindows\application\application_rc.py:198: \xc7\x8d:\x11\x92\xab\xa4\x0c!\xedp\xea5U!\x8b\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\mainwindows\dockwidgets\dockwidgets_rc.py:95: a\x9bK\x04\x13\xa9\x92s$N\x9d:\x05jd\xa0\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\mainwindows\dockwidgets\dockwidgets_rc.py:289: \x12T\x1fcU\x9a\xfa\x99\x91\xb5\xe7\xed:\x05\x04\xf2\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\mainwindows\dockwidgets\dockwidgets_rc.py:313: \xa1\xdd:\x93?\xbb\x12m\xeb\x12\xd8\xb9\x9f\xber\xa6\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\mainwindows\dockwidgets\dockwidgets_rc.py:343: \x8b\xab\xd3\x0a\xab\x0c-g\x9e\xfb\xaa\xe7\xe0\x03\xfc:\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\mainwindows\mdi\mdi_rc.py:198: \xc7\x8d:\x11\x92\xab\xa4\x0c!\xedp\xea5U!\x8b\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\painting\basicdrawing\basicdrawing_rc.py:77: \x0d:\x9e\xe2Ba\xe3\x8b\xb8\x13$$\x0a\x8c\x96\x9f\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:464: \x91\xc9di\xdd:\xdd\x11\x84 l\xef\xcb\xa0tj\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:659: \xc7O\x82\xfe\xe0'x=\xe2\xc2K\xa2\xd9q\xdd:\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:673: \xdb\xcb`\x1c:\x94p\x9d\x8dWD\x0b\x0b)l\x88\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:693: \x06\xdb\xcb\xd2\xa0\x07@\x81\xb8\xc7\xcb\xa0\x9c:\x95\xa0\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:836: \x83\xb5[\x9c:\x95\xe2\x8a\x88\x88\x98\xa1O\xb8\x99\xc4\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:1048: \xe7\x00\xa0\xd1\xaf\x8d:\xb6\x84\xf4M~\x0bli\xa9\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:1143: \xcc\xa4\x0dc\x9d:\xcaY\xb6\xcc|@\xdf\xb2E\xa5\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:1236: \xce8\xa3j\x97F7mRN\x9d:\x04\x22D\x8b\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:1309: rV\xad:\xf4\xa5\xd1\xb6m\x09v\x18\x0b\xcf\xb1\xb3\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:1383: \xaczu\xe5,]\xfa\xd5K\xa3\xeb\xd7\xabT\x9d:\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:1576: \x16\x03\x00\xd0j\xce\x8f\xfd\xa4\xcd\xe2\xbc:\xef|\x83\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:1707: Q\xa3\x1c:\xa9\x9c\x02n'\x92\xb9\x11pM\x84\xed\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:1821: `3]\xb24\xac\x9d\x12\xf4{\xcc:\x00\xf89\x1e\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:2081: \xc6\xf0\xb3\xed\x91\x5c\xfd:\xa1,\x0c\xee?\x92)\xd2\
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\systray\rc_systray.py:2172: \x90\x9dM\xfd:\xc5K\x00\xa8\xf1\x220\x07\xea\x8fe\
+bin\OpenRV\lib\site-packages\PySide2\examples\xml\dombookmarks\dombookmarks.py:154: "Parse error at line %d, column %d:\n%s" % (errorLine, errorColumn, errorStr))
+bin\OpenRV\lib\site-packages\PySide2\examples\xmlpatterns\schema\schema_rc.py:12: \x96?\x80@\xbb!R\xe6J\xad:\xb4CW\xe3\x9c\
+bin\OpenRV\lib\site-packages\PySide2\examples\xmlpatterns\schema\schema_rc.py:210: >\x0d\x0a        <xsd:\
+bin\OpenRV\lib\site-packages\setuptools\msvc.py:666: "C:\ProgramData\Microsoft\VisualStudio\Packages\_Instances".
+bin\OpenRV\lib\site-packages\setuptools\msvc.py:674: instances_dir = r'C:\ProgramData\Microsoft\VisualStudio\Packages\_Instances'
+bin\OpenRV\lib\site-packages\setuptools\_distutils\command\build_ext.py:666: fn = os.path.join("c:\\swig%s" % vers, "swig.exe")
+bin\OpenRV\lib\test\audit-tests.py:346: sock.bind(('127.0.0.1', 8080))
+bin\OpenRV\lib\test\make_ssl_certs.py:277: 'IP.1 = 127.0.0.1',
+bin\OpenRV\lib\test\test_audit.py:126: self.assertTrue(events[2][2].endswith("('127.0.0.1', 8080)"))
+bin\OpenRV\lib\test\test_bz2.py:46: b'lp:x:4:7:lp:/var/spool/lpd:\n',
+bin\OpenRV\lib\test\test_epoll.py:44: self.serverSocket = socket.create_server(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_epoll.py:55: client.connect(('127.0.0.1', self.serverSocket.getsockname()[1]))
+bin\OpenRV\lib\test\test_genericpath.py:445: for path in (b'', b'foo', undecodable_path, b'/foo', b'C:\\'):
+bin\OpenRV\lib\test\test_glob.py:221: eq(glob.glob('\\\\?\\c:\\'), ['\\\\?\\c:\\'])
+bin\OpenRV\lib\test\test_glob.py:222: eq(glob.glob(b'\\\\?\\c:\\'), [b'\\\\?\\c:\\'])
+bin\OpenRV\lib\test\test_glob.py:244: check(r'\\?\c:\?', r'\\?\c:\[?]')
+bin\OpenRV\lib\test\test_htmlparser.py:97: "\nExpected:\n" + pprint.pformat(expected_events) +
+bin\OpenRV\lib\test\test_htmlparser.py:98: "\nReceived:\n" + pprint.pformat(events))
+bin\OpenRV\lib\test\test_httpservers.py:1001: self.handler.client_address = ('127.0.0.1', 1337)
+bin\OpenRV\lib\test\test_httpservers.py:1292: path = self.handler_1.translate_path('c:\\c:..\\foo/filename')
+bin\OpenRV\lib\test\test_httpservers.py:1295: path = self.handler_2.translate_path('c:\\c:..\\foo/filename')
+bin\OpenRV\lib\test\test_httpservers.py:1298: path = self.handler_3.translate_path('c:\\c:..\\foo/filename')
+bin\OpenRV\lib\test\test_httpservers.py:1368: "127.0.0.1",
+bin\OpenRV\lib\test\test_http_cookiejar.py:34: self.assertRegex(text, r"^\d{4}-\d\d-\d\d \d\d:\d\d:\d\dZ$",
+bin\OpenRV\lib\test\test_imaplib.py:560: "'127.0.0.1'"):
+bin\OpenRV\lib\test\test_imaplib.py:966: "'127.0.0.1'"):
+bin\OpenRV\lib\test\test_ipaddress.py:224: addr = "127.0.0.1/24"
+bin\OpenRV\lib\test\test_ipaddress.py:2495: addr1 = ipaddress.IPv4Address('127.0.0.1')
+bin\OpenRV\lib\test\test_kqueue.py:113: serverSocket = socket.create_server(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_kqueue.py:117: client.connect(('127.0.0.1', serverSocket.getsockname()[1]))
+bin\OpenRV\lib\test\test_largefile.py:227: with socket.create_connection(("127.0.0.1", port)) as client:
+bin\OpenRV\lib\test\test_lzma.py:1758: b"\xbc!\x88\xcdo[\xec:\x030\x91.\x85\xe0@\\4\x16\x12\x9d\xcaJv\x97\xb04"
+bin\OpenRV\lib\test\test_lzma.py:1768: b"\xb1\x7f\x95l\xe4\tjA\xec:\x10\xe5\xfe\xc2\\=D\xe2\x0c\x0b3]\xf7\xc1\xf7"
+bin\OpenRV\lib\test\test_mailbox.py:1572: sender + r" \w{3} \w{3} [\d ]\d [\d ]\d:\d{2}:\d{2} \d{4}",
+bin\OpenRV\lib\test\test_mailbox.py:2217: Received: from localhost (localhost [127.0.0.1])
+bin\OpenRV\lib\test\test_mailbox.py:2221: Received: from localhost [127.0.0.1]
+bin\OpenRV\lib\test\test_mailbox.py:2266: "Received":"""from localhost (localhost [127.0.0.1])
+bin\OpenRV\lib\test\test_mailbox.py:2270: "Received":"""from localhost [127.0.0.1]
+bin\OpenRV\lib\test\test_ntpath.py:101: tester('ntpath.splitdrive("c:\\foo\\bar")',
+bin\OpenRV\lib\test\test_ntpath.py:122: tester('ntpath.split("c:\\foo\\bar")', ('c:\\foo', 'bar'))
+bin\OpenRV\lib\test\test_ntpath.py:126: tester('ntpath.split("c:\\")', ('c:\\', ''))
+bin\OpenRV\lib\test\test_ntpath.py:134: tester('ntpath.isabs("c:\\")', 1)
+bin\OpenRV\lib\test\test_ntpath.py:160: tester('ntpath.join("d:\\", "\\pleep")', 'd:\\pleep')
+bin\OpenRV\lib\test\test_ntpath.py:161: tester('ntpath.join("d:\\", "a", "b")', 'd:\\a\\b')
+bin\OpenRV\lib\test\test_ntpath.py:220: tester("ntpath.normpath('C:///A//B')", r'C:\A\B')
+bin\OpenRV\lib\test\test_ntpath.py:221: tester("ntpath.normpath('D:///A/./B')", r'D:\A\B')
+bin\OpenRV\lib\test\test_ntpath.py:228: tester("ntpath.normpath('c:/')", 'c:\\')
+bin\OpenRV\lib\test\test_ntpath.py:230: tester("ntpath.normpath('c:/../../..')", 'c:\\')
+bin\OpenRV\lib\test\test_ntpath.py:233: tester("ntpath.normpath('C:////a/b')", r'C:\a\b')
+bin\OpenRV\lib\test\test_ntpath.py:562: env['HOMEDRIVE'] = 'C:\\'
+bin\OpenRV\lib\test\test_ntpath.py:565: tester('ntpath.expanduser("~test")', 'C:\\Users\\test')
+bin\OpenRV\lib\test\test_ntpath.py:566: tester('ntpath.expanduser("~")', 'C:\\Users\\eric')
+bin\OpenRV\lib\test\test_ntpath.py:573: env['USERPROFILE'] = 'C:\\Users\\eric'
+bin\OpenRV\lib\test\test_ntpath.py:575: tester('ntpath.expanduser("~test")', 'C:\\Users\\test')
+bin\OpenRV\lib\test\test_ntpath.py:576: tester('ntpath.expanduser("~")', 'C:\\Users\\eric')
+bin\OpenRV\lib\test\test_ntpath.py:578: 'C:\\Users\\test\\foo\\bar')
+bin\OpenRV\lib\test\test_ntpath.py:580: 'C:\\Users\\test/foo/bar')
+bin\OpenRV\lib\test\test_ntpath.py:582: 'C:\\Users\\eric\\foo\\bar')
+bin\OpenRV\lib\test\test_ntpath.py:584: 'C:\\Users\\eric/foo/bar')
+bin\OpenRV\lib\test\test_ntpath.py:589: env['USERPROFILE'] = 'C:\\Users\\eric'
+bin\OpenRV\lib\test\test_ntpath.py:591: tester('ntpath.expanduser("~test")', 'C:\\Users\\test')
+bin\OpenRV\lib\test\test_ntpath.py:592: tester('ntpath.expanduser("~")', 'C:\\Users\\eric')
+bin\OpenRV\lib\test\test_ntpath.py:597: env['USERPROFILE'] = 'C:\\Users\\eric'
+bin\OpenRV\lib\test\test_ntpath.py:600: tester('ntpath.expanduser("~")', 'C:\\Users\\eric')
+bin\OpenRV\lib\test\test_ntpath.py:606: tester('ntpath.abspath("C:\\")', "C:\\")
+bin\OpenRV\lib\test\test_ntpath.py:648: check_error(ValueError, ['C:\\Program Files', 'Program Files'])
+bin\OpenRV\lib\test\test_ntpath.py:649: check_error(ValueError, ['C:\\Program Files', 'C:Program Files'])
+bin\OpenRV\lib\test\test_ntpath.py:651: check_error(ValueError, ['Program Files', 'C:\\Program Files'])
+bin\OpenRV\lib\test\test_ntpath.py:652: check(['C:\\Program Files'], 'C:\\Program Files')
+bin\OpenRV\lib\test\test_ntpath.py:653: check(['C:\\Program Files', 'C:\\Program Files'], 'C:\\Program Files')
+bin\OpenRV\lib\test\test_ntpath.py:654: check(['C:\\Program Files\\', 'C:\\Program Files'],
+bin\OpenRV\lib\test\test_ntpath.py:655: 'C:\\Program Files')
+bin\OpenRV\lib\test\test_ntpath.py:656: check(['C:\\Program Files\\', 'C:\\Program Files\\'],
+bin\OpenRV\lib\test\test_ntpath.py:657: 'C:\\Program Files')
+bin\OpenRV\lib\test\test_ntpath.py:658: check(['C:\\\\Program Files', 'C:\\Program Files\\\\'],
+bin\OpenRV\lib\test\test_ntpath.py:659: 'C:\\Program Files')
+bin\OpenRV\lib\test\test_ntpath.py:660: check(['C:\\.\\Program Files', 'C:\\Program Files\\.'],
+bin\OpenRV\lib\test\test_ntpath.py:661: 'C:\\Program Files')
+bin\OpenRV\lib\test\test_ntpath.py:662: check(['C:\\', 'C:\\bin'], 'C:\\')
+bin\OpenRV\lib\test\test_ntpath.py:663: check(['C:\\Program Files', 'C:\\bin'], 'C:\\')
+bin\OpenRV\lib\test\test_ntpath.py:664: check(['C:\\Program Files', 'C:\\Program Files\\Bar'],
+bin\OpenRV\lib\test\test_ntpath.py:665: 'C:\\Program Files')
+bin\OpenRV\lib\test\test_ntpath.py:666: check(['C:\\Program Files\\Foo', 'C:\\Program Files\\Bar'],
+bin\OpenRV\lib\test\test_ntpath.py:667: 'C:\\Program Files')
+bin\OpenRV\lib\test\test_ntpath.py:668: check(['C:\\Program Files', 'C:\\Projects'], 'C:\\')
+bin\OpenRV\lib\test\test_ntpath.py:669: check(['C:\\Program Files\\', 'C:\\Projects'], 'C:\\')
+bin\OpenRV\lib\test\test_ntpath.py:671: check(['C:\\Program Files\\Foo', 'C:/Program Files/Bar'],
+bin\OpenRV\lib\test\test_ntpath.py:672: 'C:\\Program Files')
+bin\OpenRV\lib\test\test_ntpath.py:673: check(['C:\\Program Files\\Foo', 'c:/program files/bar'],
+bin\OpenRV\lib\test\test_ntpath.py:674: 'C:\\Program Files')
+bin\OpenRV\lib\test\test_ntpath.py:675: check(['c:/program files/bar', 'C:\\Program Files\\Foo'],
+bin\OpenRV\lib\test\test_ntpath.py:676: 'c:\\program files')
+bin\OpenRV\lib\test\test_ntpath.py:678: check_error(ValueError, ['C:\\Program Files', 'D:\\Program Files'])
+bin\OpenRV\lib\test\test_ntpath.py:695: [b'C:\\Program Files', 'C:\\Program Files\\Foo'])
+bin\OpenRV\lib\test\test_ntpath.py:697: [b'C:\\Program Files', 'Program Files\\Foo'])
+bin\OpenRV\lib\test\test_ntpath.py:699: [b'Program Files', 'C:\\Program Files\\Foo'])
+bin\OpenRV\lib\test\test_ntpath.py:701: ['C:\\Program Files', b'C:\\Program Files\\Foo'])
+bin\OpenRV\lib\test\test_ntpath.py:703: ['C:\\Program Files', b'Program Files\\Foo'])
+bin\OpenRV\lib\test\test_ntpath.py:705: ['Program Files', b'C:\\Program Files\\Foo'])
+bin\OpenRV\lib\test\test_ntpath.py:721: self.assertTrue(ntpath.ismount("c:\\"))
+bin\OpenRV\lib\test\test_ntpath.py:722: self.assertTrue(ntpath.ismount("C:\\"))
+bin\OpenRV\lib\test\test_ntpath.py:725: self.assertTrue(ntpath.ismount("\\\\.\\c:\\"))
+bin\OpenRV\lib\test\test_ntpath.py:726: self.assertTrue(ntpath.ismount("\\\\.\\C:\\"))
+bin\OpenRV\lib\test\test_ntpath.py:728: self.assertTrue(ntpath.ismount(b"c:\\"))
+bin\OpenRV\lib\test\test_ntpath.py:729: self.assertTrue(ntpath.ismount(b"C:\\"))
+bin\OpenRV\lib\test\test_ntpath.py:732: self.assertTrue(ntpath.ismount(b"\\\\.\\c:\\"))
+bin\OpenRV\lib\test\test_ntpath.py:733: self.assertTrue(ntpath.ismount(b"\\\\.\\C:\\"))
+bin\OpenRV\lib\test\test_optparse.py:187: 'help text failure; expected:\n"' +
+bin\OpenRV\lib\test\test_os.py:670: os.stat(r"c:\pagefile.sys")
+bin\OpenRV\lib\test\test_os.py:672: self.skipTest(r'c:\pagefile.sys does not exist')
+bin\OpenRV\lib\test\test_os.py:2661: target = r'c:\\target does not exist.29r3c740'
+bin\OpenRV\lib\test\test_os.py:2724: @unittest.skipUnless(os.path.lexists(r'C:\Users\All Users')
+bin\OpenRV\lib\test\test_os.py:2725: and os.path.exists(r'C:\ProgramData'),
+bin\OpenRV\lib\test\test_os.py:2736: target = os.readlink(r'C:\Users\All Users')
+bin\OpenRV\lib\test\test_os.py:2737: self.assertTrue(os.path.samefile(target, r'C:\ProgramData'))
+bin\OpenRV\lib\test\test_pathlib.py:77: check(['c:\\a'],                ('', '', ['c:\\a']))
+bin\OpenRV\lib\test\test_pathlib.py:108: check(['c:/'],                  ('c:', '\\', ['c:\\']))
+bin\OpenRV\lib\test\test_pathlib.py:111: check(['c:/a'],                 ('c:', '\\', ['c:\\', 'a']))
+bin\OpenRV\lib\test\test_pathlib.py:119: check(['a', 'Z:/b', 'c'],       ('Z:', '\\', ['Z:\\', 'b', 'c']))
+bin\OpenRV\lib\test\test_pathlib.py:123: check(['a', 'Z://b//c/', 'd/'], ('Z:', '\\', ['Z:\\', 'b', 'c', 'd']))
+bin\OpenRV\lib\test\test_pathlib.py:127: check(['//?/c:/'],              ('\\\\?\\c:', '\\', ['\\\\?\\c:\\']))
+bin\OpenRV\lib\test\test_pathlib.py:128: check(['//?/c:/a'],             ('\\\\?\\c:', '\\', ['\\\\?\\c:\\', 'a']))
+bin\OpenRV\lib\test\test_pathlib.py:129: check(['//?/c:/a', '/b'],       ('\\\\?\\c:', '\\', ['\\\\?\\c:\\', 'b']))
+bin\OpenRV\lib\test\test_pathlib.py:135: check(['Z:/a', '/b', 'c'],      ('Z:', '\\', ['Z:\\', 'b', 'c']))
+bin\OpenRV\lib\test\test_pathlib.py:136: check(['//?/Z:/a', '/b', 'c'],  ('\\\\?\\Z:', '\\', ['\\\\?\\Z:\\', 'b', 'c']))
+bin\OpenRV\lib\test\test_pathlib.py:146: self.assertEqual(f('c:\\a\\b'), ('c:', '\\', 'a\\b'))
+bin\OpenRV\lib\test\test_pathlib.py:150: self.assertEqual(f('c:\\\\a'), ('c:', '\\', 'a'))
+bin\OpenRV\lib\test\test_pathlib.py:151: self.assertEqual(f('c:\\\\\\a/b'), ('c:', '\\', 'a/b'))
+bin\OpenRV\lib\test\test_pathlib.py:802: self.assertEqual(str(p), 'c:\\a\\b\\c')
+bin\OpenRV\lib\test\test_pathlib.py:814: self._check_str_subclass('c:\\')
+bin\OpenRV\lib\test\test_pathlib.py:815: self._check_str_subclass('c:\\a')
+bin\OpenRV\lib\test\test_pathlib.py:816: self._check_str_subclass('c:\\a\\b.txt')
+bin\OpenRV\lib\test\test_pathlib.py:897: self.assertEqual(parts, ('c:\\', 'a', 'b'))
+bin\OpenRV\lib\test\test_pathlib.py:990: self.assertEqual(P('c:/').anchor, 'c:\\')
+bin\OpenRV\lib\test\test_pathlib.py:991: self.assertEqual(P('c:/a/b/').anchor, 'c:\\')
+bin\OpenRV\lib\test\test_pathlib.py:2681: env['HOMEPATH'] = 'C:\\Users\\alice'
+bin\OpenRV\lib\test\test_pathlib.py:2684: env['HOMEDRIVE'] = 'C:\\'
+bin\OpenRV\lib\test\test_pathlib.py:2690: env['USERPROFILE'] = 'C:\\Users\\alice'
+bin\OpenRV\lib\test\test_pathlib.py:2694: env['HOME'] = 'C:\\Users\\eve'
+bin\OpenRV\lib\test\test_pdb.py:1767: '\n\nExpected:\n{}\nGot:\n{}\n'
+bin\OpenRV\lib\test\test_smtplib.py:90: source_address=('127.0.0.1',19876))
+bin\OpenRV\lib\test\test_smtplib.py:91: self.assertEqual(client.source_address, ('127.0.0.1', 19876))
+bin\OpenRV\lib\test\test_socket.py:845: s.bind(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_socket.py:1513: socket.getaddrinfo('127.0.0.1', 80)
+bin\OpenRV\lib\test\test_socket.py:6479: with socket.create_server(("127.0.0.1", port)) as sock:
+bin\OpenRV\lib\test\test_socket.py:6480: self.assertEqual(sock.getsockname()[0], "127.0.0.1")
+bin\OpenRV\lib\test\test_socket.py:6489: with socket.create_server(("127.0.0.1", 0)) as sock:
+bin\OpenRV\lib\test\test_socket.py:6558: self.echo_client(("127.0.0.1", port), socket.AF_INET)
+bin\OpenRV\lib\test\test_socket.py:6578: self.echo_client(("127.0.0.1", port), socket.AF_INET)
+bin\OpenRV\lib\test\test_ssl.py:501: ('IP Address', '127.0.0.1'),
+bin\OpenRV\lib\test\test_ssl.py:797: ('IP Address', '127.0.0.1'))}
+bin\OpenRV\lib\test\test_ssl.py:886: for invalid in ['1', '', '1.2.3', '256.0.0.1', '127.0.0.1/24']:
+bin\OpenRV\lib\test\test_ssl.py:889: for ipaddr in ['127.0.0.1', '192.168.0.1']:
+bin\OpenRV\lib\test\test_ssl.py:904: s = socket.create_server(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_ssl.py:1875: with socket.create_server(("127.0.0.1", 0)) as s:
+bin\OpenRV\lib\test\test_ssl.py:3403: " SSL2 client to SSL23 server test unexpectedly failed:\n %s\n"
+bin\OpenRV\lib\test\test_ssl.py:3597: s.connect(('127.0.0.1', server.port))
+bin\OpenRV\lib\test\test_ssl.py:3805: host = "127.0.0.1"
+bin\OpenRV\lib\test\test_ssl.py:3856: host = "127.0.0.1"
+bin\OpenRV\lib\test\test_syntax.py:1419: self._check_error("class C:\n  if 0: yield",    "outside function")
+bin\OpenRV\lib\test\test_syntax.py:1420: self._check_error("class C:\n  if 1: pass\n  else: yield",
+bin\OpenRV\lib\test\test_syntax.py:1422: self._check_error("class C:\n  while 0: yield", "outside function")
+bin\OpenRV\lib\test\test_syntax.py:1423: self._check_error("class C:\n  while 0: yield\n  else:  x = 1",
+bin\OpenRV\lib\test\test_syntax.py:1431: self._check_error("class C:\n  if 0: return",    "outside function")
+bin\OpenRV\lib\test\test_syntax.py:1432: self._check_error("class C:\n  while 0: return", "outside function")
+bin\OpenRV\lib\test\test_syntax.py:1433: self._check_error("class C:\n  while 0: return\n  else:  x=1",
+bin\OpenRV\lib\test\test_syntax.py:1435: self._check_error("class C:\n  if 0: return\n  else: x= 1",
+bin\OpenRV\lib\test\test_syntax.py:1437: self._check_error("class C:\n  if 1: pass\n  else: return",
+bin\OpenRV\lib\test\test_syntax.py:1446: self._check_error("class C:\n  if 0: break", msg, lineno=2)
+bin\OpenRV\lib\test\test_syntax.py:1447: self._check_error("class C:\n  if 1: pass\n  else: break",
+bin\OpenRV\lib\test\test_syntax.py:1457: self._check_error("class C:\n  if 0: continue", msg, lineno=2)
+bin\OpenRV\lib\test\test_syntax.py:1458: self._check_error("class C:\n  if 1: pass\n  else: continue",
+bin\OpenRV\lib\test\test_tarfile.py:320: br'\d{4}-\d\d-\d\d\s+\d\d:\d\d:\d\d '
+bin\OpenRV\lib\test\test_tarfile.py:1446: self._test_pathname("C:\\foo", "foo")
+bin\OpenRV\lib\test\test_tarfile.py:3116: elif attr_names == {'mtime'} and re.match(rb'\d\d:\d\d:\d\d', expected):
+bin\OpenRV\lib\test\test_textwrap.py:32: 'expected:\n%s\nbut got:\n%s' % (
+bin\OpenRV\lib\test\test_traceback.py:618: "another exception occurred:\n\n")
+bin\OpenRV\lib\test\test_typing.py:3134: code = ("class C:\n"
+bin\OpenRV\lib\test\test_typing.py:3136: "class D:\n"
+bin\OpenRV\lib\test\test_urllib.py:1533: given = '\\\\?\\C:\\dir'
+bin\OpenRV\lib\test\test_urllib.py:1551: expect = 'C:\\'
+bin\OpenRV\lib\test\test_urllib.py:1558: expect = 'C:\\path'
+bin\OpenRV\lib\test\test_urllib.py:1651: self.assertEqual(url2pathname("///C|/"), 'C:\\')
+bin\OpenRV\lib\test\test_urllib.py:1660: r'C:\foo\bar\spam.foo')
+bin\OpenRV\lib\test\test_urllib.py:1668: r'C:\foo\bar\spam.foo'
+bin\OpenRV\lib\test\test_urllib.py:1677: self.assertEqual(pathname2url("C:\\"), '///C:')
+bin\OpenRV\lib\test\test_urllib.py:1688: self.assertEqual(pathname2url(r'C:\foo\bar\spam.foo'),
+bin\OpenRV\lib\test\test_urllib2.py:1450: 'exceptions': ['foo.bar', '*.bar.com', '127.0.0.1', '10.10',
+bin\OpenRV\lib\test\test_urllib2.py:1454: for host in ('foo.bar', 'www.bar.com', '127.0.0.1', '10.10.0.1',
+bin\OpenRV\lib\test\test_urllib2_localnet.py:63: self.httpd = LoopbackHttpServer(("127.0.0.1", 0),
+bin\OpenRV\lib\test\test_urllib2_localnet.py:293: self.server_url = 'http://127.0.0.1:%s' % self.server.port
+bin\OpenRV\lib\test\test_urllib2_localnet.py:349: proxy_url = "http://127.0.0.1:%d" % self.server.port
+bin\OpenRV\lib\test\test_urllib2_localnet.py:667: "Fetched line number %s doesn't match expected:\n"
+bin\OpenRV\lib\test\test_urlparse.py:1179: self.assertEqual(splithost('//127.0.0.1#@host.com'),
+bin\OpenRV\lib\test\test_urlparse.py:1180: ('127.0.0.1', '/#@host.com'))
+bin\OpenRV\lib\test\test_urlparse.py:1181: self.assertEqual(splithost('//127.0.0.1#@host.com:80'),
+bin\OpenRV\lib\test\test_urlparse.py:1182: ('127.0.0.1', '/#@host.com:80'))
+bin\OpenRV\lib\test\test_urlparse.py:1183: self.assertEqual(splithost('//127.0.0.1:80#@host.com'),
+bin\OpenRV\lib\test\test_urlparse.py:1184: ('127.0.0.1:80', '/#@host.com'))
+bin\OpenRV\lib\test\test_urlparse.py:1234: self.assertEqual(splitport('127.0.0.1'), ('127.0.0.1', None))
+bin\OpenRV\lib\test\test_urlparse.py:1247: self.assertEqual(splitnport('127.0.0.1'), ('127.0.0.1', -1))
+bin\OpenRV\lib\test\test_urlparse.py:1248: self.assertEqual(splitnport('127.0.0.1', 55), ('127.0.0.1', 55))
+bin\OpenRV\lib\test\test_uuid.py:779: lo0       - 127.0.0.0/8   127.0.0.1           259955     -     -   259955     -     -
+bin\OpenRV\lib\test\test_wsgiref.py:78: server.finish_request((inp, out), ("127.0.0.1",8888))
+bin\OpenRV\lib\test\test_wsgiref.py:391: ('SERVER_NAME','127.0.0.1'),
+bin\OpenRV\lib\test\test_wsgiref.py:394: ('HTTP_HOST','127.0.0.1'),
+bin\OpenRV\lib\test\test_wsgiref.py:425: self.checkAppURI("http://127.0.0.1/")
+bin\OpenRV\lib\test\test_wsgiref.py:426: self.checkAppURI("http://127.0.0.1/spam", SCRIPT_NAME="/spam")
+bin\OpenRV\lib\test\test_wsgiref.py:427: self.checkAppURI("http://127.0.0.1/sp%E4m", SCRIPT_NAME="/sp\xe4m")
+bin\OpenRV\lib\test\test_wsgiref.py:432: self.checkAppURI("http://127.0.0.1/",
+bin\OpenRV\lib\test\test_wsgiref.py:433: HTTP_HOST="127.0.0.1", SERVER_NAME="spam.example.com")
+bin\OpenRV\lib\test\test_wsgiref.py:434: self.checkAppURI("https://127.0.0.1/", HTTPS="on")
+bin\OpenRV\lib\test\test_wsgiref.py:435: self.checkAppURI("http://127.0.0.1:8000/", SERVER_PORT="8000",
+bin\OpenRV\lib\test\test_wsgiref.py:439: self.checkReqURI("http://127.0.0.1/")
+bin\OpenRV\lib\test\test_wsgiref.py:440: self.checkReqURI("http://127.0.0.1/spam", SCRIPT_NAME="/spam")
+bin\OpenRV\lib\test\test_wsgiref.py:441: self.checkReqURI("http://127.0.0.1/sp%E4m", SCRIPT_NAME="/sp\xe4m")
+bin\OpenRV\lib\test\test_wsgiref.py:442: self.checkReqURI("http://127.0.0.1/spammity/spam",
+bin\OpenRV\lib\test\test_wsgiref.py:444: self.checkReqURI("http://127.0.0.1/spammity/sp%E4m",
+bin\OpenRV\lib\test\test_wsgiref.py:446: self.checkReqURI("http://127.0.0.1/spammity/spam;ham",
+bin\OpenRV\lib\test\test_wsgiref.py:448: self.checkReqURI("http://127.0.0.1/spammity/spam;cookie=1234,5678",
+bin\OpenRV\lib\test\test_wsgiref.py:450: self.checkReqURI("http://127.0.0.1/spammity/spam?say=ni",
+bin\OpenRV\lib\test\test_wsgiref.py:452: self.checkReqURI("http://127.0.0.1/spammity/spam?s%E4y=ni",
+bin\OpenRV\lib\test\test_wsgiref.py:454: self.checkReqURI("http://127.0.0.1/spammity/spam", 0,
+bin\OpenRV\lib\test\test_wsgiref.py:596: "SERVER_NAME": "127.0.0.1",
+bin\OpenRV\lib\test\test_wsgiref.py:729: r"Date: \w{3}, [ 0123]\d \w{3} \d{4} \d\d:\d\d:\d\d GMT\r\n"
+bin\OpenRV\lib\test\test_zipfile.py:1465: (r'C:\foo\bar', 'foo/bar'),
+bin\OpenRV\lib\test\test_zipfile.py:1473: (r'\\?\C:\foo\bar', 'foo/bar'),
+bin\OpenRV\lib\test\support\socket_helper.py:11: HOSTv4 = "127.0.0.1"
+bin\OpenRV\lib\test\test_asyncio\functional.py:57: addr = ('127.0.0.1', 0)
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1127: ('127.0.0.1', 80))
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1134: coro = self.loop.create_connection(MyProto, '127.0.0.1', 80)
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1373: '127.0.0.1', service)
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1377: sock.connect.assert_called_with(('127.0.0.1', port))
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1387: '127.0.0.1', service)
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1590: (2, 1, 6, '', ('127.0.0.1', 10100))]
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1624: asyncio.DatagramProtocol, remote_addr=('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1635: remote_addr=('127.0.0.1', 0),
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1656: asyncio.DatagramProtocol, local_addr=('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1664: remote_addr=('127.0.0.1', 0), local_addr=('::1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1695: local_addr=('127.0.0.1', 0), family=socket.AF_INET)
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1701: sock.bind(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1740: MyDatagramProto, local_addr=('127.0.0.1', 0), sock=FakeSock())
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1744: MyDatagramProto, remote_addr=('127.0.0.1', 0), sock=FakeSock())
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1775: local_addr=('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1795: local_addr=('127.0.0.1', 0),
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1822: local_addr=('127.0.0.1', 0),
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1833: local_addr=('127.0.0.1', 0),
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:1849: local_addr=('127.0.0.1', 0),
+bin\OpenRV\lib\test\test_asyncio\test_buffered_proto.py:63: on_server_client, '127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_events.py:656: server_hostname='127.0.0.1')
+bin\OpenRV\lib\test\test_asyncio\test_events.py:682: (socket.AF_INET, socket.SOCK_STREAM, 0, '', ('127.0.0.1', 0))]
+bin\OpenRV\lib\test\test_asyncio\test_events.py:737: lsock = socket.create_server(('127.0.0.1', 0), backlog=1)
+bin\OpenRV\lib\test\test_asyncio\test_events.py:848: client.connect(('127.0.0.1', port))
+bin\OpenRV\lib\test\test_asyncio\test_events.py:859: self.assertEqual('127.0.0.1',
+bin\OpenRV\lib\test\test_asyncio\test_events.py:958: f = self.loop.create_server(factory, '127.0.0.1', 0, ssl=sslcontext)
+bin\OpenRV\lib\test\test_asyncio\test_events.py:963: self.assertEqual(host, '127.0.0.1')
+bin\OpenRV\lib\test\test_asyncio\test_events.py:1114: "'127.0.0.1'"):
+bin\OpenRV\lib\test\test_asyncio\test_events.py:1197: client.connect(('127.0.0.1', port))
+bin\OpenRV\lib\test\test_asyncio\test_events.py:1242: client.connect(('127.0.0.1', port))
+bin\OpenRV\lib\test\test_asyncio\test_events.py:1265: client.connect(('127.0.0.1', port))
+bin\OpenRV\lib\test\test_asyncio\test_events.py:1273: ConnectionRefusedError, client.connect, ('127.0.0.1', port))
+bin\OpenRV\lib\test\test_asyncio\test_events.py:1325: self._test_create_datagram_endpoint(('127.0.0.1', 0), socket.AF_INET)
+bin\OpenRV\lib\test\test_asyncio\test_events.py:1333: local_address = ('127.0.0.1', 0)
+bin\OpenRV\lib\test\test_asyncio\test_proactor_events.py:880: tr._buffer.appendleft((b'data', ('127.0.0.1', 12068)))
+bin\OpenRV\lib\test\test_asyncio\test_proactor_events.py:882: self.loop._proactor.sendto.assert_called_with(self.sock, b'data', addr=('127.0.0.1', 12068))
+bin\OpenRV\lib\test\test_asyncio\test_proactor_events.py:898: res.set_result((b'data', ('127.0.0.1', 12068)))
+bin\OpenRV\lib\test\test_asyncio\test_proactor_events.py:904: self.protocol.datagram_received.assert_called_with(b'data', ('127.0.0.1', 12068))
+bin\OpenRV\lib\test\test_asyncio\test_proactor_events.py:909: res.set_result((b'', ('127.0.0.1', 12068)))
+bin\OpenRV\lib\test\test_asyncio\test_proactor_events.py:938: tr._buffer.appendleft((b'Hello', ('127.0.0.1', 12068)))
+bin\OpenRV\lib\test\test_asyncio\test_proactor_events.py:1008: srv_sock.bind(('127.0.0.1', port))
+bin\OpenRV\lib\test\test_asyncio\test_selector_events.py:199: lambda *args: [(None, None, None, None, ('127.0.0.1', 0))]
+bin\OpenRV\lib\test\test_asyncio\test_selector_events.py:207: sock.connect.assert_called_with(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_sendfile.py:185: self.run_loop(self.loop.sock_connect(sock, ('127.0.0.1', port)))
+bin\OpenRV\lib\test\test_asyncio\test_sock_lowlevel.py:172: listener.bind(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_sock_lowlevel.py:227: listener.bind(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_sock_lowlevel.py:396: s.bind(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_sock_lowlevel.py:411: listener.bind(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_sock_lowlevel.py:428: listener.bind(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_sslproto.py:573: lambda: proto, '127.0.0.1', 0)
+bin\OpenRV\lib\test\test_asyncio\test_streams.py:585: sock = socket.create_server(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\test_streams.py:596: sock = socket.create_server(('127.0.0.1', 0))
+bin\OpenRV\lib\test\test_asyncio\utils.py:218: self.server_name = '127.0.0.1'
+bin\OpenRV\lib\test\test_asyncio\utils.py:239: return request, ('127.0.0.1', '')
+bin\OpenRV\lib\test\test_asyncio\utils.py:278: def run_test_server(*, host='127.0.0.1', port=0, use_ssl=False):
+bin\OpenRV\lib\test\test_email\test_email.py:1204: from babylon.socal-raves.org (localhost [127.0.0.1]); by babylon.socal-raves.org (Postfix) with ESMTP id B570E51B81; for <mailman-admin@babylon.socal-raves.org>; Sat, 2 Feb 2002 17:00:06 -0800 (PST)
+bin\OpenRV\lib\test\test_email\test_email.py:1205: \tfrom babylon.socal-raves.org (localhost [127.0.0.1]); by babylon.socal-raves.org (Postfix) with ESMTP id B570E51B81; for <mailman-admin@babylon.socal-raves.org>; Sat, 2 Feb 2002 17:00:06 -0800 (PST)
+bin\OpenRV\lib\test\test_email\test_email.py:1206: \tfrom babylon.socal-raves.org (localhost [127.0.0.1]); by babylon.socal-raves.org (Postfix) with ESMTP id B570E51B81; for <mailman-admin@babylon.socal-raves.org>; Sat, 2 Feb 2002 17:00:06 -0800 (PST)
+bin\OpenRV\lib\test\test_email\test_email.py:1210: from babylon.socal-raves.org (localhost [127.0.0.1]);
+bin\OpenRV\lib\test\test_email\test_email.py:1214: \tfrom babylon.socal-raves.org (localhost [127.0.0.1]);
+bin\OpenRV\lib\test\test_email\test_email.py:1218: \tfrom babylon.socal-raves.org (localhost [127.0.0.1]);
+bin\OpenRV\lib\test\test_email\test_email.py:3608: m = self.parse(['a:\nb:\rc:\r\nd:\n'])
+bin\OpenRV\lib\test\test_email\test_email.py:3610: m = self.parse(['a:\nb:\rc:\r\nd:'])
+bin\OpenRV\lib\test\test_email\test_email.py:3612: m = self.parse(['a:\rb', 'c:\n'])
+bin\OpenRV\lib\test\test_email\test_email.py:3620: m = self.parse(['a:\x85b:\u2028c:\n'])
+bin\OpenRV\lib\test\test_email\test_email.py:3622: m = self.parse(['a:\r', 'b:\x85', 'c:\n'])
+bin\OpenRV\lib\test\test_email\test_headerregistry.py:1788: 'Message-ID:\n <ईमेलfromMessage@wők.com>\n')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1282: '[127.0.0.1]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1283: '[127.0.0.1]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1284: '[127.0.0.1]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1288: self.assertEqual(domain_literal.domain, '[127.0.0.1]')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1289: self.assertEqual(domain_literal.ip, '127.0.0.1')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1293: '[  127.0.0.1\t ]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1294: '[  127.0.0.1\t ]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1295: '[ 127.0.0.1 ]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1298: self.assertEqual(domain_literal.domain, '[127.0.0.1]')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1299: self.assertEqual(domain_literal.ip, '127.0.0.1')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1303: '(foo)[  127.0.0.1] (bar)',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1304: '(foo)[  127.0.0.1] (bar)',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1305: ' [ 127.0.0.1] ',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1308: self.assertEqual(domain_literal.domain, '[127.0.0.1]')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1309: self.assertEqual(domain_literal.ip, '127.0.0.1')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1337: '[127.0.0.1]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1338: '[127.0.0.1]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1339: '[127.0.0.1]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1343: self.assertEqual(domain.domain, '[127.0.0.1]')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1356: '(foo)[127.0.0.1]\t(bar)',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1357: '(foo)[127.0.0.1]\t(bar)',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1358: ' [127.0.0.1] ',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1361: self.assertEqual(domain.domain, '[127.0.0.1]')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1374: '(foo)[127.0.0.1]\t(bar), next',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1375: '(foo)[127.0.0.1]\t(bar)',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1376: ' [127.0.0.1] ',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1379: self.assertEqual(domain.domain, '[127.0.0.1]')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1415: 'dinsdale@[127.0.0.1]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1416: 'dinsdale@[127.0.0.1]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1417: 'dinsdale@[127.0.0.1]',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1421: self.assertEqual(addr_spec.domain, '[127.0.0.1]')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1422: self.assertEqual(addr_spec.addr_spec, 'dinsdale@[127.0.0.1]')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1579: '<"Fred Perfect"@[127.0.0.1]>',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1580: '<"Fred Perfect"@[127.0.0.1]>',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1581: '<"Fred Perfect"@[127.0.0.1]>',
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1585: self.assertEqual(angle_addr.domain, '[127.0.0.1]')
+bin\OpenRV\lib\test\test_email\test__header_value_parser.py:1587: self.assertEqual(angle_addr.addr_spec, '"Fred Perfect"@[127.0.0.1]')
+bin\OpenRV\lib\test\test_importlib\test_util.py:776: pycache_prefixes += [r'\\?\C:\foo', r'\\localhost\c$\bar']
+bin\OpenRV\lib\test\test_importlib\test_windows.py:159: self.check_join(r"C:\A\B", "C:\\", "A", "B")
+bin\OpenRV\lib\test\test_importlib\test_windows.py:160: self.check_join(r"C:\A\B", "D:\\", "D", "C:\\", "A", "B")
+bin\OpenRV\lib\test\test_importlib\test_windows.py:161: self.check_join(r"C:\A\B", "C:\\", "A", "C:B")
+bin\OpenRV\lib\test\test_importlib\test_windows.py:162: self.check_join(r"C:\A\B", "C:\\", "A\\B")
+bin\OpenRV\lib\test\test_importlib\test_windows.py:163: self.check_join(r"C:\A\B", r"C:\A\B")
+bin\OpenRV\lib\test\test_importlib\test_windows.py:166: self.check_join("D:A", r"C:\B\C", "D:", "A")
+bin\OpenRV\lib\test\test_importlib\test_windows.py:167: self.check_join("D:A", r"C:\B\C", r"D:A")
+bin\OpenRV\lib\test\test_importlib\test_windows.py:187: self.check_join("C:\\A", "C:/A", "")
+bin\OpenRV\lib\test\test_importlib\test_windows.py:188: self.check_join("C:\\", "C:/", "")
+bin\OpenRV\lib\unittest\case.py:999: differing += ('\nFirst differing element %d:\n%s\n%s\n' %
+bin\OpenRV\lib\unittest\case.py:1012: differing += ('First extra element %d:\n%s\n' %
+bin\OpenRV\lib\unittest\case.py:1021: differing += ('First extra element %d:\n%s\n' %
+bin\OpenRV\lib\urllib\request.py:2570: 'exceptions': ['foo.bar', '*.bar.com', '127.0.0.1', '10.1', '10.0/16']
+bin\OpenRV\lib\wsgiref\util.py:137: environ.setdefault('SERVER_NAME','127.0.0.1')
+bin\OpenRV\PlugIns\SupportFiles\rvnuke\rvNuke.py:584: self.rvc.connect("127.0.0.1", self.port)
+bin\OpenRV\PlugIns\SupportFiles\rvnuke\rvNuke.py:684: nuke.message("Render failed:\n%s" % (msg,))
+bin\OpenRV\PlugIns\SupportFiles\rvnuke\rvNuke.py:1084: rvPath = "C:\\Program Files\\Tweak\\RV-3.10\\bin\\rv.exe"
+bin\OpenRV\PlugIns\SupportFiles\rvnuke\rvNuke.py:1559: nuke.message("Read node creation failed:\n%s" % (msg,))
+bin\OpenRV\PlugIns\SupportFiles\rvnuke\rvNuke.py:1603: nuke.message("Checkpoint restore failed:\n%s" % (msg,))
+core\dcc_launcher.py:28: r"C:\Program Files\Nuke15.0v1\Nuke15.0.exe",
+core\dcc_launcher.py:29: r"C:\Program Files\Nuke14.1v1\Nuke14.1.exe",
+core\dcc_launcher.py:30: r"C:\Program Files\Nuke14.0v5\Nuke14.0.exe",
+core\dcc_launcher.py:31: r"C:\Program Files\Nuke13.2v4\Nuke13.2.exe"
+core\dcc_launcher.py:40: r"C:\Program Files\Blender Foundation\Blender 4.0\blender.exe",
+core\dcc_launcher.py:41: r"C:\Program Files\Blender Foundation\Blender 3.6\blender.exe"
+core\dcc_launcher.py:50: r"C:\Program Files\BorisFX\Silhouette 2023.5\silhouette.exe",
+core\dcc_launcher.py:51: r"C:\Program Files\BorisFX\Silhouette 2023\silhouette.exe"
+core\dcc_launcher.py:60: r"C:\Program Files\INRIA\Natron-2.5.0\bin\Natron.exe",
+core\dcc_launcher.py:61: r"C:\Program Files\Natron\bin\Natron.exe"
+core\dcc_launcher.py:110: "C:\\Program Files",
+core\help_content.json:10: "content": "\n<h1>🧪 Tester Panel</h1>\n\n<h2>Overview</h2>\n<p>Comprehensive testing toolkit for developers and QA. Generate test data, simulate workflows, validate results, and maintain system health. All tools designed to work safely without affecting production data.</p>\n\n<h2>📑 Tab Guide</h2>\n\n<h3>💾 Data Generator</h3>\n<p>Create dummy files for testing Smart Ingest and file operations:</p>\n<ul>\n<li><b>Target Location</b> - Where to create files (default: Downloads/TesterData)</li>\n<li><b>File Count</b> - Generate 1 to 10,000 files at once</li>\n<li><b>Size Strategy</b> - Empty, 1KB, 1MB, 50MB, or Random sizes</li>\n<li><b>File Types</b> - Choose .jpg, .mov, .exr, .txt or combination</li>\n<li><b>Progress Bar</b> - Shows generation progress</li>\n</ul>\n<p><b>Use Case:</b> Test how Smart Ingest handles large file sets or specific file types</p>\n\n<h3>🔄 Workflow Sim</h3>\n<p>Auto-generate complete \"For_move\" folder structures with Excel templates:</p>\n<ul>\n<li><b>Creates realistic delivery structure</b> - Mimics client deliveries with proper shot/sequence organization</li>\n<li><b>Generates Excel template</b> - Pre-filled spreadsheet for testing data import</li>\n<li><b>One-Click Setup</b> - Perfect test environment in seconds</li>\n</ul>\n<p><b>Use Case:</b> Test Smart Ingest end-to-end with realistic production-like data</p>\n\n<h3>🕸️ Structure (Chaos)</h3>\n<p>Create deeply nested, complex folder hierarchies for stress testing:</p>\n<ul>\n<li><b>Nesting Level</b> - How many levels deep (0-100 folders deep)</li>\n<li><b>Sibling Folders</b> - How many folders per level (0-1000)</li>\n<li><b>Stress Test</b> - Push file system and search algorithms to limits</li>\n</ul>\n<p><b>Use Case:</b> Test performance with extreme folder structures, edge case handling</p>\n\n<h3>🔎 Analysis</h3>\n<p>Validate Smart Ingest results with multiple analysis modes:</p>\n<ul>\n<li><b>🧠 Smart Path Check</b> - Recommended mode, validates organizational logic</li>\n<li><b>📂 Raw Folder Compare</b> - Compares source vs destination folder structures</li>\n<li><b>👻 Ghost Asset Hunter</b> - Finds orphaned or misplaced files</li>\n<li><b>Database Health Tools</b> - VACUUM optimizer, Integrity check</li>\n</ul>\n<p><b>Configuration:</b> Set Target Scope (destination) and optionally Reference Source for comparison</p>\n\n<h3>🩺 Diagnostics</h3>\n<p>System diagnostics and permission testing tools:</p>\n<ul>\n<li><b>Permission Loader</b> - Test and verify user role permissions</li>\n<li><b>Config Sandbox</b> - Apply test configurations without affecting production</li>\n<li><b>Time Travel</b> - Simulate different dates/times for testing time-based logic</li>\n</ul>\n<p><b>Use Case:</b> Validate security, test configuration changes safely</p>\n\n<h3>⚙️ System</h3>\n<p>System information and performance metrics:</p>\n<ul>\n<li><b>Environment Info</b> - Python version, OS details, installed packages</li>\n<li><b>Path Validation</b> - Check network drives, verify accessibility</li>\n<li><b>Resource Usage</b> - Memory, CPU, disk space monitoring</li>\n</ul>\n<p><b>Use Case:</b> Troubleshoot environment issues, verify system requirements</p>\n\n<h3>🤖 Automation</h3>\n<p>Automated test sequences and batch operations:</p>\n<ul>\n<li><b>Test Suites</b> - Pre-defined test scenarios that run automatically</li>\n<li><b>Batch Processing</b> - Queue multiple test operations</li>\n<li><b>Scheduled Tests</b> - Run tests at specific times</li>\n<li><b>Report Generation</b> - Auto-generate test reports</li>\n</ul>\n<p><b>Use Case:</b> Regression testing, nightly builds, CI/CD integration</p>\n\n<h3>🧹 Utilities</h3>\n<p>Cleanup and maintenance tools:</p>\n<ul>\n<li><b>Wipe Tester Folder</b> - Delete all test data in one click</li>\n<li><b>Reset State</b> - Clear test database entries</li>\n<li><b>Cache Cleanup</b> - Remove test thumbnails and metadata</li>\n</ul>\n<p><b>Use Case:</b> Clean up after testing, start fresh for new test cycle</p>\n\n<h2>🎯 Common Workflows</h2>\n\n<h3>End-to-End Smart Ingest Test</h3>\n<ol>\n<li><b>Workflow Sim</b> - Click \"CREATE TEST ENVIRONMENT\"</li>\n<li><b>Navigate to Smart Ingest tab</b> - Select generated folder as source</li>\n<li><b>Run Smart Ingest</b> - Process the test delivery</li>\n<li><b>Analysis Tab</b> - Use \"Smart Path Check\" to validate results</li>\n<li><b>Utilities</b> - Wipe test data when done</li>\n</ol>\n\n<h3>Stress Testing File System</h3>\n<ol>\n<li><b>Structure (Chaos)</b> - Set nesting to 20, sibling folders to 100</li>\n<li><b>Create Structure</b> - Generate complex hierarchy</li>\n<li><b>Data Generator</b> - Add 1000 files across structure</li>\n<li><b>Test navigation/search performance</b></li>\n</ol>\n\n<h2>💡 Tips & Best Practices</h2>\n<p><b>🎯 Safe Locations</b>: Always use temp folders (C:\\Temp, Downloads/TesterData) - NEVER production paths!</p>\n<p><b>⚡ Empty Files</b>: Use \"Empty\" size strategy for faster generation and less disk space</p>\n<p><b>📊 Monitor Logs</b>: Check bottom log panel for detailed operation feedback</p>\n<p><b>🧹 Clean Up</b>: Always wipe test data after testing to avoid clutter</p>\n<p><b>🔍 Verify Results</b>: Use Analysis tab to validate every test - don't assume success</p>\n\n<h2>⚠️ Important Notes</h2>\n<p><b>Developer/Admin Only</b>: This tab requires elevated permissions</p>\n<p><b>Test Data Only</b>: Tools can generate/delete files - use with caution!</p>\n<p><b>Database Impact</b>: Some operations add test entries to database - use test DB if possible</p>\n<p><b>Performance</b>: Generating 10,000+ files or deep nesting (50+ levels) may take several minutes</p>\n<p><b>Network Drives</b>: Test on local drives first - network operations are much slower</p>\n"
+core\help_content.json:50: "content": "\n<h1>⚙️ Settings</h1>\n<h2>Overview</h2>\n<p>Global application configuration, theme management, maintenance tools, and reporting utilities.</p>\n\n<h3>🎨 Appearance</h3>\n<ul>\n<li><b>Theme Selection</b> - Choose application theme</li>\n<li><b>Advanced Settings Toggle</b> - Show/hide advanced options</li>\n</ul>\n\n<h3>📁 Global Settings</h3>\n<ul>\n<li><b>Server Root Path</b> - Network drive root (e.g., Z:\\UT_Central or \\\\Server\\UT_Central)</li>\n<li><b>Local Cache</b> - Where to store local caches</li>\n<li><b>Auto-Save Interval</b> - Frequency of automatic saves</li>\n<li><b>Save Button</b> - Persist changes to config file</li>\n<li><b>Refresh Templates</b> - Reload folder templates from disk</li>\n</ul>\n\n<h3>📊 Reports & Tools</h3>\n<ul>\n<li><b>Project Summary Report</b> - Generate detailed Excel report for selected project</li>\n<li><b>Report Worker</b> - Background thread generates report without blocking UI</li>\n<li><b>Project Selection Popup</b> - Choose which project to report on</li>\n</ul>\n\n<h3>💾 Maintenance</h3>\n<ul>\n<li><b>Create Backup</b> - Backup database and config using BackupManager</li>\n<li><b>Show Error Report</b> - View recent errors and logs</li>\n<li><b>Offline Update</b> - Install application update from local file</li>\n</ul>\n\n<h2>How to Use</h2>\n<h3>Changing Theme</h3>\n<ol>\n<li>Select theme from dropdown</li>\n<li>Theme applies immediately</li>\n<li>Saved automatically</li>\n</ol>\n\n<h3>Generating Reports</h3>\n<ol>\n<li>Click <b>Generate Project Summary Report</b></li>\n<li>Popup shows available projects</li>\n<li>Select project from list</li>\n<li>Click OK</li>\n<li>Report generates in background</li>\n<li>Excel file saved to default location</li>\n</ol>\n\n<h3>Creating Backup</h3>\n<ol>\n<li>Click <b>Create Backup</b></li>\n<li>BackupManager creates timestamped backup</li>\n<li>Includes database + config files</li>\n<li>Stored in backup directory</li>\n</ol>\n\n<h2>💡 Tips</h2>\n<p><b>Template Refresh</b>: Click after adding custom templates</p>\n<p><b>Regular Backups</b>: Create backups before major changes</p>\n<p><b>Error Report</b>: Check if experiencing issues</p>\n<p><b>Offline Updates</b>: Use for air-gapped systems</p>\n"
+core\rv_integration.py:49: r"C:\Program Files\OpenRV\bin\rv.exe",
+core\rv_integration.py:50: r"C:\Program Files\Autodesk\RV\bin\rv.exe",
+core\infra\async_postgres_manager.py:25: self.host = "127.0.0.1"
+core\infra\async_postgres_manager.py:34: self.host = config.get('host') or "127.0.0.1"
+core\infra\network_manager.py:148: return "127.0.0.1"
+core\infra\postgres_manager.py:120: primary_host = config.get('host') or get_from_keyring("db_host") or "127.0.0.1"
+core\updater\updater_script.py:23: ctypes.windll.user32.MessageBoxW(0, f"Update Failed:\n{msg}", "UT_VFX Updater", 0x10)
+core\updater\updater_script.py:195: ctypes.windll.user32.MessageBoxW(0, f"Updater Crashed:\n{e}", "UT_VFX Updater", 0x10)
+data\settings.json:31: "last_project_directory": "D:\\Soft\\UTCAP\\V0040\\demo\\test_projects",
+data\settings.json:32: "last_excel_file": "D:\\Soft\\UTCAP\\V0040\\demo\\Test_VFX_Data.xlsx",
+gui\admin_widgets.py:204: QMessageBox.warning(self, "Error", f"Status file not found:\n{report_path}")
+gui\tester_panel.py:804: QMessageBox.warning(self, "Regression", f"Step 2 failed:\n{message}")
+gui\tabs\dashboard_tab.py:94: self._show_error(f"Failed to initialize dashboard:\n{exc}")
+gui\tabs\folder_creator_tab.py:626: QMessageBox.critical(self, "Error", f"Operation failed:\n{message}")
+gui\tabs\settings_tab.py:621: f"An installer was found:\n{installer}\n\n"
+gui\tabs\settings_tab.py:727: QMessageBox.critical(self, "Update Error", f"Installer not found:\n{installer_path}")
+gui\tabs\settings_tab.py:835: if success: QMessageBox.information(self, "Success", f"Backup saved:\n{path}")
+gui\tabs\vfx_dashboard_pro\config\projects.json:6: "excel_path": "D:\\Soft\\UTCAP\\V0040\\demo\\UT98_DUMMY_SHEET.xlsx",
+gui\tabs\vfx_dashboard_pro\config\projects.json:11: "folder_base": "D:\\Soft\\UTCAP\\V0040\\demo\\test_projects",
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:1037: r"C:\Program Files\Nuke*\Nuke*.exe",
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:1038: r"C:\Program Files\Foundry\Nuke*\Nuke*.exe",
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:1041: r"C:\Program Files\Adobe\Adobe After Effects*\Support Files\AfterFX.exe",
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:1044: r"C:\Program Files\Adobe\Adobe Premiere Pro*\Adobe Premiere Pro.exe",
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:1047: r"C:\Program Files\Blender Foundation\Blender*\blender.exe",
+scripts\complete_help_update.py:381: <li><b>Server Root Path</b> - Network drive root (e.g., Z:\\UT_Central or \\\\Server\\UT_Central)</li>
+utils\security.py:302: system_root_env = os.environ.get('SystemRoot', 'C:\\Windows')
+utils\security.py:308: system_roots.append(Path('C:\\').resolve())
+
+=== DUMMY DATA / PLACEHOLDERS ===
+default_config.json:14: "admin_password": "admin123",
+gatekeeper_main.py:206: self.server_root_input.setPlaceholderText("e.g. X:/Extra/UT_Central")
+gatekeeper_main.py:229: self.db_password_input.setPlaceholderText("Optional if configured via credential setup")
+gatekeeper_main.py:492: "admin123",
+bin\OpenRV\lib\aifc.py:179: dummy = file.read(1)
+bin\OpenRV\lib\aifc.py:338: dummy = chunk.read(8)
+bin\OpenRV\lib\aifc.py:431: dummy = self._ssnd_chunk.read(8)
+bin\OpenRV\lib\aifc.py:882: dummy = self._write_form_length(datalength)
+bin\OpenRV\lib\binhex.py:449: dummy = self._read(self.dlen)
+bin\OpenRV\lib\binhex.py:471: dummy = self.read_rsrc(self.rlen)
+bin\OpenRV\lib\cgi.py:99: """Dummy function, assigned to log when logging is disabled."""
+bin\OpenRV\lib\chunk.py:141: dummy = self.file.read(1)
+bin\OpenRV\lib\chunk.py:142: self.size_read = self.size_read + len(dummy)
+bin\OpenRV\lib\chunk.py:167: dummy = self.read(n)
+bin\OpenRV\lib\chunk.py:168: if not dummy:
+bin\OpenRV\lib\code.py:115: msg, (dummy_filename, lineno, offset, line) = value.args
+bin\OpenRV\lib\configparser.py:362: """Dummy interpolation that passes the value through with no changes."""
+bin\OpenRV\lib\datetime.py:35: _DAYS_BEFORE_MONTH = [-1]  # -1 is a placeholder for indexing purposes.
+bin\OpenRV\lib\difflib.py:95: dummy, (len(a), len(b), 0), and this is the only case in which the last
+bin\OpenRV\lib\difflib.py:432: The last triple is a dummy, (len(a), len(b), 0), and is the only
+bin\OpenRV\lib\pickletools.py:2037: an old-style dummy class is created, and then we try to rebind its
+bin\OpenRV\lib\string.py:101: raise ValueError('Invalid placeholder in string: line %d, col %d' %
+bin\OpenRV\lib\textwrap.py:62: placeholder (default: ' [...]')
+bin\OpenRV\lib\textwrap.py:128: placeholder=' [...]'):
+bin\OpenRV\lib\textwrap.py:140: self.placeholder = placeholder
+bin\OpenRV\lib\textwrap.py:262: if len(indent) + len(self.placeholder.lstrip()) > self.width:
+bin\OpenRV\lib\textwrap.py:263: raise ValueError("placeholder too large for max width")
+bin\OpenRV\lib\textwrap.py:326: cur_len + len(self.placeholder) <= width):
+bin\OpenRV\lib\textwrap.py:327: cur_line.append(self.placeholder)
+bin\OpenRV\lib\textwrap.py:335: if (len(prev_line) + len(self.placeholder) <=
+bin\OpenRV\lib\textwrap.py:337: lines[-1] = prev_line + self.placeholder
+bin\OpenRV\lib\textwrap.py:339: lines.append(indent + self.placeholder.lstrip())
+bin\OpenRV\lib\textwrap.py:406: as possible are joined and then the placeholder is appended::
+bin\OpenRV\lib\threading.py:1405: class _DummyThread(Thread):
+bin\OpenRV\lib\threading.py:1408: Thread.__init__(self, name=_newname("Dummy-%d"), daemon=True)
+bin\OpenRV\lib\threading.py:1425: assert False, "cannot join a dummy thread"
+bin\OpenRV\lib\threading.py:1434: module, a dummy thread object with limited functionality is returned.
+bin\OpenRV\lib\threading.py:1440: return _DummyThread()
+bin\OpenRV\lib\threading.py:1481: The list includes daemonic threads, dummy thread objects created by
+bin\OpenRV\lib\timeit.py:59: dummy_src_name = "<timeit-src>"
+bin\OpenRV\lib\timeit.py:111: compile(setup, dummy_src_name, "exec")
+bin\OpenRV\lib\timeit.py:123: compile(stmtprefix + stmt, dummy_src_name, "exec")
+bin\OpenRV\lib\timeit.py:133: code = compile(src, dummy_src_name, "exec")
+bin\OpenRV\lib\timeit.py:156: linecache.cache[dummy_src_name] = (len(self.src),
+bin\OpenRV\lib\timeit.py:159: dummy_src_name)
+bin\OpenRV\lib\turtle.py:1428: def listen(self, xdummy=None, ydummy=None):
+bin\OpenRV\lib\turtle.py:1432: Dummy arguments are provided in order
+bin\OpenRV\lib\turtle.py:2004: """dummy method - to be overwritten by child class"""
+bin\OpenRV\lib\turtle.py:2006: """dummy method - to be overwritten by child class"""
+bin\OpenRV\lib\turtle.py:2008: """dummy method - to be overwritten by child class"""
+bin\OpenRV\lib\turtle.py:2464: """dummy method - to be overwritten by child class"""
+bin\OpenRV\lib\turtle.py:2466: """dummy method - to be overwritten by child class"""
+bin\OpenRV\lib\turtle.py:2468: """dummy method - to be overwritten by child class"""
+bin\OpenRV\lib\turtle.py:2470: """dummy method - to be overwritten by child class"""
+bin\OpenRV\lib\turtle.py:3600: dummy = self.undobuffer.pop()
+bin\OpenRV\lib\turtle.py:3790: """Screen.bye() with two dummy-parameters"""
+bin\OpenRV\lib\turtle.py:4126: def baba(xdummy, ydummy):
+bin\OpenRV\lib\typing.py:1387: """Internal placeholder for () or []. Used by TupleMeta and CallableMeta
+bin\OpenRV\lib\typing.py:1394: """Internal placeholder for ... (ellipsis)."""
+bin\OpenRV\lib\typing.py:2009: def _overload_dummy(*args, **kwds):
+bin\OpenRV\lib\typing.py:2044: return _overload_dummy
+bin\OpenRV\lib\typing.py:2455: a dummy callable that simply returns its argument. Usage::
+bin\OpenRV\lib\_compat_pickle.py:31: 'dummy_thread': '_dummy_thread',
+bin\OpenRV\lib\_pyio.py:343: This class provides dummy implementations for many methods that
+bin\OpenRV\lib\_strptime.py:36: f_month -- full month names (13-item list; dummy value in [0], which
+bin\OpenRV\lib\_strptime.py:38: a_month -- abbreviated month names (13-item list, dummy value in
+bin\OpenRV\lib\asyncio\tasks.py:555: done.put_nowait(None)  # Queue a dummy value for _wait_for_one().
+bin\OpenRV\lib\asyncio\unix_events.py:43: """Dummy signal handler."""
+bin\OpenRV\lib\ctypes\test\test_bitfields.py:88: _fields_ = [("dummy", c_typ),
+bin\OpenRV\lib\ctypes\test\test_bitfields.py:137: class Dummy(Structure):
+bin\OpenRV\lib\ctypes\test\test_bitfields.py:140: result = self.fail_fields(("a", Dummy, 1))
+bin\OpenRV\lib\ctypes\test\test_bitfields.py:141: self.assertEqual(result, (TypeError, 'bit fields not allowed for type Dummy'))
+bin\OpenRV\lib\ctypes\test\test_find.py:90: srcname = os.path.join(d, 'dummy.c')
+bin\OpenRV\lib\ctypes\test\test_find.py:91: libname = 'py_ctypes_test_dummy'
+bin\OpenRV\lib\ctypes\test\test_parameters.py:271: PyList_Append(trace, 3, "dummy")
+bin\OpenRV\lib\ctypes\test\test_parameters.py:294: PyList_Append(trace, 3, "dummy")
+bin\OpenRV\lib\ctypes\test\test_pointers.py:159: dummy = []
+bin\OpenRV\lib\ctypes\test\test_pointers.py:161: dummy.append(c_int(i))
+bin\OpenRV\lib\distutils\dist.py:1024: """Dummy class to hold the distribution meta-data: name, version,
+bin\OpenRV\lib\distutils\fancy_getopt.py:214: 'object' is None or not supplied, creates a new OptionDummy
+bin\OpenRV\lib\distutils\fancy_getopt.py:224: object = OptionDummy()
+bin\OpenRV\lib\distutils\fancy_getopt.py:436: class OptionDummy:
+bin\OpenRV\lib\distutils\fancy_getopt.py:437: """Dummy class just used as a place to hold command-line option
+bin\OpenRV\lib\distutils\fancy_getopt.py:441: """Create a new OptionDummy instance.  The attributes listed in
+bin\OpenRV\lib\distutils\tests\support.py:110: class DummyCommand:
+bin\OpenRV\lib\distutils\tests\test_build_ext.py:484: int dummy;
+bin\OpenRV\lib\distutils\tests\test_build_py.py:38: dist.command_obj["build"] = support.DummyCommand(
+bin\OpenRV\lib\distutils\tests\test_build_scripts.py:47: dist.command_obj["build"] = support.DummyCommand(
+bin\OpenRV\lib\distutils\tests\test_install.py:51: dist.command_obj["build"] = support.DummyCommand(
+bin\OpenRV\lib\distutils\tests\test_install_scripts.py:19: dist.command_obj["build"] = support.DummyCommand(
+bin\OpenRV\lib\distutils\tests\test_install_scripts.py:21: dist.command_obj["install"] = support.DummyCommand(
+bin\OpenRV\lib\distutils\tests\test_install_scripts.py:63: dist.command_obj["build"] = support.DummyCommand(build_scripts=source)
+bin\OpenRV\lib\distutils\tests\test_install_scripts.py:64: dist.command_obj["install"] = support.DummyCommand(
+bin\OpenRV\lib\email\_parseaddr.py:93: data.append('') # Dummy tz
+bin\OpenRV\lib\idlelib\codecontext.py:60: self.info[0] is initialized with a 'dummy' line which
+bin\OpenRV\lib\idlelib\configdialog.py:2345: ZzDummy: This extension is provided as an example for how to create and
+bin\OpenRV\lib\idlelib\editor.py:1128: 'ZzDummy': 'zzdummy',
+bin\OpenRV\lib\idlelib\searchbase.py:202: def default_command(self, dummy): pass
+bin\OpenRV\lib\idlelib\sidebar.py:518: from idlelib.idle_test.test_sidebar import Dummy_editwin
+bin\OpenRV\lib\idlelib\sidebar.py:530: editwin = Dummy_editwin(text)
+bin\OpenRV\lib\idlelib\zzdummy.py:26: class ZzDummy:
+bin\OpenRV\lib\idlelib\zzdummy.py:46: cls.ztext = idleConf.GetOption('extensions', 'ZzDummy', 'z-text')
+bin\OpenRV\lib\idlelib\zzdummy.py:68: ZzDummy.reload()
+bin\OpenRV\lib\idlelib\zzdummy.py:73: unittest.main('idlelib.idle_test.test_zzdummy', verbosity=2, exit=False)
+bin\OpenRV\lib\idlelib\idle_test\template.py:3: from idlelib import zzdummy
+bin\OpenRV\lib\idlelib\idle_test\test_autocomplete.py:16: class DummyEditwin:
+bin\OpenRV\lib\idlelib\idle_test\test_autocomplete.py:33: cls.editor = DummyEditwin(cls.root, cls.text)
+bin\OpenRV\lib\idlelib\idle_test\test_autocomplete.py:148: acp._delayed_open_completions('dummy')
+bin\OpenRV\lib\idlelib\idle_test\test_autocomplete.py:198: class dummy_acw:
+bin\OpenRV\lib\idlelib\idle_test\test_autocomplete.py:208: def make_acw(): return self.dummy_acw()
+bin\OpenRV\lib\idlelib\idle_test\test_autocomplete.py:213: self.assertIsInstance(acp.autocompletewindow, self.dummy_acw)
+bin\OpenRV\lib\idlelib\idle_test\test_autoexpand.py:9: class DummyEditwin:
+bin\OpenRV\lib\idlelib\idle_test\test_autoexpand.py:21: cls.auto_expand = AutoExpand(DummyEditwin(cls.text))
+bin\OpenRV\lib\idlelib\idle_test\test_calltip.py:102: placeholder=' [...]')
+bin\OpenRV\lib\idlelib\idle_test\test_codecontext.py:38: class DummyEditwin:
+bin\OpenRV\lib\idlelib\idle_test\test_codecontext.py:66: cls.editor = DummyEditwin(root, frame, text)
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:416: [ZzDummy]
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:424: eq(iGE(), ['ZzDummy'])
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:425: eq(iGE(editor_only=True), ['ZzDummy'])
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:426: eq(iGE(active_only=False), ['ZzDummy', 'DISABLE'])
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:427: eq(iGE(active_only=False, editor_only=True), ['ZzDummy', 'DISABLE'])
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:428: userextn.remove_section('ZzDummy')
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:437: ['AutoComplete', 'CodeContext', 'FormatParagraph', 'ParenMatch', 'ZzDummy'])
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:441: [ZzDummy]
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:445: eq(idleConf.GetExtnNameForEvent('z-in'), 'ZzDummy')
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:447: userextn.remove_section('ZzDummy')
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:451: [ZzDummy]
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:454: self.assertEqual(idleConf.GetExtensionKeys('ZzDummy'),
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:456: userextn.remove_section('ZzDummy')
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:463: [ZzDummy]
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:471: eq(iGEB('ZzDummy'), expect)
+bin\OpenRV\lib\idlelib\idle_test\test_config.py:472: userextn.remove_section('ZzDummy')
+bin\OpenRV\lib\idlelib\idle_test\test_configdialog.py:913: idleConf.SetOption('extensions', 'ZzDummy', 'enable', 'True')
+bin\OpenRV\lib\idlelib\idle_test\test_configdialog.py:931: {'ZzDummy_cfgBindings': {'z-in': '<Key-F11>'}})
+bin\OpenRV\lib\idlelib\idle_test\test_config_key.py:4: may be skipped, and dummy function in bind test should not be called.
+bin\OpenRV\lib\idlelib\idle_test\test_editor.py:203: class DummyRMenu:
+bin\OpenRV\lib\idlelib\idle_test\test_format.py:290: self.formatter("Dummy")
+bin\OpenRV\lib\idlelib\idle_test\test_format.py:380: class DummyEditwin:
+bin\OpenRV\lib\idlelib\idle_test\test_format.py:403: cls.editor = DummyEditwin(cls.root, cls.text)
+bin\OpenRV\lib\idlelib\idle_test\test_format.py:581: editor = DummyEditwin(None, None)  # usetabs == False.
+bin\OpenRV\lib\idlelib\idle_test\test_format.py:595: editor = DummyEditwin(None, None)  # indentwidth == 4.
+bin\OpenRV\lib\idlelib\idle_test\test_grep.py:3: dummy_command calls grep_it calls findfiles.
+bin\OpenRV\lib\idlelib\idle_test\test_grep.py:16: class Dummy_searchengine:
+bin\OpenRV\lib\idlelib\idle_test\test_grep.py:24: searchengine = Dummy_searchengine()
+bin\OpenRV\lib\idlelib\idle_test\test_grep.py:27: class Dummy_grep:
+bin\OpenRV\lib\idlelib\idle_test\test_grep.py:37: _grep = Dummy_grep()
+bin\OpenRV\lib\idlelib\idle_test\test_help_about.py:137: class Dummy_about_dialog:
+bin\OpenRV\lib\idlelib\idle_test\test_help_about.py:153: dialog = Dummy_about_dialog()
+bin\OpenRV\lib\idlelib\idle_test\test_history.py:165: self.history.history_prev('dummy event')
+bin\OpenRV\lib\idlelib\idle_test\test_history.py:167: self.history.history_next('dummy event')
+bin\OpenRV\lib\idlelib\idle_test\test_hyperparser.py:9: class DummyEditwin:
+bin\OpenRV\lib\idlelib\idle_test\test_hyperparser.py:43: cls.editwin = DummyEditwin(cls.text)
+bin\OpenRV\lib\idlelib\idle_test\test_parenmatch.py:15: class DummyEditwin:
+bin\OpenRV\lib\idlelib\idle_test\test_parenmatch.py:30: cls.editwin = DummyEditwin(cls.text)
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:4: dummy versions that extract the non-gui methods and add other needed
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:27: class Dummy_Query:
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:33: def __init__(self, dummy_entry):
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:34: self.entry = Var(value=dummy_entry)
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:44: dialog = self.Dummy_Query(' ')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:50: dialog = self.Dummy_Query('  good ')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:57: dialog = self.Dummy_Query('')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:65: dialog = self.Dummy_Query('good')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:70: dialog = self.Dummy_Query('does not matter')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:78: class Dummy_SectionName:
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:81: def __init__(self, dummy_entry):
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:82: self.entry = Var(value=dummy_entry)
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:88: dialog = self.Dummy_SectionName(' ')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:93: dialog = self.Dummy_SectionName('used')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:98: dialog = self.Dummy_SectionName('good'*8)
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:103: dialog = self.Dummy_SectionName('  good ')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:111: class Dummy_ModuleName:
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:114: def __init__(self, dummy_entry):
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:115: self.entry = Var(value=dummy_entry)
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:121: dialog = self.Dummy_ModuleName(' ')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:126: dialog = self.Dummy_ModuleName('__name_xyz123_should_not_exist__')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:131: dialog = self.Dummy_ModuleName('itertools')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:136: dialog = self.Dummy_ModuleName('idlelib')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:139: dialog = self.Dummy_ModuleName('idlelib.idle')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:147: class Dummy_ModuleName:
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:149: def __init__(self, dummy_entry):
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:150: self.entry = Var(value=dummy_entry)
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:156: dialog = self.Dummy_ModuleName('a')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:161: dialog = self.Dummy_ModuleName('0')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:166: dialog = self.Dummy_ModuleName('1')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:176: class Dummy_HelpSource:
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:181: dialog = self.Dummy_HelpSource()
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:201: class Dummy_HelpSource:
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:203: def __init__(self, dummy_path):
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:204: self.path = Var(value=dummy_path)
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:215: dialog = self.Dummy_HelpSource(' ')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:220: dialog = self.Dummy_HelpSource(__file__ + 'bad-bad-bad')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:225: dialog = self.Dummy_HelpSource('')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:234: dialog = self.Dummy_HelpSource('')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:246: class Dummy_HelpSource:
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:256: dialog = self.Dummy_HelpSource()
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:271: class Dummy_CustomRun:
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:273: def __init__(self, dummy_entry):
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:274: self.entry = Var(value=dummy_entry)
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:280: dialog = self.Dummy_CustomRun(' ')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:284: dialog = self.Dummy_CustomRun("'no-closing-quote")
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:290: dialog = self.Dummy_CustomRun(' '.join(args) + ' "my name"')
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:298: class Dummy_CustomRun:
+bin\OpenRV\lib\idlelib\idle_test\test_query.py:306: dialog = self.Dummy_CustomRun()
+bin\OpenRV\lib\idlelib\idle_test\test_sidebar.py:23: class Dummy_editwin:
+bin\OpenRV\lib\idlelib\idle_test\test_sidebar.py:54: cls.editwin = Dummy_editwin(cls.text)
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:1: "Test zzdummy, coverage 100%."
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:3: from idlelib import zzdummy
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:13: usercfg = zzdummy.idleConf.userCfg
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:30: class DummyEditwin:
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:41: class ZZDummyTest(unittest.TestCase):
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:49: cls.editor = DummyEditwin(root, text)
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:50: zzdummy.idleConf.userCfg = testcfg
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:54: zzdummy.idleConf.userCfg = usercfg
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:67: zz = self.zz = zzdummy.ZzDummy(self.editor)
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:68: zzdummy.ZzDummy.ztext = '# ignore #'
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:92: testcfg['extensions'].SetOption('ZzDummy', 'z-text', 'spam')
+bin\OpenRV\lib\idlelib\idle_test\test_zzdummy.py:93: zzdummy.ZzDummy.reload()
+bin\OpenRV\lib\importlib\_bootstrap.py:142: class _DummyModuleLock:
+bin\OpenRV\lib\importlib\_bootstrap.py:160: return '_DummyModuleLock({!r}) at {}'.format(self.name, id(self))
+bin\OpenRV\lib\importlib\_bootstrap.py:194: lock = _DummyModuleLock(name)
+bin\OpenRV\lib\lib2to3\fixes\fix_imports.py:35: 'dummy_thread': '_dummy_thread',
+bin\OpenRV\lib\lib2to3\pgen2\pgen.py:117: self.first[name] = None # dummy to detect left recursion
+bin\OpenRV\lib\lib2to3\tests\pytree_idempotency.py:35: return # Pass a dummy argument to run the complete test suite below
+bin\OpenRV\lib\lib2to3\tests\data\infinite_recursion.py:297: ('dummy', c_int),
+bin\OpenRV\lib\lib2to3\tests\data\infinite_recursion.py:462: BIO_dummy = bio_st
+bin\OpenRV\lib\lib2to3\tests\data\infinite_recursion.py:2582: 'bio_method_st', 'timeval', 'UI_string_types', 'BIO_dummy',
+bin\OpenRV\lib\logging\config.py:178: if not isinstance(logger, logging.PlaceHolder):
+bin\OpenRV\lib\logging\handlers.py:639: dummy = self.format(record)
+bin\OpenRV\lib\logging\handlers.py:1084: placeholders) is used. Note that use of these placeholders will make
+bin\OpenRV\lib\logging\__init__.py:867: The base handler class. Acts as a placeholder which defines the Handler
+bin\OpenRV\lib\logging\__init__.py:1249: class PlaceHolder(object):
+bin\OpenRV\lib\logging\__init__.py:1251: PlaceHolder instances are used in the Manager logger hierarchy to take
+bin\OpenRV\lib\logging\__init__.py:1257: Initialize with the specified logger being a child of this placeholder.
+bin\OpenRV\lib\logging\__init__.py:1263: Add the specified logger as a child of this placeholder.
+bin\OpenRV\lib\logging\__init__.py:1321: If a PlaceHolder existed for the specified name [i.e. the logger
+bin\OpenRV\lib\logging\__init__.py:1324: placeholder to now point to the logger.
+bin\OpenRV\lib\logging\__init__.py:1333: if isinstance(rv, PlaceHolder):
+bin\OpenRV\lib\logging\__init__.py:1368: Ensure that there are either loggers or placeholders all the way
+bin\OpenRV\lib\logging\__init__.py:1377: self.loggerDict[substr] = PlaceHolder(alogger)
+bin\OpenRV\lib\logging\__init__.py:1383: assert isinstance(obj, PlaceHolder)
+bin\OpenRV\lib\logging\__init__.py:1392: Ensure that children of the placeholder ph are connected to the
+bin\OpenRV\lib\multiprocessing\managers.py:144: 'debug_info', 'number_of_objects', 'dummy', 'incref', 'decref']
+bin\OpenRV\lib\multiprocessing\managers.py:334: def dummy(self, c):
+bin\OpenRV\lib\multiprocessing\managers.py:532: dispatch(conn, None, 'dummy')
+bin\OpenRV\lib\multiprocessing\pool.py:926: from .dummy import Process
+bin\OpenRV\lib\multiprocessing\dummy\__init__.py:34: class DummyProcess(threading.Thread):
+bin\OpenRV\lib\multiprocessing\dummy\__init__.py:64: Process = DummyProcess
+bin\OpenRV\lib\pydoc_data\topics.py:8367: 'is useful as a placeholder when a statement is required '
+bin\OpenRV\lib\site-packages\six.py:278: MovedModule("_dummy_thread", "dummy_thread", "_dummy_thread" if sys.version_info < (3, 9) else "_thread"),
+bin\OpenRV\lib\site-packages\cffi\cparser.py:555: ast, macros = self._parse('void __dummy(\n%s\n);' % cdecl)[:2]
+bin\OpenRV\lib\site-packages\cffi\lock.py:7: from dummy_thread import allocate_lock
+bin\OpenRV\lib\site-packages\cffi\lock.py:12: from _dummy_thread import allocate_lock
+bin\OpenRV\lib\site-packages\cffi\recompiler.py:150: self.cffi_types.append(tp)     # placeholder
+bin\OpenRV\lib\site-packages\cffi\recompiler.py:159: self.cffi_types.append(tp1)   # placeholder
+bin\OpenRV\lib\site-packages\cffi\recompiler.py:160: self.cffi_types.append('END')     # placeholder
+bin\OpenRV\lib\site-packages\cffi\recompiler.py:166: self.cffi_types.append(tp)        # placeholder
+bin\OpenRV\lib\site-packages\cffi\recompiler.py:168: self.cffi_types.append('LEN') # placeholder
+bin\OpenRV\lib\site-packages\cffi\setuptools_ext.py:112: allsources = ['$PLACEHOLDER']
+bin\OpenRV\lib\site-packages\cffi\setuptools_ext.py:139: if ext.sources[0] == '$PLACEHOLDER':
+bin\OpenRV\lib\site-packages\numpy\ctypeslib.py:67: def _dummy(*args, **kwds):
+bin\OpenRV\lib\site-packages\numpy\ctypeslib.py:69: Dummy object that raises an ImportError if ctypes is not available.
+bin\OpenRV\lib\site-packages\numpy\ctypeslib.py:78: load_library = _dummy
+bin\OpenRV\lib\site-packages\numpy\ctypeslib.py:79: as_ctypes = _dummy
+bin\OpenRV\lib\site-packages\numpy\ctypeslib.py:80: as_array = _dummy
+bin\OpenRV\lib\site-packages\numpy\core\arrayprint.py:31: from _dummy_thread import get_ident
+bin\OpenRV\lib\site-packages\numpy\core\_dtype_ctypes.py:9: class DummyStruct(ctypes.Structure):
+bin\OpenRV\lib\site-packages\numpy\core\_dtype_ctypes.py:13: ctype_0 = (DummyStruct * 0)()
+bin\OpenRV\lib\site-packages\numpy\core\_internal.py:205: class dummy_ctype:
+bin\OpenRV\lib\site-packages\numpy\core\_internal.py:223: val = dummy_ctype(np.intp)
+bin\OpenRV\lib\site-packages\numpy\core\_internal.py:796: def array_ufunc_errmsg_formatter(dummy, ufunc, method, *inputs, **kwargs):
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_half.py:546: class Dummy:
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_half.py:550: b = Dummy()
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_mem_overlap.py:569: from numpy.lib.stride_tricks import DummyArray
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_mem_overlap.py:573: return np.asarray(DummyArray(interface, x))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3734: dummy = np.arange(2.)
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3737: assert_equal(np.sin(dummy, a), (0,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3738: assert_equal(np.sin(dummy, out=a), (0,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3739: assert_equal(np.sin(dummy, out=(a,)), (0,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3744: assert_equal(np.modf(dummy, a), (0,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3745: assert_equal(np.modf(dummy, None, a), (1,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3746: assert_equal(np.modf(dummy, dummy, a), (1,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3747: assert_equal(np.modf(dummy, out=(a, None)), (0,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3748: assert_equal(np.modf(dummy, out=(a, dummy)), (0,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3749: assert_equal(np.modf(dummy, out=(None, a)), (1,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3750: assert_equal(np.modf(dummy, out=(dummy, a)), (1,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3751: assert_equal(np.modf(a, out=(dummy, a)), 0)
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3754: np.modf(dummy, out=a)
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3756: assert_raises(ValueError, np.modf, dummy, out=(a,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3759: assert_equal(np.add(a, dummy), 0)
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3760: assert_equal(np.add(dummy, a), 1)
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3761: assert_equal(np.add(dummy, dummy, a), (0,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3762: assert_equal(np.add(dummy, a, a), 1)
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3763: assert_equal(np.add(dummy, dummy, out=a), (0,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3764: assert_equal(np.add(dummy, dummy, out=(a,)), (0,))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:3765: assert_equal(np.add(a, dummy, out=a), 0)
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:8162: class DummyArray1:
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:8172: class DummyArray2:
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:8175: arr1 = np.asarray(DummyArray1())
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:8176: arr2 = np.asarray(DummyArray2())
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:8189: class DummyArray:
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:8192: arr1 = np.asarray(DummyArray())
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:8200: class DummyArray:
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:8205: np.asarray(DummyArray())
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:9035: class Dummy: pass
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_multiarray.py:9038: obj_arr = np.array(Dummy())
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_regression.py:205: _dummy = np.empty((0, 10))
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_regression.py:206: z = np.lib.stride_tricks.as_strided(_z, _dummy.shape, _dummy.strides)
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_umath_complex.py:72: def _check_ninf_inf(dummy):
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_umath_complex.py:82: def _check_inf_inf(dummy):
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_umath_complex.py:92: def _check_ninf_nan(dummy):
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_umath_complex.py:102: def _check_inf_nan(dummy):
+bin\OpenRV\lib\site-packages\numpy\core\tests\test_umath_complex.py:334: def _check_ninf_nan(dummy):
+bin\OpenRV\lib\site-packages\numpy\distutils\misc_util.py:1692: Description=dummy description
+bin\OpenRV\lib\site-packages\numpy\distutils\misc_util.py:1703: Description=dummy description
+bin\OpenRV\lib\site-packages\numpy\distutils\_shell_utils.py:59: cmd = 'dummy ' + cmd
+bin\OpenRV\lib\site-packages\numpy\distutils\_shell_utils.py:71: assert args[0] == "dummy"
+bin\OpenRV\lib\site-packages\numpy\distutils\command\build_ext.py:611: def _add_dummy_mingwex_sym(self, c_sources):
+bin\OpenRV\lib\site-packages\numpy\distutils\command\config.py:170: "/* we need a dummy line to make distutils happy */",
+bin\OpenRV\lib\site-packages\numpy\distutils\fcompiler\absoft.py:11: from numpy.distutils.fcompiler import FCompiler, dummy_fortran_file
+bin\OpenRV\lib\site-packages\numpy\distutils\fcompiler\absoft.py:48: f = cyg2win32(dummy_fortran_file())
+bin\OpenRV\lib\site-packages\numpy\distutils\fcompiler\arm.py:5: from numpy.distutils.fcompiler import FCompiler, dummy_fortran_file
+bin\OpenRV\lib\site-packages\numpy\distutils\fcompiler\intel.py:5: from numpy.distutils.fcompiler import FCompiler, dummy_fortran_file
+bin\OpenRV\lib\site-packages\numpy\distutils\fcompiler\intel.py:19: f = dummy_fortran_file()
+bin\OpenRV\lib\site-packages\numpy\distutils\fcompiler\intel.py:133: f = dummy_fortran_file()
+bin\OpenRV\lib\site-packages\numpy\distutils\fcompiler\__init__.py:17: 'dummy_fortran_file']
+bin\OpenRV\lib\site-packages\numpy\distutils\fcompiler\__init__.py:960: def dummy_fortran_file():
+bin\OpenRV\lib\site-packages\numpy\distutils\fcompiler\__init__.py:962: fo.write("      subroutine dummy()\n      end\n")
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_build_ext.py:24: with open(tmp_path / '_dummy1.f', 'w') as fid:
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_build_ext.py:26: FUNCTION dummy_one()
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_build_ext.py:29: with open(tmp_path / '_dummy2.f', 'w') as fid:
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_build_ext.py:31: FUNCTION dummy_two()
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_build_ext.py:34: with open(tmp_path / '_dummy.c', 'w') as fid:
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_build_ext.py:36: fid.write('int PyInit_dummyext;')
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_build_ext.py:45: config.add_library("dummy1", sources=["_dummy1.f"])
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_build_ext.py:46: config.add_library("dummy2", sources=["_dummy2.f"])
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_build_ext.py:47: config.add_extension("dummyext", sources=["_dummy.c"], libraries=["dummy1", "dummy2"])
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_build_ext.py:69: if 'dummyext' in line:
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_fcompiler.py:21: new_flag = '-dummy-{}-flag'.format(opt)
+bin\OpenRV\lib\site-packages\numpy\distutils\tests\test_fcompiler.py:33: new_flag = '-dummy-{}-flag'.format(opt)
+bin\OpenRV\lib\site-packages\numpy\f2py\auxfuncs.py:33: 'isdouble', 'isdummyroutine', 'isexternal', 'isfunction',
+bin\OpenRV\lib\site-packages\numpy\f2py\auxfuncs.py:588: def isdummyroutine(rout):
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:66: iscomplexfunction, iscomplexfunction_warn, isdummyroutine, isexternal,
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:398: 'declfortranroutine': {l_and(l_not(l_or(ismoduleroutine, isintent_c)), l_not(isdummyroutine)): 'extern void #F_FUNC#(#fortranname#,#FORTRANNAME#)(#callprotoargument#);',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:399: l_and(l_not(ismoduleroutine), isintent_c, l_not(isdummyroutine)): 'extern void #fortranname#(#callprotoargument#);',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:401: isdummyroutine: ''
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:403: 'routine_def': {l_not(l_or(ismoduleroutine, isintent_c, isdummyroutine)): '    {\"#name#\",-1,{{-1}},0,(char *)#F_FUNC#(#fortranname#,#FORTRANNAME#),(f2py_init_func)#apiname#,doc_#apiname#},',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:404: l_and(l_not(ismoduleroutine), isintent_c, l_not(isdummyroutine)): '    {\"#name#\",-1,{{-1}},0,(char *)#fortranname#,(f2py_init_func)#apiname#,doc_#apiname#},',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:405: l_and(l_not(ismoduleroutine), isdummyroutine): '    {\"#name#\",-1,{{-1}},0,NULL,(f2py_init_func)#apiname#,doc_#apiname#},',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:407: 'need': {l_and(l_not(l_or(ismoduleroutine, isintent_c)), l_not(isdummyroutine)): 'F_FUNC'},
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:418: {l_not(l_or(hascallstatement, isdummyroutine))
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:426: 'declfortranroutine': {l_not(l_or(ismoduleroutine, isdummyroutine)): 'extern void #F_WRAPPEDFUNC#(#name_lower#,#NAME#)(#callprotoargument#);',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:427: isdummyroutine: '',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:430: 'routine_def': {l_not(l_or(ismoduleroutine, isdummyroutine)): '    {\"#name#\",-1,{{-1}},0,(char *)#F_WRAPPEDFUNC#(#name_lower#,#NAME#),(f2py_init_func)#apiname#,doc_#apiname#},',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:431: isdummyroutine: '    {\"#name#\",-1,{{-1}},0,NULL,(f2py_init_func)#apiname#,doc_#apiname#},',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:433: 'initf2pywraphook': {l_not(l_or(ismoduleroutine, isdummyroutine)): '''
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:445: 'need': {l_not(l_or(ismoduleroutine, isdummyroutine)): ['F_WRAPPEDFUNC', 'F_FUNC']},
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:454: {l_not(l_or(hascallstatement, isdummyroutine))
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:464: 'declfortranroutine': {l_not(l_or(ismoduleroutine, isdummyroutine)): 'extern void #F_WRAPPEDFUNC#(#name_lower#,#NAME#)(#callprotoargument#);',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:465: isdummyroutine: '',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:468: 'routine_def': {l_not(l_or(ismoduleroutine, isdummyroutine)): '    {\"#name#\",-1,{{-1}},0,(char *)#F_WRAPPEDFUNC#(#name_lower#,#NAME#),(f2py_init_func)#apiname#,doc_#apiname#},',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:469: isdummyroutine: '    {\"#name#\",-1,{{-1}},0,NULL,(f2py_init_func)#apiname#,doc_#apiname#},',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:471: 'initf2pywraphook': {l_not(l_or(ismoduleroutine, isdummyroutine)): '''
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:483: 'need': {l_not(l_or(ismoduleroutine, isdummyroutine)): ['F_WRAPPEDFUNC', 'F_FUNC']},
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:492: {l_not(l_or(hascallstatement, isdummyroutine))
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:519: 'declfortranroutine': {l_and(l_not(l_or(ismoduleroutine, isintent_c)), l_not(isdummyroutine)): 'extern #ctype# #F_FUNC#(#fortranname#,#FORTRANNAME#)(#callprotoargument#);',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:520: l_and(l_not(ismoduleroutine), isintent_c, l_not(isdummyroutine)): 'extern #ctype# #fortranname#(#callprotoargument#);',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:521: isdummyroutine: ''
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:523: 'routine_def': {l_and(l_not(l_or(ismoduleroutine, isintent_c)), l_not(isdummyroutine)): '    {\"#name#\",-1,{{-1}},0,(char *)#F_FUNC#(#fortranname#,#FORTRANNAME#),(f2py_init_func)#apiname#,doc_#apiname#},',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:524: l_and(l_not(ismoduleroutine), isintent_c, l_not(isdummyroutine)): '    {\"#name#\",-1,{{-1}},0,(char *)#fortranname#,(f2py_init_func)#apiname#,doc_#apiname#},',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:525: isdummyroutine: '    {\"#name#\",-1,{{-1}},0,NULL,(f2py_init_func)#apiname#,doc_#apiname#},',
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:541: {l_not(l_or(hascallstatement, isdummyroutine))
+bin\OpenRV\lib\site-packages\numpy\f2py\rules.py:549: 'need': [{l_not(isdummyroutine): 'F_FUNC'},
+bin\OpenRV\lib\site-packages\numpy\f2py\tests\test_semicolon_split.py:18: char dummy = ';';
+bin\OpenRV\lib\site-packages\numpy\lib\function_base.py:2064: dummy_array = np.lib.stride_tricks.as_strided(0, arg.shape[:ndim])
+bin\OpenRV\lib\site-packages\numpy\lib\function_base.py:2065: broadcast_args.append(dummy_array)
+bin\OpenRV\lib\site-packages\numpy\lib\stride_tricks.py:15: class DummyArray:
+bin\OpenRV\lib\site-packages\numpy\lib\stride_tricks.py:16: """Dummy object that just exists to hang __array_interface__ dictionaries
+bin\OpenRV\lib\site-packages\numpy\lib\stride_tricks.py:104: array = np.asarray(DummyArray(interface, base=x))
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_index_tricks.py:103: dummy_arr = ([0],[0])
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_index_tricks.py:106: np.ravel_multi_index(dummy_arr, (half_max, 2)), [0])
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_index_tricks.py:108: np.ravel_multi_index, dummy_arr, (half_max+1, 2))
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_index_tricks.py:110: np.ravel_multi_index(dummy_arr, (half_max, 2), order='F'), [0])
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_index_tricks.py:112: np.ravel_multi_index, dummy_arr, (half_max+1, 2), order='F')
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_type_check.py:196: class DummyComplexArray:
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_type_check.py:200: dummy = DummyComplexArray()
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_type_check.py:201: assert_(iscomplexobj(dummy))
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_type_check.py:215: class DummyPd:
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_type_check.py:219: dummy = DummyPd()
+bin\OpenRV\lib\site-packages\numpy\lib\tests\test_type_check.py:220: assert_(iscomplexobj(dummy))
+bin\OpenRV\lib\site-packages\numpy\random\tests\test_direct.py:146: dummy = SeedlessSeedSequence()
+bin\OpenRV\lib\site-packages\numpy\random\tests\test_direct.py:147: assert_raises(NotImplementedError, dummy.generate_state, 10)
+bin\OpenRV\lib\site-packages\numpy\random\tests\test_direct.py:148: assert len(dummy.spawn(10)) == 10
+bin\OpenRV\lib\site-packages\numpy\testing\_private\decorators.py:315: to pytest. It achieves that by adding a dummy var parameter and ignoring
+bin\OpenRV\lib\site-packages\numpy\testing\_private\utils.py:1298: class _Dummy(unittest.TestCase):
+bin\OpenRV\lib\site-packages\numpy\testing\_private\utils.py:1302: _d = _Dummy('nop')
+bin\OpenRV\lib\site-packages\OpenGL\GL\ARB\framebuffer_no_attachments.py:29: unnecessary "dummy" texture and attach it to the framebuffer (possibly
+bin\OpenRV\lib\site-packages\OpenGL\GL\ARB\framebuffer_no_attachments.py:31: to operate over a large number of pixels, this dummy texture will
+bin\OpenRV\lib\site-packages\OpenGL\GLES2\EXT\texture_border_clamp.py:12: expected limits or to dummy out any such accesses with transparency
+bin\OpenRV\lib\site-packages\OpenGL\GLES2\NV\texture_border_clamp.py:12: expected limits or to dummy out any such accesses with transparency
+bin\OpenRV\lib\site-packages\OpenGL\GLES2\OES\texture_border_clamp.py:12: expected limits or to dummy out any such accesses with transparency
+bin\OpenRV\lib\site-packages\OpenGL\raw\GL\_types.py:157: """Placeholder/empty structure for _cl_context"""
+bin\OpenRV\lib\site-packages\OpenGL\raw\GL\_types.py:159: """Placeholder/empty structure for _cl_event"""
+bin\OpenRV\lib\site-packages\OpenGL\Tk\__init__.py:231: def tkRedraw(self, *dummy):
+bin\OpenRV\lib\site-packages\OpenGL\Tk\__init__.py:250: def tkMap(self, *dummy):
+bin\OpenRV\lib\site-packages\OpenGL\Tk\__init__.py:254: def tkExpose(self, *dummy):
+bin\OpenRV\lib\site-packages\OpenGL\Tk\__init__.py:510: def tkRedraw(self, *dummy):
+bin\OpenRV\lib\site-packages\OpenGL\Tk\__init__.py:554: def tkMap(self, *dummy):
+bin\OpenRV\lib\site-packages\OpenGL\Tk\__init__.py:560: def tkExpose(self, *dummy):
+bin\OpenRV\lib\site-packages\opentimelineio_contrib\adapters\hls_playlist.py:1526: dummy_range = Byterange(0, 0)
+bin\OpenRV\lib\site-packages\opentimelineio_contrib\adapters\hls_playlist.py:1528: Byterange.from_dict(init_dict) if init_dict else dummy_range
+bin\OpenRV\lib\site-packages\opentimelineio_contrib\adapters\hls_playlist.py:1532: if following_init_dict else dummy_range
+bin\OpenRV\lib\site-packages\opentimelineview\track_widgets.py:183: self.source_name_label.setText('PLACEHOLDER')
+bin\OpenRV\lib\site-packages\pip\_internal\req\constructors.py:58: return get_requirement("placeholder" + extras.lower()).extras
+bin\OpenRV\lib\site-packages\pip\_internal\req\constructors.py:112: get_requirement("placeholder" + extras.lower()).extras,
+bin\OpenRV\lib\site-packages\pip\_vendor\six.py:278: MovedModule("_dummy_thread", "dummy_thread", "_dummy_thread" if sys.version_info < (3, 9) else "_thread"),
+bin\OpenRV\lib\site-packages\pip\_vendor\typing_extensions.py:394: _overload_dummy = typing._overload_dummy
+bin\OpenRV\lib\site-packages\pip\_vendor\typing_extensions.py:445: return _overload_dummy
+bin\OpenRV\lib\site-packages\pip\_vendor\typing_extensions.py:2808: a dummy callable that simply returns its argument. Usage::
+bin\OpenRV\lib\site-packages\pip\_vendor\typing_extensions.py:2836: class Dummy:
+bin\OpenRV\lib\site-packages\pip\_vendor\typing_extensions.py:2845: return (Dummy,)
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\compat.py:653: from dummy_thread import get_ident as _get_ident
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\database.py:1354: summary = kwargs.pop('summary', 'Placeholder for summary')
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\database.py:1358: md.summary = summary or 'Placeholder for summary'
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\index.py:16: from dummy_threading import Thread
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\locators.py:18: import dummy_threading as threading
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\locators.py:927: 'Placeholder for summary'),
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\resources.py:338: _dummy_module = types.ModuleType(str('__dummy__'))
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\resources.py:354: module = _dummy_module
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\util.py:30: import dummy_threading as threading
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\version.py:727: return self.is_valid_matcher('dummy_name (%s)' % s)
+bin\OpenRV\lib\site-packages\pip\_vendor\distlib\wheel.py:195: self.name = 'dummy'
+bin\OpenRV\lib\site-packages\pip\_vendor\pygments\formatters\html.py:657: dummyoutfile = StringIO()
+bin\OpenRV\lib\site-packages\pip\_vendor\pygments\formatters\html.py:662: dummyoutfile.write(line)
+bin\OpenRV\lib\site-packages\pip\_vendor\pygments\formatters\html.py:719: yield 0, dummyoutfile.getvalue()
+bin\OpenRV\lib\site-packages\pip\_vendor\pyparsing\core.py:779: loc, dummy = ignore_fn(instring, loc)
+bin\OpenRV\lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py:290: class _DummyException(Exception):
+bin\OpenRV\lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py:305: except getattr(backend, 'UnsupportedOperation', _DummyException):
+bin\OpenRV\lib\site-packages\pip\_vendor\requests\cookies.py:20: import dummy_threading as threading
+bin\OpenRV\lib\site-packages\pip\_vendor\rich\layout.py:51: class _Placeholder:
+bin\OpenRV\lib\site-packages\pip\_vendor\rich\layout.py:52: """An internal renderable used as a Layout placeholder."""
+bin\OpenRV\lib\site-packages\pip\_vendor\rich\layout.py:146: renderable (RenderableType, optional): Renderable content, or None for placeholder. Defaults to None.
+bin\OpenRV\lib\site-packages\pip\_vendor\rich\layout.py:166: self._renderable = renderable or _Placeholder(self)
+bin\OpenRV\lib\site-packages\pip\_vendor\rich\pretty.py:85: _dummy_namedtuple = collections.namedtuple("_dummy_namedtuple", [])
+bin\OpenRV\lib\site-packages\pip\_vendor\rich\pretty.py:104: default_repr_file = inspect.getfile(_dummy_namedtuple.__repr__)
+bin\OpenRV\lib\site-packages\pip\_vendor\urllib3\connection.py:562: class DummyConnection(object):
+bin\OpenRV\lib\site-packages\pip\_vendor\urllib3\connection.py:569: HTTPSConnection = DummyConnection  # noqa: F811
+bin\OpenRV\lib\site-packages\pip\_vendor\urllib3\connectionpool.py:15: DummyConnection,
+bin\OpenRV\lib\site-packages\pip\_vendor\urllib3\connectionpool.py:1021: if not self.ConnectionCls or self.ConnectionCls is DummyConnection:
+bin\OpenRV\lib\site-packages\pip\_vendor\urllib3\packages\six.py:288: "_dummy_thread",
+bin\OpenRV\lib\site-packages\pip\_vendor\urllib3\packages\six.py:289: "dummy_thread",
+bin\OpenRV\lib\site-packages\pip\_vendor\urllib3\packages\six.py:290: "_dummy_thread" if sys.version_info < (3, 9) else "_thread",
+bin\OpenRV\lib\site-packages\pycparser\c_parser.py:1450: dummytype = c_ast.TypeDecl(None, None, None, None)
+bin\OpenRV\lib\site-packages\pycparser\c_parser.py:1452: decl=dummytype,
+bin\OpenRV\lib\site-packages\PySide2\examples\webchannel\standalone\ui_dialog.py:52: self.input.setPlaceholderText(QCoreApplication.translate("Dialog", u"Message Contents", None))
+bin\OpenRV\lib\site-packages\PySide2\examples\webenginewidgets\tabbedbrowser\findtoolbar.py:57: self._line_edit.setPlaceholderText("Find...")
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\easing\easing.py:118: dummy = QtCore.QEasingCurve()
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\easing\easing.py:119: m_ui.periodSpinBox.setValue(dummy.period())
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\easing\easing.py:120: m_ui.amplitudeSpinBox.setValue(dummy.amplitude())
+bin\OpenRV\lib\site-packages\PySide2\examples\widgets\animation\easing\easing.py:121: m_ui.overshootSpinBox.setValue(dummy.overshoot())
+bin\OpenRV\lib\site-packages\requests\cookies.py:20: import dummy_threading as threading
+bin\OpenRV\lib\site-packages\setuptools\command\editable_wheel.py:807: PATH_PLACEHOLDER = {name!r} + ".__path_hook__"
+bin\OpenRV\lib\site-packages\setuptools\command\editable_wheel.py:842: if path == PATH_PLACEHOLDER:
+bin\OpenRV\lib\site-packages\setuptools\command\editable_wheel.py:855: return [*paths, PATH_PLACEHOLDER]
+bin\OpenRV\lib\site-packages\setuptools\command\editable_wheel.py:880: if PATH_PLACEHOLDER not in sys.path:
+bin\OpenRV\lib\site-packages\setuptools\command\editable_wheel.py:881: sys.path.append(PATH_PLACEHOLDER)  # Used just to trigger the path hook
+bin\OpenRV\lib\site-packages\setuptools\config\pyprojecttoml.py:92: If not given a dummy object will be created and discarded after the
+bin\OpenRV\lib\site-packages\setuptools\config\pyprojecttoml.py:156: If not given a dummy object will be created and discarded after the
+bin\OpenRV\lib\site-packages\setuptools\_distutils\dist.py:1030: """Dummy class to hold the distribution meta-data: name, version,
+bin\OpenRV\lib\site-packages\setuptools\_distutils\fancy_getopt.py:226: 'object' is None or not supplied, creates a new OptionDummy
+bin\OpenRV\lib\site-packages\setuptools\_distutils\fancy_getopt.py:236: object = OptionDummy()
+bin\OpenRV\lib\site-packages\setuptools\_distutils\fancy_getopt.py:448: class OptionDummy:
+bin\OpenRV\lib\site-packages\setuptools\_distutils\fancy_getopt.py:449: """Dummy class just used as a place to hold command-line option
+bin\OpenRV\lib\site-packages\setuptools\_distutils\fancy_getopt.py:453: """Create a new OptionDummy instance.  The attributes listed in
+bin\OpenRV\lib\site-packages\urllib3\connection.py:912: class DummyConnection:
+bin\OpenRV\lib\site-packages\urllib3\connection.py:917: HTTPSConnection = DummyConnection  # type: ignore[misc, assignment] # noqa: F811
+bin\OpenRV\lib\site-packages\urllib3\connectionpool.py:19: DummyConnection,
+bin\OpenRV\lib\site-packages\urllib3\connectionpool.py:1062: if not self.ConnectionCls or self.ConnectionCls is DummyConnection:  # type: ignore[comparison-overlap]
+bin\OpenRV\lib\test\datetimetester.py:290: dummy = self.DT
+bin\OpenRV\lib\test\datetimetester.py:293: self.assertEqual(offset, timezone(offset).utcoffset(dummy))
+bin\OpenRV\lib\test\datetimetester.py:294: self.assertEqual(-offset, timezone(-offset).utcoffset(dummy))
+bin\OpenRV\lib\test\datetimetester.py:1323: for dummy in range(3):
+bin\OpenRV\lib\test\datetimetester.py:2601: for dummy in range(3):
+bin\OpenRV\lib\test\datetimetester.py:4378: for dummy in range(3):
+bin\OpenRV\lib\test\imp_dummy.py:3: dummy_name = True
+bin\OpenRV\lib\test\pickletester.py:60: for op, dummy, dummy in pickletools.genops(pickle):
+bin\OpenRV\lib\test\pickletester.py:68: for op, dummy, dummy in pickletools.genops(pickle):
+bin\OpenRV\lib\test\sortperf.py:99: for dummy in range(3):
+bin\OpenRV\lib\test\sortperf.py:107: L[-10:] = [random.random() for dummy in range(10)]
+bin\OpenRV\lib\test\sortperf.py:111: for dummy in range(n // 100):
+bin\OpenRV\lib\test\test_asyncore.py:29: class dummysocket:
+bin\OpenRV\lib\test\test_asyncore.py:39: class dummychannel:
+bin\OpenRV\lib\test\test_asyncore.py:41: self.socket = dummysocket()
+bin\OpenRV\lib\test\test_asyncore.py:46: class exitingdummy:
+bin\OpenRV\lib\test\test_asyncore.py:57: class crashingdummy:
+bin\OpenRV\lib\test\test_asyncore.py:113: tr1 = exitingdummy()
+bin\OpenRV\lib\test\test_asyncore.py:120: tr2 = crashingdummy()
+bin\OpenRV\lib\test\test_asyncore.py:124: tr2 = crashingdummy()
+bin\OpenRV\lib\test\test_asyncore.py:128: tr2 = crashingdummy()
+bin\OpenRV\lib\test\test_asyncore.py:187: tr1 = exitingdummy()
+bin\OpenRV\lib\test\test_asyncore.py:192: tr2 = crashingdummy()
+bin\OpenRV\lib\test\test_asyncore.py:209: c = dummychannel()
+bin\OpenRV\lib\test\test_bisect.py:310: "Dummy sequence class defining __len__ but not __getitem__."
+bin\OpenRV\lib\test\test_bisect.py:315: "Dummy sequence class defining __getitem__ but not __len__."
+bin\OpenRV\lib\test\test_bisect.py:320: "Dummy element that always raises an error during comparison"
+bin\OpenRV\lib\test\test_cmd_line.py:558: dummyvar="")
+bin\OpenRV\lib\test\test_codeccallbacks.py:903: self.assertRaises(TypeError, codecs.register_error, "test.dummy", 42)
+bin\OpenRV\lib\test\test_compile.py:586: compile("123\x00", "<dummy>", "eval")
+bin\OpenRV\lib\test\test_compile.py:588: compile(memoryview(b"123\x00"), "<dummy>", "eval")
+bin\OpenRV\lib\test\test_compile.py:589: code = compile(memoryview(b"123\x00")[1:-1], "<dummy>", "eval")
+bin\OpenRV\lib\test\test_compile.py:591: code = compile(memoryview(b"1234")[1:-1], "<dummy>", "eval")
+bin\OpenRV\lib\test\test_compile.py:593: code = compile(memoryview(b"$23$")[1:-1], "<dummy>", "eval")
+bin\OpenRV\lib\test\test_compile.py:742: compile("if a: b\n" * 200000, "<dummy>", "exec")
+bin\OpenRV\lib\test\test_concurrent_futures.py:105: def make_dummy_object(_):
+bin\OpenRV\lib\test\test_concurrent_futures.py:905: for obj in self.executor.map(make_dummy_object, range(10)):
+bin\OpenRV\lib\test\test_dbm_dumb.py:175: for dummy in range(5):
+bin\OpenRV\lib\test\test_dbm_dumb.py:177: for dummy in range(100):
+bin\OpenRV\lib\test\test_doctest.py:743: dummy_module = types.ModuleType("dummy")
+bin\OpenRV\lib\test\test_doctest.py:744: dummy_module.__dict__['inject_call'] = call
+bin\OpenRV\lib\test\test_doctest.py:746: support.run_doctest(dummy_module, verbosity=True)
+bin\OpenRV\lib\test\test_exceptions.py:97: for dummy in range(128):
+bin\OpenRV\lib\test\test_fractions.py:17: class DummyFloat(object):
+bin\OpenRV\lib\test\test_fractions.py:18: """Dummy float class for testing comparisons with Fractions"""
+bin\OpenRV\lib\test\test_fractions.py:22: raise TypeError("DummyFloat can only be initialized from float")
+bin\OpenRV\lib\test\test_fractions.py:28: elif isinstance(other, DummyFloat):
+bin\OpenRV\lib\test\test_fractions.py:49: class DummyRational(object):
+bin\OpenRV\lib\test\test_fractions.py:81: class DummyFraction(fractions.Fraction):
+bin\OpenRV\lib\test\test_fractions.py:82: """Dummy Fraction subclass for copy and deepcopy testing."""
+bin\OpenRV\lib\test\test_fractions.py:523: def testComparisonsDummyRational(self):
+bin\OpenRV\lib\test\test_fractions.py:524: self.assertTrue(F(1, 2) == DummyRational(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:525: self.assertTrue(DummyRational(1, 2) == F(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:526: self.assertFalse(F(1, 2) == DummyRational(3, 4))
+bin\OpenRV\lib\test\test_fractions.py:527: self.assertFalse(DummyRational(3, 4) == F(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:529: self.assertTrue(F(1, 2) < DummyRational(3, 4))
+bin\OpenRV\lib\test\test_fractions.py:530: self.assertFalse(F(1, 2) < DummyRational(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:531: self.assertFalse(F(1, 2) < DummyRational(1, 7))
+bin\OpenRV\lib\test\test_fractions.py:532: self.assertFalse(F(1, 2) > DummyRational(3, 4))
+bin\OpenRV\lib\test\test_fractions.py:533: self.assertFalse(F(1, 2) > DummyRational(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:534: self.assertTrue(F(1, 2) > DummyRational(1, 7))
+bin\OpenRV\lib\test\test_fractions.py:535: self.assertTrue(F(1, 2) <= DummyRational(3, 4))
+bin\OpenRV\lib\test\test_fractions.py:536: self.assertTrue(F(1, 2) <= DummyRational(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:537: self.assertFalse(F(1, 2) <= DummyRational(1, 7))
+bin\OpenRV\lib\test\test_fractions.py:538: self.assertFalse(F(1, 2) >= DummyRational(3, 4))
+bin\OpenRV\lib\test\test_fractions.py:539: self.assertTrue(F(1, 2) >= DummyRational(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:540: self.assertTrue(F(1, 2) >= DummyRational(1, 7))
+bin\OpenRV\lib\test\test_fractions.py:542: self.assertTrue(DummyRational(1, 2) < F(3, 4))
+bin\OpenRV\lib\test\test_fractions.py:543: self.assertFalse(DummyRational(1, 2) < F(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:544: self.assertFalse(DummyRational(1, 2) < F(1, 7))
+bin\OpenRV\lib\test\test_fractions.py:545: self.assertFalse(DummyRational(1, 2) > F(3, 4))
+bin\OpenRV\lib\test\test_fractions.py:546: self.assertFalse(DummyRational(1, 2) > F(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:547: self.assertTrue(DummyRational(1, 2) > F(1, 7))
+bin\OpenRV\lib\test\test_fractions.py:548: self.assertTrue(DummyRational(1, 2) <= F(3, 4))
+bin\OpenRV\lib\test\test_fractions.py:549: self.assertTrue(DummyRational(1, 2) <= F(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:550: self.assertFalse(DummyRational(1, 2) <= F(1, 7))
+bin\OpenRV\lib\test\test_fractions.py:551: self.assertFalse(DummyRational(1, 2) >= F(3, 4))
+bin\OpenRV\lib\test\test_fractions.py:552: self.assertTrue(DummyRational(1, 2) >= F(1, 2))
+bin\OpenRV\lib\test\test_fractions.py:553: self.assertTrue(DummyRational(1, 2) >= F(1, 7))
+bin\OpenRV\lib\test\test_fractions.py:555: def testComparisonsDummyFloat(self):
+bin\OpenRV\lib\test\test_fractions.py:556: x = DummyFloat(1./3.)
+bin\OpenRV\lib\test\test_fractions.py:693: dr = DummyFraction(13, 7)
+bin\OpenRV\lib\test\test_ftplib.py:66: class DummyDTPHandler(asynchat.async_chat):
+bin\OpenRV\lib\test\test_ftplib.py:94: super(DummyDTPHandler, self).push(what.encode(self.encoding))
+bin\OpenRV\lib\test\test_ftplib.py:100: class DummyFTPHandler(asynchat.async_chat):
+bin\OpenRV\lib\test\test_ftplib.py:102: dtp_handler = DummyDTPHandler
+bin\OpenRV\lib\test\test_ftplib.py:277: class DummyFTPServer(asyncore.dispatcher, threading.Thread):
+bin\OpenRV\lib\test\test_ftplib.py:279: handler = DummyFTPHandler
+bin\OpenRV\lib\test\test_ftplib.py:438: class DummyTLS_DTPHandler(SSLConnection, DummyDTPHandler):
+bin\OpenRV\lib\test\test_ftplib.py:439: """A DummyDTPHandler subclass supporting TLS/SSL."""
+bin\OpenRV\lib\test\test_ftplib.py:442: DummyDTPHandler.__init__(self, conn, baseclass)
+bin\OpenRV\lib\test\test_ftplib.py:447: class DummyTLS_FTPHandler(SSLConnection, DummyFTPHandler):
+bin\OpenRV\lib\test\test_ftplib.py:448: """A DummyFTPHandler subclass supporting TLS/SSL."""
+bin\OpenRV\lib\test\test_ftplib.py:450: dtp_handler = DummyTLS_DTPHandler
+bin\OpenRV\lib\test\test_ftplib.py:453: DummyFTPHandler.__init__(self, conn, encoding=encoding)
+bin\OpenRV\lib\test\test_ftplib.py:487: class DummyTLS_FTPServer(DummyFTPServer):
+bin\OpenRV\lib\test\test_ftplib.py:488: handler = DummyTLS_FTPHandler
+bin\OpenRV\lib\test\test_ftplib.py:494: self.server = DummyFTPServer((HOST, 0), encoding=encoding)
+bin\OpenRV\lib\test\test_ftplib.py:864: self.server = DummyFTPServer((HOSTv6, 0),
+bin\OpenRV\lib\test\test_ftplib.py:913: self.server = DummyTLS_FTPServer((HOST, 0), encoding=encoding)
+bin\OpenRV\lib\test\test_ftplib.py:927: self.server = DummyTLS_FTPServer((HOST, 0), encoding=encoding)
+bin\OpenRV\lib\test\test_gettext.py:780: class DummyGNUTranslations(gettext.GNUTranslations):
+bin\OpenRV\lib\test\test_gettext.py:797: class_=DummyGNUTranslations)
+bin\OpenRV\lib\test\test_gettext.py:800: self.assertEqual(t.__class__, DummyGNUTranslations)
+bin\OpenRV\lib\test\test_gettext.py:805: class_=DummyGNUTranslations)
+bin\OpenRV\lib\test\test_gettext.py:808: self.assertEqual(t.__class__, DummyGNUTranslations)
+bin\OpenRV\lib\test\test_gettext.py:813: class_=DummyGNUTranslations,
+bin\OpenRV\lib\test\test_gettext.py:816: self.assertEqual(t.__class__, DummyGNUTranslations)
+bin\OpenRV\lib\test\test_heapq.py:87: heap = [random.random() for dummy in range(size)]
+bin\OpenRV\lib\test\test_heapq.py:280: "Dummy sequence class defining __len__ but not __getitem__."
+bin\OpenRV\lib\test\test_heapq.py:285: "Dummy element that always raises an error during comparison"
+bin\OpenRV\lib\test\test_httplib.py:47: trailers = "X-Dummy: foo\r\nX-Dumm2: bar\r\n"
+bin\OpenRV\lib\test\test_httplib.py:1214: conn.request("CONNECT", "dummy:1234")
+bin\OpenRV\lib\test\test_httplib.py:1630: 'Dummy body\r\n'
+bin\OpenRV\lib\test\test_httplib.py:2094: expected_header = 'X-Dummy: 1'
+bin\OpenRV\lib\test\test_httpservers.py:503: data = b"Dummy index file\r\n"
+bin\OpenRV\lib\test\test_httpservers.py:1052: b'Host: dummy\r\n'
+bin\OpenRV\lib\test\test_imp.py:281: name = 'test.imp_dummy'
+bin\OpenRV\lib\test\test_imp.py:293: self.assertRaises(AttributeError, getattr, module, 'dummy_name')
+bin\OpenRV\lib\test\test_inspect.py:582: name = '__inspect_dummy'
+bin\OpenRV\lib\test\test_inspect.py:585: m.__loader__ = "dummy"  # pretend the filename is understood by a loader
+bin\OpenRV\lib\test\test_io.py:1134: raw.name = "dummy"
+bin\OpenRV\lib\test\test_io.py:1135: self.assertRegex(repr(b), "<%s name='dummy'>" % clsname)
+bin\OpenRV\lib\test\test_io.py:1136: raw.name = b"dummy"
+bin\OpenRV\lib\test\test_io.py:1137: self.assertRegex(repr(b), "<%s name=b'dummy'>" % clsname)
+bin\OpenRV\lib\test\test_io.py:2655: raw.name = "dummy"
+bin\OpenRV\lib\test\test_io.py:2657: r"<(%s\.)?TextIOWrapper name='dummy' encoding='utf-8'>" % modname)
+bin\OpenRV\lib\test\test_io.py:2660: r"<(%s\.)?TextIOWrapper name='dummy' mode='r' encoding='utf-8'>" % modname)
+bin\OpenRV\lib\test\test_io.py:2661: raw.name = b"dummy"
+bin\OpenRV\lib\test\test_io.py:2663: r"<(%s\.)?TextIOWrapper name=b'dummy' mode='r' encoding='utf-8'>" % modname)
+bin\OpenRV\lib\test\test_io.py:3505: def _get_bad_decoder(dummy):
+bin\OpenRV\lib\test\test_ipaddress.py:2409: dummy = {}
+bin\OpenRV\lib\test\test_ipaddress.py:2410: dummy[self.ipv4_address] = None
+bin\OpenRV\lib\test\test_ipaddress.py:2411: dummy[self.ipv6_address] = None
+bin\OpenRV\lib\test\test_ipaddress.py:2412: dummy[ip1] = None
+bin\OpenRV\lib\test\test_ipaddress.py:2413: dummy[ip2] = None
+bin\OpenRV\lib\test\test_ipaddress.py:2414: self.assertIn(self.ipv4_address, dummy)
+bin\OpenRV\lib\test\test_ipaddress.py:2415: self.assertIn(ip2, dummy)
+bin\OpenRV\lib\test\test_itertools.py:846: class DummyCmp:
+bin\OpenRV\lib\test\test_itertools.py:849: s = [DummyCmp(), DummyCmp(), None]
+bin\OpenRV\lib\test\test_linecache.py:171: linecache.checkcache('dummy')
+bin\OpenRV\lib\test\test_logging.py:2177: warnings.showwarning("Explicit", UserWarning, "dummy.py", 42,
+bin\OpenRV\lib\test\test_logging.py:2178: a_file, "Dummy line")
+bin\OpenRV\lib\test\test_logging.py:2182: "dummy.py:42: UserWarning: Explicit\n  Dummy line\n")
+bin\OpenRV\lib\test\test_logging.py:2193: warnings.showwarning("Explicit", UserWarning, "dummy.py", 42)
+bin\OpenRV\lib\test\test_logging.py:3783: 'pathname': os.path.join('path', 'to', 'dummy.ext'),
+bin\OpenRV\lib\test\test_logging.py:3788: 'args': (2, 'placeholders'),
+bin\OpenRV\lib\test\test_logging.py:3806: self.assertEqual(f.format(r), '${Message with 2 placeholders}')
+bin\OpenRV\lib\test\test_logging.py:3821: self.assertEqual(f.format(r), '$%Message with 2 placeholders%$')
+bin\OpenRV\lib\test\test_logging.py:3837: self.assertEqual(f.format(r), 'Message with 2 placeholders')
+bin\OpenRV\lib\test\test_logging.py:3839: self.assertEqual(f.format(r), 'Message with 2 placeholders')
+bin\OpenRV\lib\test\test_logging.py:3841: self.assertEqual(f.format(r), '$%Message with 2 placeholders%$')
+bin\OpenRV\lib\test\test_logging.py:4010: self.assertEqual(f.format(r), 'Default Message with 2 placeholders')
+bin\OpenRV\lib\test\test_logging.py:4012: self.assertEqual(f.format(r), '1234 Message with 2 placeholders')
+bin\OpenRV\lib\test\test_logging.py:4022: self.assertEqual(f.format(r), '1234 Message with 2 placeholders')
+bin\OpenRV\lib\test\test_logging.py:4802: def dummy_handle_error(record):
+bin\OpenRV\lib\test\test_logging.py:4806: handler.handleError = dummy_handle_error
+bin\OpenRV\lib\test\test_logging.py:5599: 'Filterer', 'PlaceHolder', 'Manager', 'RootLogger', 'root',
+bin\OpenRV\lib\test\test_mailbox.py:845: def dummy_factory (s):
+bin\OpenRV\lib\test\test_mailbox.py:847: box = self._factory(self._path, factory=dummy_factory)
+bin\OpenRV\lib\test\test_mailbox.py:849: self.assertIs(folder._factory, dummy_factory)
+bin\OpenRV\lib\test\test_mailbox.py:852: self.assertIs(folder1_alias._factory, dummy_factory)
+bin\OpenRV\lib\test\test_mailbox.py:1186: def dummy_factory (s):
+bin\OpenRV\lib\test\test_mailbox.py:1188: self._box = self._factory(self._path, dummy_factory)
+bin\OpenRV\lib\test\test_mailbox.py:2122: FROM_ = "From some.body@dummy.domain  Sat Jul 24 13:43:35 2004\n"
+bin\OpenRV\lib\test\test_mailbox.py:2123: DUMMY_MESSAGE = """\
+bin\OpenRV\lib\test\test_mailbox.py:2124: From: some.body@dummy.domain
+bin\OpenRV\lib\test\test_mailbox.py:2128: This is a dummy message.
+bin\OpenRV\lib\test\test_mailbox.py:2165: fp.write(DUMMY_MESSAGE)
+bin\OpenRV\lib\test\test_mailbox.py:2170: fp.write(DUMMY_MESSAGE)
+bin\OpenRV\lib\test\test_nntplib.py:1527: self.nntp_class('dummy', user=login, password=password)
+bin\OpenRV\lib\test\test_numeric_tower.py:18: class DummyIntegral(int):
+bin\OpenRV\lib\test\test_numeric_tower.py:19: """Dummy Integral class to test conversion of the Rational to float."""
+bin\OpenRV\lib\test\test_numeric_tower.py:22: return DummyIntegral(super().__mul__(other))
+bin\OpenRV\lib\test\test_numeric_tower.py:31: return DummyIntegral(self)
+bin\OpenRV\lib\test\test_numeric_tower.py:35: return DummyIntegral(1)
+bin\OpenRV\lib\test\test_numeric_tower.py:148: x = F(DummyIntegral(1), DummyIntegral(2), _normalize=False)
+bin\OpenRV\lib\test\test_optparse.py:284: def dummy(self):
+bin\OpenRV\lib\test\test_optparse.py:292: 'callback': self.dummy,
+bin\OpenRV\lib\test\test_optparse.py:300: 'callback': self.dummy,
+bin\OpenRV\lib\test\test_osx_env.py:15: def _check_sys(self, ev, cond, sv, val = sys.executable + 'dummy'):
+bin\OpenRV\lib\test\test_pdb.py:2112: dummy_mod = compile(src, "<frozen gh93696>", "exec")
+bin\OpenRV\lib\test\test_pdb.py:2113: func_code = dummy_mod.co_consts[0]
+bin\OpenRV\lib\test\test_pkgutil.py:311: self.assertEqual(pkgutil.get_data('foo', 'dummy'), "Hello, world!")
+bin\OpenRV\lib\test\test_pkgutil.py:320: self.assertEqual(pkgutil.get_data('foo', 'dummy'), "Hello, world!")
+bin\OpenRV\lib\test\test_poplib.py:43: Subject: Dummy\r\n\
+bin\OpenRV\lib\test\test_poplib.py:51: class DummyPOP3Handler(asynchat.async_chat):
+bin\OpenRV\lib\test\test_poplib.py:60: self.push('+OK dummy pop3 server ready. <timestamp>')
+bin\OpenRV\lib\test\test_poplib.py:208: class DummyPOP3Server(asyncore.dispatcher, threading.Thread):
+bin\OpenRV\lib\test\test_poplib.py:210: handler = DummyPOP3Handler
+bin\OpenRV\lib\test\test_poplib.py:264: self.server = DummyPOP3Server((HOST, PORT))
+bin\OpenRV\lib\test\test_poplib.py:277: b'+OK dummy pop3 server ready. <timestamp>')
+bin\OpenRV\lib\test\test_poplib.py:302: b'MIME-Version: 1.0', b'Subject: Dummy',
+bin\OpenRV\lib\test\test_poplib.py:323: self.assertOK(self.client.apop('foo', 'dummypassword'))
+bin\OpenRV\lib\test\test_poplib.py:339: b'MIME-Version: 1.0', b'Subject: Dummy', b'',
+bin\OpenRV\lib\test\test_poplib.py:397: class DummyPOP3_SSLHandler(SSLConnection, DummyPOP3Handler):
+bin\OpenRV\lib\test\test_poplib.py:404: self.push('+OK dummy pop3 server ready. <timestamp>')
+bin\OpenRV\lib\test\test_poplib.py:414: self.server = DummyPOP3Server((HOST, PORT))
+bin\OpenRV\lib\test\test_poplib.py:415: self.server.handler = DummyPOP3_SSLHandler
+bin\OpenRV\lib\test\test_poplib.py:456: self.server = DummyPOP3Server((HOST, PORT))
+bin\OpenRV\lib\test\test_posix.py:26: _DUMMY_SYMLINK = os.path.join(tempfile.gettempdir(),
+bin\OpenRV\lib\test\test_posix.py:27: os_helper.TESTFN + '-dummy-symlink')
+bin\OpenRV\lib\test\test_posix.py:806: os.symlink(_DUMMY_SYMLINK, os_helper.TESTFN)
+bin\OpenRV\lib\test\test_posix.py:962: os.symlink(os_helper.TESTFN, _DUMMY_SYMLINK)
+bin\OpenRV\lib\test\test_posix.py:963: self.teardown_files.append(_DUMMY_SYMLINK)
+bin\OpenRV\lib\test\test_posix.py:964: dummy_symlink_st = os.lstat(_DUMMY_SYMLINK)
+bin\OpenRV\lib\test\test_posix.py:971: flags = dummy_symlink_st.st_flags | stat.UF_IMMUTABLE
+bin\OpenRV\lib\test\test_posix.py:973: fn(_DUMMY_SYMLINK, flags)
+bin\OpenRV\lib\test\test_posix.py:981: new_dummy_symlink_st = os.lstat(_DUMMY_SYMLINK)
+bin\OpenRV\lib\test\test_posix.py:984: self.assertEqual(dummy_symlink_st.st_flags | stat.UF_IMMUTABLE,
+bin\OpenRV\lib\test\test_posix.py:985: new_dummy_symlink_st.st_flags)
+bin\OpenRV\lib\test\test_posix.py:987: fn(_DUMMY_SYMLINK, dummy_symlink_st.st_flags)
+bin\OpenRV\lib\test\test_readline.py:133: readline.add_history("dummy")
+bin\OpenRV\lib\test\test_readline.py:307: def run_pty(script, input=b"dummy input\r", env=None):
+bin\OpenRV\lib\test\test_runpy.py:737: with temp_dir() as script_dir, temp_dir() as dummy_dir:
+bin\OpenRV\lib\test\test_runpy.py:740: "runpy.run_path(%r)\n") % dummy_dir
+bin\OpenRV\lib\test\test_sax.py:1293: self.DummyLocator(1, 1)))
+bin\OpenRV\lib\test\test_sax.py:1296: self.DummyLocator(None, 1)))
+bin\OpenRV\lib\test\test_sax.py:1299: self.DummyLocator(1, None)))
+bin\OpenRV\lib\test\test_sax.py:1302: self.DummyLocator(None, None)))
+bin\OpenRV\lib\test\test_sax.py:1304: class DummyLocator:
+bin\OpenRV\lib\test\test_smtpd.py:16: class DummyServer(smtpd.SMTPServer):
+bin\OpenRV\lib\test\test_smtpd.py:33: class DummyDispatcherBroken(Exception):
+bin\OpenRV\lib\test\test_smtpd.py:37: class BrokenDummyServer(DummyServer):
+bin\OpenRV\lib\test\test_smtpd.py:39: raise DummyDispatcherBroken()
+bin\OpenRV\lib\test\test_smtpd.py:206: server = DummyServer((socket_helper.HOST, 0), ('b', 0))
+bin\OpenRV\lib\test\test_smtpd.py:215: server = DummyServer((socket_helper.HOST, 0), ('b', 0))
+bin\OpenRV\lib\test\test_smtpd.py:243: server = DummyServer((socket_helper.HOST, 0), ('b', 0), decode_data=True)
+bin\OpenRV\lib\test\test_smtpd.py:259: server = DummyServer((socket_helper.HOST, 0), ('b', 0))
+bin\OpenRV\lib\test\test_smtpd.py:280: server = DummyServer((socket_helper.HOST, 0), ('b', 0), enable_SMTPUTF8=True)
+bin\OpenRV\lib\test\test_smtpd.py:295: self.server = DummyServer((socket_helper.HOST, 0), ('b', 0),
+bin\OpenRV\lib\test\test_smtpd.py:312: DummyDispatcherBroken, BrokenDummyServer,
+bin\OpenRV\lib\test\test_smtpd.py:773: self.server = DummyServer((socket_helper.HOSTv6, 0), ('b', 0),
+bin\OpenRV\lib\test\test_smtpd.py:785: self.server = DummyServer((socket_helper.HOST, 0), ('b', 0),
+bin\OpenRV\lib\test\test_smtpd.py:840: self.server = DummyServer((socket_helper.HOST, 0), ('b', 0))
+bin\OpenRV\lib\test\test_smtpd.py:882: self.server = DummyServer((socket_helper.HOST, 0), ('b', 0),
+bin\OpenRV\lib\test\test_smtpd.py:925: self.server = DummyServer((socket_helper.HOST, 0), ('b', 0),
+bin\OpenRV\lib\test\test_ssl.py:1593: def dummycallback(sock, servername, ctx):
+bin\OpenRV\lib\test\test_ssl.py:1596: ctx.set_servername_callback(dummycallback)
+bin\OpenRV\lib\test\test_ssl.py:1602: def dummycallback(sock, servername, ctx, cycle=ctx):
+bin\OpenRV\lib\test\test_ssl.py:1604: ctx.set_servername_callback(dummycallback)
+bin\OpenRV\lib\test\test_ssl.py:1606: del ctx, dummycallback
+bin\OpenRV\lib\test\test_ssl.py:2092: server_hostname="dummy") as s:
+bin\OpenRV\lib\test\test_string.py:275: def test_invalid_placeholders(self):
+bin\OpenRV\lib\test\test_telnetlib.py:169: telnet = cls('dummy', 0)
+bin\OpenRV\lib\test\test_telnetlib.py:381: telnet = TelnetAlike('dummy', '0')
+bin\OpenRV\lib\test\test_textwrap.py:530: def test_placeholder(self):
+bin\OpenRV\lib\test\test_textwrap.py:534: placeholder='...')
+bin\OpenRV\lib\test\test_textwrap.py:539: placeholder='...')
+bin\OpenRV\lib\test\test_textwrap.py:543: max_lines=1, placeholder=' [truncated]...')
+bin\OpenRV\lib\test\test_textwrap.py:546: max_lines=2, placeholder=' [truncated]...')
+bin\OpenRV\lib\test\test_textwrap.py:553: placeholder=' [truncated]...')
+bin\OpenRV\lib\test\test_textwrap.py:559: placeholder=' [truncated]...')
+bin\OpenRV\lib\test\test_textwrap.py:560: self.check_wrap(self.text, 80, [self.text], placeholder='.' * 1000)
+bin\OpenRV\lib\test\test_textwrap.py:562: def test_placeholder_backtrack(self):
+bin\OpenRV\lib\test\test_textwrap.py:571: placeholder='*****')
+bin\OpenRV\lib\test\test_textwrap.py:1038: def test_placeholder(self):
+bin\OpenRV\lib\test\test_textwrap.py:1041: self.check_shorten(text, 17, "Hello there,$$", placeholder='$$')
+bin\OpenRV\lib\test\test_textwrap.py:1042: self.check_shorten(text, 18, "Hello there, how$$", placeholder='$$')
+bin\OpenRV\lib\test\test_textwrap.py:1043: self.check_shorten(text, 18, "Hello there, $$", placeholder=' $$')
+bin\OpenRV\lib\test\test_textwrap.py:1044: self.check_shorten(text, len(text), text, placeholder='$$')
+bin\OpenRV\lib\test\test_textwrap.py:1047: "I'm glad to hear$$", placeholder='$$')
+bin\OpenRV\lib\test\test_textwrap.py:1070: def test_width_too_small_for_placeholder(self):
+bin\OpenRV\lib\test\test_textwrap.py:1071: shorten("x" * 20, width=8, placeholder="(......)")
+bin\OpenRV\lib\test\test_textwrap.py:1073: shorten("x" * 20, width=8, placeholder="(.......)")
+bin\OpenRV\lib\test\test_textwrap.py:1075: def test_first_word_too_long_but_placeholder_fits(self):
+bin\OpenRV\lib\test\test_threading.py:224: self.assertIsInstance(threading._active[tid], threading._DummyThread)
+bin\OpenRV\lib\test\test_threading.py:227: self.assertRegex(repr(threading._active[tid]), '_DummyThread')
+bin\OpenRV\lib\test\test_threading.py:537: def test_dummy_thread_after_fork(self):
+bin\OpenRV\lib\test\test_traceback.py:1028: f = traceback.FrameSummary("f", 1, "dummy")
+bin\OpenRV\lib\test\test_traceback.py:1030: ("f", 1, "dummy", '"""Test cases for traceback module"""'))
+bin\OpenRV\lib\test\test_traceback.py:1032: ("f", 1, "dummy", '"""Test cases for traceback module"""'))
+bin\OpenRV\lib\test\test_traceback.py:1033: self.assertEqual(f, traceback.FrameSummary("f", 1, "dummy"))
+bin\OpenRV\lib\test\test_traceback.py:1044: f = traceback.FrameSummary("f", 1, "dummy", lookup_line=False)
+bin\OpenRV\lib\test\test_traceback.py:1052: f = traceback.FrameSummary("f", None, "dummy")
+bin\OpenRV\lib\test\test_traceback.py:1056: f = traceback.FrameSummary("f", 1, "dummy", line="line")
+bin\OpenRV\lib\test\test_traceback.py:1060: f = traceback.FrameSummary("f", 1, "dummy", line="line")
+bin\OpenRV\lib\test\test_urllib.py:1576: class DummyURLopener(urllib.request.URLopener):
+bin\OpenRV\lib\test\test_urllib.py:1580: ('DummyURLopener style of invoking requests is deprecated.',
+bin\OpenRV\lib\test\test_urllib.py:1582: self.assertEqual(DummyURLopener().open(
+bin\OpenRV\lib\test\test_urllib.py:1586: self.assertEqual(DummyURLopener().open(
+bin\OpenRV\lib\test\test_urllib.py:1611: class DummyURLopener(urllib.request.URLopener):
+bin\OpenRV\lib\test\test_urllib.py:1618: self.assertRaises(OSError, DummyURLopener().open, url)
+bin\OpenRV\lib\test\test_urllib.py:1619: self.assertRaises(OSError, DummyURLopener().retrieve, url)
+bin\OpenRV\lib\test\test_urllib2.py:1740: req = Request("http://dummy/")
+bin\OpenRV\lib\test\test_urllib2.py:1751: req = Request("http://dummy/")
+bin\OpenRV\lib\test\test_utf8source.py:34: code = compile(source_code, '<dummy>', 'exec')
+bin\OpenRV\lib\test\test_weakref.py:1857: class DummyKey:
+bin\OpenRV\lib\test\test_weakref.py:1861: class DummyValue:
+bin\OpenRV\lib\test\test_weakref.py:1890: k, v = DummyKey(i), DummyValue(i)
+bin\OpenRV\lib\test\test_with.py:678: class Dummy(object):
+bin\OpenRV\lib\test\test_with.py:709: with self.Dummy() as a, self.Dummy() as b:
+bin\OpenRV\lib\test\test_with.py:717: with self.Dummy() as a, self.InitRaises():
+bin\OpenRV\lib\test\test_with.py:726: with self.Dummy() as a, self.EnterRaises():
+bin\OpenRV\lib\test\test_with.py:737: with self.Dummy(gobble=True) as a, self.ExitRaises():
+bin\OpenRV\lib\test\test_with.py:745: with self.Dummy(value=(1,2)) as (a1, a2), \
+bin\OpenRV\lib\test\test_with.py:746: self.Dummy(value=(10, 20)) as (b1, b2):
+bin\OpenRV\lib\test\test_xmlrpc.py:107: ((new_d,), dummy) = xmlrpclib.loads(xmlrpclib.dumps((d,),
+bin\OpenRV\lib\test\test_xmlrpc.py:121: ((t2,), dummy) = xmlrpclib.loads(xmlrpclib.dumps((t,)))
+bin\OpenRV\lib\test\test_xmlrpc.py:153: def dummy_write(s):
+bin\OpenRV\lib\test\test_xmlrpc.py:157: m.dump_int(xmlrpclib.MAXINT, dummy_write)
+bin\OpenRV\lib\test\test_xmlrpc.py:158: m.dump_int(xmlrpclib.MININT, dummy_write)
+bin\OpenRV\lib\test\test_xmlrpc.py:160: xmlrpclib.MAXINT+1, dummy_write)
+bin\OpenRV\lib\test\test_xmlrpc.py:162: xmlrpclib.MININT-1, dummy_write)
+bin\OpenRV\lib\test\test_xmlrpc.py:171: def dummy_write(s):
+bin\OpenRV\lib\test\test_xmlrpc.py:175: m.dump_double(xmlrpclib.MAXINT, dummy_write)
+bin\OpenRV\lib\test\test_xmlrpc.py:176: m.dump_double(xmlrpclib.MININT, dummy_write)
+bin\OpenRV\lib\test\test_xmlrpc.py:177: m.dump_double(xmlrpclib.MAXINT + 42, dummy_write)
+bin\OpenRV\lib\test\test_xmlrpc.py:178: m.dump_double(xmlrpclib.MININT - 42, dummy_write)
+bin\OpenRV\lib\test\test_xml_etree.py:1600: class DummyIter:
+bin\OpenRV\lib\test\test_xml_etree.py:1608: parser = ET.XMLPullParser(events=DummyIter())
+bin\OpenRV\lib\test\test_xml_etree.py:2428: class Dummy:
+bin\OpenRV\lib\test\test_xml_etree.py:2432: d = Dummy()
+bin\OpenRV\lib\test\test_xml_etree.py:2433: d.dummyref = ET.Element('joe', attr=d)
+bin\OpenRV\lib\test\test_xml_etree.py:2441: d = Dummy()
+bin\OpenRV\lib\test\test_xml_etree.py:2442: d.dummyref = e
+bin\OpenRV\lib\test\test_xml_etree.py:3154: def test_dummy_builder(self):
+bin\OpenRV\lib\test\test_xml_etree.py:3155: class BaseDummyBuilder:
+bin\OpenRV\lib\test\test_xml_etree.py:3159: class DummyBuilder(BaseDummyBuilder):
+bin\OpenRV\lib\test\test_xml_etree.py:3162: parser = ET.XMLParser(target=DummyBuilder())
+bin\OpenRV\lib\test\test_xml_etree.py:3166: parser = ET.XMLParser(target=BaseDummyBuilder())
+bin\OpenRV\lib\test\test_xml_etree.py:3816: class dummy:
+bin\OpenRV\lib\test\test_xml_etree.py:3821: reader = self.dummy()
+bin\OpenRV\lib\test\test_xml_etree.py:3830: writer = self.dummy()
+bin\OpenRV\lib\test\test_xml_etree.py:3837: reader = self.dummy()
+bin\OpenRV\lib\test\test_xml_etree.py:3847: writer = self.dummy()
+bin\OpenRV\lib\test\test_xml_etree.py:3855: writer = self.dummy()
+bin\OpenRV\lib\test\test_zipapp.py:79: def skip_dummy_dir(path):
+bin\OpenRV\lib\test\test_zipapp.py:80: return path.parts[0] != 'dummy'
+bin\OpenRV\lib\test\test_zipapp.py:85: (source / 'dummy').mkdir()
+bin\OpenRV\lib\test\test_zipapp.py:86: (source / 'dummy' / 'test2.py').touch()
+bin\OpenRV\lib\test\test_zipapp.py:89: zipapp.create_archive(source, target, filter=skip_dummy_dir)
+bin\OpenRV\lib\test\test_zipapp.py:394: target = self.tmpdir / 'dummy.pyz'
+bin\OpenRV\lib\test\_test_multiprocessing.py:45: import multiprocessing.dummy
+bin\OpenRV\lib\test\_test_multiprocessing.py:233: class DummyCallable:
+bin\OpenRV\lib\test\_test_multiprocessing.py:235: assert isinstance(c, DummyCallable)
+bin\OpenRV\lib\test\_test_multiprocessing.py:614: c = DummyCallable()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1664: class _DummyList(object):
+bin\OpenRV\lib\test\_test_multiprocessing.py:1705: self.started = namespace.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1706: self.finished = namespace.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1770: def DummyList(self):
+bin\OpenRV\lib\test\_test_multiprocessing.py:1776: return _DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1807: results = [self.DummyList(), self.DummyList()]
+bin\OpenRV\lib\test\_test_multiprocessing.py:1841: results = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1863: results1 = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1864: results2 = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1893: results1 = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1894: results2 = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1895: results3 = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1928: results1 = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1929: results2 = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1930: results3 = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1954: results = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:1974: results = self.DummyList()
+bin\OpenRV\lib\test\_test_multiprocessing.py:3208: def _writefd(cls, conn, data, create_dummy_fds=False):
+bin\OpenRV\lib\test\_test_multiprocessing.py:3209: if create_dummy_fds:
+bin\OpenRV\lib\test\_test_multiprocessing.py:5868: Process = multiprocessing.dummy.Process
+bin\OpenRV\lib\test\_test_multiprocessing.py:5869: connection = multiprocessing.dummy.connection
+bin\OpenRV\lib\test\_test_multiprocessing.py:5870: current_process = staticmethod(multiprocessing.dummy.current_process)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5871: active_children = staticmethod(multiprocessing.dummy.active_children)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5872: Pool = staticmethod(multiprocessing.dummy.Pool)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5873: Pipe = staticmethod(multiprocessing.dummy.Pipe)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5874: Queue = staticmethod(multiprocessing.dummy.Queue)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5875: JoinableQueue = staticmethod(multiprocessing.dummy.JoinableQueue)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5876: Lock = staticmethod(multiprocessing.dummy.Lock)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5877: RLock = staticmethod(multiprocessing.dummy.RLock)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5878: Semaphore = staticmethod(multiprocessing.dummy.Semaphore)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5879: BoundedSemaphore = staticmethod(multiprocessing.dummy.BoundedSemaphore)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5880: Condition = staticmethod(multiprocessing.dummy.Condition)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5881: Event = staticmethod(multiprocessing.dummy.Event)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5882: Barrier = staticmethod(multiprocessing.dummy.Barrier)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5883: Value = staticmethod(multiprocessing.dummy.Value)
+bin\OpenRV\lib\test\_test_multiprocessing.py:5884: Array = staticmethod(multiprocessing.dummy.Array)
+bin\OpenRV\lib\test\dtracedata\call_stack.py:9: def function_3(dummy, dummy2):
+bin\OpenRV\lib\test\dtracedata\call_stack.py:13: def function_4(**dummy):
+bin\OpenRV\lib\test\dtracedata\call_stack.py:18: def function_5(dummy, dummy2, **dummy3):
+bin\OpenRV\lib\test\support\__init__.py:862: test doesn't support dummy runs when -M is not specified.
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:215: class DummyExecutor(concurrent.futures.ThreadPoolExecutor):
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:218: 'cannot submit into a dummy executor')
+bin\OpenRV\lib\test\test_asyncio\test_base_events.py:223: executor = DummyExecutor()
+bin\OpenRV\lib\test\test_asyncio\test_events.py:600: conn_fut = create_connection(ssl=test_utils.dummy_ssl_context())
+bin\OpenRV\lib\test\test_asyncio\test_events.py:606: def _dummy_ssl_create_context(purpose=ssl.Purpose.SERVER_AUTH, *,
+bin\OpenRV\lib\test\test_asyncio\test_events.py:614: return test_utils.dummy_ssl_context()
+bin\OpenRV\lib\test\test_asyncio\test_events.py:618: side_effect=_dummy_ssl_create_context) as m:
+bin\OpenRV\lib\test\test_asyncio\test_events.py:977: ssl=test_utils.dummy_ssl_context())
+bin\OpenRV\lib\test\test_asyncio\test_events.py:1010: MyBaseProto, path, ssl=test_utils.dummy_ssl_context(),
+bin\OpenRV\lib\test\test_asyncio\test_sslproto.py:35: sslcontext = test_utils.dummy_ssl_context()
+bin\OpenRV\lib\test\test_asyncio\test_sslproto.py:59: sslcontext = test_utils.dummy_ssl_context()
+bin\OpenRV\lib\test\test_asyncio\test_sslproto.py:67: sslcontext = test_utils.dummy_ssl_context()
+bin\OpenRV\lib\test\test_asyncio\test_streams.py:88: ssl=test_utils.dummy_ssl_context())
+bin\OpenRV\lib\test\test_asyncio\test_streams.py:98: ssl=test_utils.dummy_ssl_context(),
+bin\OpenRV\lib\test\test_asyncio\test_tasks.py:78: class Dummy:
+bin\OpenRV\lib\test\test_asyncio\test_tasks.py:81: return '<Dummy>'
+bin\OpenRV\lib\test\test_asyncio\test_tasks.py:390: t.add_done_callback(Dummy())
+bin\OpenRV\lib\test\test_asyncio\test_tasks.py:395: "<Task pending name='TestTask' %s cb=[<Dummy>()]>" % coro)
+bin\OpenRV\lib\test\test_asyncio\test_tasks.py:400: "<Task cancelling name='TestTask' %s cb=[<Dummy>()]>" % coro)
+bin\OpenRV\lib\test\test_asyncio\test_tasks.py:492: t.add_done_callback(Dummy())
+bin\OpenRV\lib\test\test_asyncio\test_tasks.py:504: "<Task pending name='TestTask' %s cb=[<Dummy>()]>" % coro)
+bin\OpenRV\lib\test\test_asyncio\utils.py:90: def dummy_ssl_context():
+bin\OpenRV\lib\test\test_email\test_email.py:764: msg['Dummy'] = Header('dummy\nX-Injected-Header: test')
+bin\OpenRV\lib\test\test_email\test_email.py:769: msg['Dummy'] = 'dummy\nX-Injected-Header: test'
+bin\OpenRV\lib\test\test_email\test_headerregistry.py:1298: source = ('dummy list:;, another: (empty);,' +
+bin\OpenRV\lib\test\test_email\test_headerregistry.py:1306: expected = ('dummy list:;, another:;, ' +
+bin\OpenRV\lib\test\test_email\test_headerregistry.py:1317: self.assertEqual(h.groups[0].display_name, 'dummy list')
+bin\OpenRV\lib\test\test_email\test_policy.py:151: class Dummy:
+bin\OpenRV\lib\test\test_email\test_policy.py:154: obj = Dummy()
+bin\OpenRV\lib\test\test_importlib\test_abc.py:332: self.ins.open_resource('dummy_file')
+bin\OpenRV\lib\test\test_importlib\test_abc.py:336: self.ins.resource_path('dummy_file')
+bin\OpenRV\lib\test\test_importlib\test_abc.py:340: self.ins.is_resource('dummy_file')
+bin\OpenRV\lib\test\test_importlib\test_threaded_import.py:69: """A dummy finder to detect concurrent access to its find_spec()
+bin\OpenRV\lib\test\test_importlib\test_threaded_import.py:89: """A dummy finder which flushes sys.path_importer_cache when it gets
+bin\OpenRV\lib\test\test_importlib\test_util.py:322: def DummyLoader(self):
+bin\OpenRV\lib\test\test_importlib\test_util.py:324: class DummyLoader:
+bin\OpenRV\lib\test\test_importlib\test_util.py:328: self.__class__.DummyLoader = DummyLoader
+bin\OpenRV\lib\test\test_importlib\test_util.py:329: return DummyLoader
+bin\OpenRV\lib\test\test_importlib\test_util.py:332: loader = self.DummyLoader()
+bin\OpenRV\lib\test\test_importlib\test_util.py:343: loader = self.DummyLoader()
+bin\OpenRV\lib\test\test_importlib\test_util.py:351: loader = self.DummyLoader()
+bin\OpenRV\lib\test\test_importlib\source\test_path_hook.py:17: with util.create_modules('dummy') as mapping:
+bin\OpenRV\lib\test\test_importlib\source\test_path_hook.py:22: with util.create_modules('dummy') as mapping:
+bin\OpenRV\lib\tkinter\font.py:166: For best performance, create a dummy widget
+bin\OpenRV\lib\tkinter\tix.py:533: self.subwidget_list['label'] = _dummyLabel(self, 'label',
+bin\OpenRV\lib\tkinter\tix.py:535: self.subwidget_list['message'] = _dummyLabel(self, 'message',
+bin\OpenRV\lib\tkinter\tix.py:558: self.subwidget_list[name] = _dummyButton(self, name)
+bin\OpenRV\lib\tkinter\tix.py:583: self.subwidget_list['label'] = _dummyLabel(self, 'label')
+bin\OpenRV\lib\tkinter\tix.py:584: self.subwidget_list['entry'] = _dummyEntry(self, 'entry')
+bin\OpenRV\lib\tkinter\tix.py:585: self.subwidget_list['arrow'] = _dummyButton(self, 'arrow')
+bin\OpenRV\lib\tkinter\tix.py:586: self.subwidget_list['slistbox'] = _dummyScrolledListBox(self,
+bin\OpenRV\lib\tkinter\tix.py:589: self.subwidget_list['tick'] = _dummyButton(self, 'tick')
+bin\OpenRV\lib\tkinter\tix.py:590: self.subwidget_list['cross'] = _dummyButton(self, 'cross')
+bin\OpenRV\lib\tkinter\tix.py:625: self.subwidget_list['incr'] = _dummyButton(self, 'incr')
+bin\OpenRV\lib\tkinter\tix.py:626: self.subwidget_list['decr'] = _dummyButton(self, 'decr')
+bin\OpenRV\lib\tkinter\tix.py:627: self.subwidget_list['label'] = _dummyLabel(self, 'label')
+bin\OpenRV\lib\tkinter\tix.py:628: self.subwidget_list['entry'] = _dummyEntry(self, 'entry')
+bin\OpenRV\lib\tkinter\tix.py:656: self.subwidget_list['hlist'] = _dummyHList(self, 'hlist')
+bin\OpenRV\lib\tkinter\tix.py:657: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:658: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:678: self.subwidget_list['hlist'] = _dummyHList(self, 'hlist')
+bin\OpenRV\lib\tkinter\tix.py:679: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:680: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:701: self.subwidget_list['dirlist'] = _dummyDirList(self, 'dirlist')
+bin\OpenRV\lib\tkinter\tix.py:702: self.subwidget_list['dircbx'] = _dummyFileComboBox(self, 'dircbx')
+bin\OpenRV\lib\tkinter\tix.py:721: self.subwidget_list['cancel'] = _dummyButton(self, 'cancel')
+bin\OpenRV\lib\tkinter\tix.py:722: self.subwidget_list['ok'] = _dummyButton(self, 'ok')
+bin\OpenRV\lib\tkinter\tix.py:723: self.subwidget_list['hidden'] = _dummyCheckbutton(self, 'hidden')
+bin\OpenRV\lib\tkinter\tix.py:724: self.subwidget_list['types'] = _dummyComboBox(self, 'types')
+bin\OpenRV\lib\tkinter\tix.py:725: self.subwidget_list['dir'] = _dummyComboBox(self, 'dir')
+bin\OpenRV\lib\tkinter\tix.py:726: self.subwidget_list['dirlist'] = _dummyDirList(self, 'dirlist')
+bin\OpenRV\lib\tkinter\tix.py:727: self.subwidget_list['file'] = _dummyComboBox(self, 'file')
+bin\OpenRV\lib\tkinter\tix.py:728: self.subwidget_list['filelist'] = _dummyScrolledListBox(self, 'filelist')
+bin\OpenRV\lib\tkinter\tix.py:751: self.subwidget_list['dirbox'] = _dummyDirSelectBox(self, 'dirbox')
+bin\OpenRV\lib\tkinter\tix.py:774: self.subwidget_list['fsbox'] = _dummyExFileSelectBox(self, 'fsbox')
+bin\OpenRV\lib\tkinter\tix.py:798: self.subwidget_list['dirlist'] = _dummyScrolledListBox(self, 'dirlist')
+bin\OpenRV\lib\tkinter\tix.py:799: self.subwidget_list['filelist'] = _dummyScrolledListBox(self, 'filelist')
+bin\OpenRV\lib\tkinter\tix.py:800: self.subwidget_list['filter'] = _dummyComboBox(self, 'filter')
+bin\OpenRV\lib\tkinter\tix.py:801: self.subwidget_list['selection'] = _dummyComboBox(self, 'selection')
+bin\OpenRV\lib\tkinter\tix.py:822: self.subwidget_list['btns'] = _dummyStdButtonBox(self, 'btns')
+bin\OpenRV\lib\tkinter\tix.py:823: self.subwidget_list['fsbox'] = _dummyFileSelectBox(self, 'fsbox')
+bin\OpenRV\lib\tkinter\tix.py:846: self.subwidget_list['button'] = _dummyButton(self, 'button')
+bin\OpenRV\lib\tkinter\tix.py:847: self.subwidget_list['entry'] = _dummyEntry(self, 'entry')
+bin\OpenRV\lib\tkinter\tix.py:1071: self.subwidget_list['label'] = _dummyLabel(self, 'label')
+bin\OpenRV\lib\tkinter\tix.py:1072: self.subwidget_list['entry'] = _dummyEntry(self, 'entry')
+bin\OpenRV\lib\tkinter\tix.py:1088: self.subwidget_list['label'] = _dummyLabel(self, 'label')
+bin\OpenRV\lib\tkinter\tix.py:1089: self.subwidget_list['frame'] = _dummyFrame(self, 'frame')
+bin\OpenRV\lib\tkinter\tix.py:1103: self.subwidget_list['pane'] = _dummyPanedWindow(self, 'pane',
+bin\OpenRV\lib\tkinter\tix.py:1105: self.subwidget_list['hlist'] = _dummyHList(self, 'hlist')
+bin\OpenRV\lib\tkinter\tix.py:1106: self.subwidget_list['shlist'] = _dummyScrolledHList(self, 'shlist')
+bin\OpenRV\lib\tkinter\tix.py:1190: self.subwidget_list['menubutton'] = _dummyMenubutton(self, 'menubutton')
+bin\OpenRV\lib\tkinter\tix.py:1191: self.subwidget_list['menu'] = _dummyMenu(self, 'menu')
+bin\OpenRV\lib\tkinter\tix.py:1263: self.subwidget_list['menubutton'] = _dummyMenubutton(self, 'menubutton')
+bin\OpenRV\lib\tkinter\tix.py:1264: self.subwidget_list['menu'] = _dummyMenu(self, 'menu')
+bin\OpenRV\lib\tkinter\tix.py:1306: self.subwidget_list['hlist'] = _dummyHList(self, 'hlist')
+bin\OpenRV\lib\tkinter\tix.py:1307: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:1308: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:1316: self.subwidget_list['listbox'] = _dummyListbox(self, 'listbox')
+bin\OpenRV\lib\tkinter\tix.py:1317: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:1318: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:1326: self.subwidget_list['text'] = _dummyText(self, 'text')
+bin\OpenRV\lib\tkinter\tix.py:1327: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:1328: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:1337: self.subwidget_list['tlist'] = _dummyTList(self, 'tlist')
+bin\OpenRV\lib\tkinter\tix.py:1338: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:1339: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:1347: self.subwidget_list['window'] = _dummyFrame(self, 'window')
+bin\OpenRV\lib\tkinter\tix.py:1348: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:1349: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:1363: self.subwidget_list['label'] = _dummyLabel(self, 'label')
+bin\OpenRV\lib\tkinter\tix.py:1367: self.subwidget_list[name] = _dummyButton(self, name)
+bin\OpenRV\lib\tkinter\tix.py:1412: self.subwidget_list['ok'] = _dummyButton(self, 'ok')
+bin\OpenRV\lib\tkinter\tix.py:1413: self.subwidget_list['apply'] = _dummyButton(self, 'apply')
+bin\OpenRV\lib\tkinter\tix.py:1414: self.subwidget_list['cancel'] = _dummyButton(self, 'cancel')
+bin\OpenRV\lib\tkinter\tix.py:1415: self.subwidget_list['help'] = _dummyButton(self, 'help')
+bin\OpenRV\lib\tkinter\tix.py:1513: self.subwidget_list['hlist'] = _dummyHList(self, 'hlist')
+bin\OpenRV\lib\tkinter\tix.py:1514: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:1515: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:1560: self.subwidget_list['hlist'] = _dummyHList(self, 'hlist')
+bin\OpenRV\lib\tkinter\tix.py:1561: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:1562: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:1604: class _dummyButton(Button, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1608: class _dummyCheckbutton(Checkbutton, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1612: class _dummyEntry(Entry, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1616: class _dummyFrame(Frame, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1620: class _dummyLabel(Label, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1624: class _dummyListbox(Listbox, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1628: class _dummyMenu(Menu, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1632: class _dummyMenubutton(Menubutton, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1636: class _dummyScrollbar(Scrollbar, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1640: class _dummyText(Text, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1644: class _dummyScrolledListBox(ScrolledListBox, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1647: self.subwidget_list['listbox'] = _dummyListbox(self, 'listbox')
+bin\OpenRV\lib\tkinter\tix.py:1648: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:1649: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:1651: class _dummyHList(HList, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1655: class _dummyScrolledHList(ScrolledHList, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1658: self.subwidget_list['hlist'] = _dummyHList(self, 'hlist')
+bin\OpenRV\lib\tkinter\tix.py:1659: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:1660: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:1662: class _dummyTList(TList, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1666: class _dummyComboBox(ComboBox, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1669: self.subwidget_list['label'] = _dummyLabel(self, 'label')
+bin\OpenRV\lib\tkinter\tix.py:1670: self.subwidget_list['entry'] = _dummyEntry(self, 'entry')
+bin\OpenRV\lib\tkinter\tix.py:1671: self.subwidget_list['arrow'] = _dummyButton(self, 'arrow')
+bin\OpenRV\lib\tkinter\tix.py:1673: self.subwidget_list['slistbox'] = _dummyScrolledListBox(self,
+bin\OpenRV\lib\tkinter\tix.py:1676: self.subwidget_list['tick'] = _dummyButton(self, 'tick')
+bin\OpenRV\lib\tkinter\tix.py:1678: self.subwidget_list['cross'] = _dummyButton(self, 'cross')
+bin\OpenRV\lib\tkinter\tix.py:1683: class _dummyDirList(DirList, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1686: self.subwidget_list['hlist'] = _dummyHList(self, 'hlist')
+bin\OpenRV\lib\tkinter\tix.py:1687: self.subwidget_list['vsb'] = _dummyScrollbar(self, 'vsb')
+bin\OpenRV\lib\tkinter\tix.py:1688: self.subwidget_list['hsb'] = _dummyScrollbar(self, 'hsb')
+bin\OpenRV\lib\tkinter\tix.py:1690: class _dummyDirSelectBox(DirSelectBox, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1693: self.subwidget_list['dirlist'] = _dummyDirList(self, 'dirlist')
+bin\OpenRV\lib\tkinter\tix.py:1694: self.subwidget_list['dircbx'] = _dummyFileComboBox(self, 'dircbx')
+bin\OpenRV\lib\tkinter\tix.py:1696: class _dummyExFileSelectBox(ExFileSelectBox, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1699: self.subwidget_list['cancel'] = _dummyButton(self, 'cancel')
+bin\OpenRV\lib\tkinter\tix.py:1700: self.subwidget_list['ok'] = _dummyButton(self, 'ok')
+bin\OpenRV\lib\tkinter\tix.py:1701: self.subwidget_list['hidden'] = _dummyCheckbutton(self, 'hidden')
+bin\OpenRV\lib\tkinter\tix.py:1702: self.subwidget_list['types'] = _dummyComboBox(self, 'types')
+bin\OpenRV\lib\tkinter\tix.py:1703: self.subwidget_list['dir'] = _dummyComboBox(self, 'dir')
+bin\OpenRV\lib\tkinter\tix.py:1704: self.subwidget_list['dirlist'] = _dummyScrolledListBox(self, 'dirlist')
+bin\OpenRV\lib\tkinter\tix.py:1705: self.subwidget_list['file'] = _dummyComboBox(self, 'file')
+bin\OpenRV\lib\tkinter\tix.py:1706: self.subwidget_list['filelist'] = _dummyScrolledListBox(self, 'filelist')
+bin\OpenRV\lib\tkinter\tix.py:1708: class _dummyFileSelectBox(FileSelectBox, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1711: self.subwidget_list['dirlist'] = _dummyScrolledListBox(self, 'dirlist')
+bin\OpenRV\lib\tkinter\tix.py:1712: self.subwidget_list['filelist'] = _dummyScrolledListBox(self, 'filelist')
+bin\OpenRV\lib\tkinter\tix.py:1713: self.subwidget_list['filter'] = _dummyComboBox(self, 'filter')
+bin\OpenRV\lib\tkinter\tix.py:1714: self.subwidget_list['selection'] = _dummyComboBox(self, 'selection')
+bin\OpenRV\lib\tkinter\tix.py:1716: class _dummyFileComboBox(ComboBox, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1719: self.subwidget_list['dircbx'] = _dummyComboBox(self, 'dircbx')
+bin\OpenRV\lib\tkinter\tix.py:1721: class _dummyStdButtonBox(StdButtonBox, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1724: self.subwidget_list['ok'] = _dummyButton(self, 'ok')
+bin\OpenRV\lib\tkinter\tix.py:1725: self.subwidget_list['apply'] = _dummyButton(self, 'apply')
+bin\OpenRV\lib\tkinter\tix.py:1726: self.subwidget_list['cancel'] = _dummyButton(self, 'cancel')
+bin\OpenRV\lib\tkinter\tix.py:1727: self.subwidget_list['help'] = _dummyButton(self, 'help')
+bin\OpenRV\lib\tkinter\tix.py:1729: class _dummyNoteBookFrame(NoteBookFrame, TixSubWidget):
+bin\OpenRV\lib\tkinter\tix.py:1733: class _dummyPanedWindow(PanedWindow, TixSubWidget):
+bin\OpenRV\lib\tkinter\ttk.py:1537: dummy = Label(self)
+bin\OpenRV\lib\tkinter\ttk.py:1538: dummy.pack(side=label_side)
+bin\OpenRV\lib\tkinter\ttk.py:1539: dummy.lower()
+bin\OpenRV\lib\turtledemo\__main__.py:260: def decrease_size(self, dummy=None):
+bin\OpenRV\lib\turtledemo\__main__.py:264: def increase_size(self, dummy=None):
+bin\OpenRV\lib\unittest\suite.py:330: Placeholder for a TestCase inside a result. As far as a TestResult
+bin\OpenRV\lib\unittest\util.py:9: _PLACEHOLDER_LEN = 12
+bin\OpenRV\lib\unittest\util.py:14: (_MIN_BEGIN_LEN + _PLACEHOLDER_LEN + _MIN_COMMON_LEN +
+bin\OpenRV\lib\unittest\util.py:15: _PLACEHOLDER_LEN + _MIN_END_LEN)
+bin\OpenRV\lib\unittest\util.py:20: if skip > _PLACEHOLDER_LEN:
+bin\OpenRV\lib\unittest\util.py:34: (maxlen - prefixlen + _MIN_BEGIN_LEN + _PLACEHOLDER_LEN)
+bin\OpenRV\lib\unittest\util.py:36: assert _MIN_BEGIN_LEN + _PLACEHOLDER_LEN + _MIN_COMMON_LEN + \
+bin\OpenRV\lib\unittest\test\test_case.py:627: """Dummy class for test_addTypeEqualityFunc."""
+bin\OpenRV\lib\unittest\test\test_discovery.py:542: self.setup_import_issue_tests('test_skip_dummy.py')
+bin\OpenRV\lib\unittest\test\test_loader.py:719: module_name = 'unittest.test.dummy'
+bin\OpenRV\lib\unittest\test\test_loader.py:847: ['unittest.loader.sdasfasfasdf', 'unittest.test.dummy'])
+bin\OpenRV\lib\unittest\test\test_loader.py:1144: module_name = 'unittest.test.dummy'
+bin\OpenRV\lib\urllib\parse.py:661: sequences are replaced by a placeholder character.
+bin\OpenRV\lib\venv\__init__.py:358: Replace variable placeholders in script text with context-specific
+bin\OpenRV\lib\venv\__init__.py:363: :param text: The text in which to replace placeholder variables.
+bin\OpenRV\lib\venv\__init__.py:384: Placeholder variables are replaced with environment-
+bin\OpenRV\lib\wsgiref\handlers.py:15: _monthname = [None, # Dummy so we can use 1-based month numbers
+bin\OpenRV\lib\wsgiref\util.py:133: servers and applications to set up dummy environments.  It should *not*
+bin\OpenRV\PlugIns\Python\rv\extra_commands.py:6: def __dummy__():
+bin\OpenRV\PlugIns\Python\rv\runtime.py:9: def __dummy__():
+core\help_content.json:10: "content": "\n<h1>🧪 Tester Panel</h1>\n\n<h2>Overview</h2>\n<p>Comprehensive testing toolkit for developers and QA. Generate test data, simulate workflows, validate results, and maintain system health. All tools designed to work safely without affecting production data.</p>\n\n<h2>📑 Tab Guide</h2>\n\n<h3>💾 Data Generator</h3>\n<p>Create dummy files for testing Smart Ingest and file operations:</p>\n<ul>\n<li><b>Target Location</b> - Where to create files (default: Downloads/TesterData)</li>\n<li><b>File Count</b> - Generate 1 to 10,000 files at once</li>\n<li><b>Size Strategy</b> - Empty, 1KB, 1MB, 50MB, or Random sizes</li>\n<li><b>File Types</b> - Choose .jpg, .mov, .exr, .txt or combination</li>\n<li><b>Progress Bar</b> - Shows generation progress</li>\n</ul>\n<p><b>Use Case:</b> Test how Smart Ingest handles large file sets or specific file types</p>\n\n<h3>🔄 Workflow Sim</h3>\n<p>Auto-generate complete \"For_move\" folder structures with Excel templates:</p>\n<ul>\n<li><b>Creates realistic delivery structure</b> - Mimics client deliveries with proper shot/sequence organization</li>\n<li><b>Generates Excel template</b> - Pre-filled spreadsheet for testing data import</li>\n<li><b>One-Click Setup</b> - Perfect test environment in seconds</li>\n</ul>\n<p><b>Use Case:</b> Test Smart Ingest end-to-end with realistic production-like data</p>\n\n<h3>🕸️ Structure (Chaos)</h3>\n<p>Create deeply nested, complex folder hierarchies for stress testing:</p>\n<ul>\n<li><b>Nesting Level</b> - How many levels deep (0-100 folders deep)</li>\n<li><b>Sibling Folders</b> - How many folders per level (0-1000)</li>\n<li><b>Stress Test</b> - Push file system and search algorithms to limits</li>\n</ul>\n<p><b>Use Case:</b> Test performance with extreme folder structures, edge case handling</p>\n\n<h3>🔎 Analysis</h3>\n<p>Validate Smart Ingest results with multiple analysis modes:</p>\n<ul>\n<li><b>🧠 Smart Path Check</b> - Recommended mode, validates organizational logic</li>\n<li><b>📂 Raw Folder Compare</b> - Compares source vs destination folder structures</li>\n<li><b>👻 Ghost Asset Hunter</b> - Finds orphaned or misplaced files</li>\n<li><b>Database Health Tools</b> - VACUUM optimizer, Integrity check</li>\n</ul>\n<p><b>Configuration:</b> Set Target Scope (destination) and optionally Reference Source for comparison</p>\n\n<h3>🩺 Diagnostics</h3>\n<p>System diagnostics and permission testing tools:</p>\n<ul>\n<li><b>Permission Loader</b> - Test and verify user role permissions</li>\n<li><b>Config Sandbox</b> - Apply test configurations without affecting production</li>\n<li><b>Time Travel</b> - Simulate different dates/times for testing time-based logic</li>\n</ul>\n<p><b>Use Case:</b> Validate security, test configuration changes safely</p>\n\n<h3>⚙️ System</h3>\n<p>System information and performance metrics:</p>\n<ul>\n<li><b>Environment Info</b> - Python version, OS details, installed packages</li>\n<li><b>Path Validation</b> - Check network drives, verify accessibility</li>\n<li><b>Resource Usage</b> - Memory, CPU, disk space monitoring</li>\n</ul>\n<p><b>Use Case:</b> Troubleshoot environment issues, verify system requirements</p>\n\n<h3>🤖 Automation</h3>\n<p>Automated test sequences and batch operations:</p>\n<ul>\n<li><b>Test Suites</b> - Pre-defined test scenarios that run automatically</li>\n<li><b>Batch Processing</b> - Queue multiple test operations</li>\n<li><b>Scheduled Tests</b> - Run tests at specific times</li>\n<li><b>Report Generation</b> - Auto-generate test reports</li>\n</ul>\n<p><b>Use Case:</b> Regression testing, nightly builds, CI/CD integration</p>\n\n<h3>🧹 Utilities</h3>\n<p>Cleanup and maintenance tools:</p>\n<ul>\n<li><b>Wipe Tester Folder</b> - Delete all test data in one click</li>\n<li><b>Reset State</b> - Clear test database entries</li>\n<li><b>Cache Cleanup</b> - Remove test thumbnails and metadata</li>\n</ul>\n<p><b>Use Case:</b> Clean up after testing, start fresh for new test cycle</p>\n\n<h2>🎯 Common Workflows</h2>\n\n<h3>End-to-End Smart Ingest Test</h3>\n<ol>\n<li><b>Workflow Sim</b> - Click \"CREATE TEST ENVIRONMENT\"</li>\n<li><b>Navigate to Smart Ingest tab</b> - Select generated folder as source</li>\n<li><b>Run Smart Ingest</b> - Process the test delivery</li>\n<li><b>Analysis Tab</b> - Use \"Smart Path Check\" to validate results</li>\n<li><b>Utilities</b> - Wipe test data when done</li>\n</ol>\n\n<h3>Stress Testing File System</h3>\n<ol>\n<li><b>Structure (Chaos)</b> - Set nesting to 20, sibling folders to 100</li>\n<li><b>Create Structure</b> - Generate complex hierarchy</li>\n<li><b>Data Generator</b> - Add 1000 files across structure</li>\n<li><b>Test navigation/search performance</b></li>\n</ol>\n\n<h2>💡 Tips & Best Practices</h2>\n<p><b>🎯 Safe Locations</b>: Always use temp folders (C:\\Temp, Downloads/TesterData) - NEVER production paths!</p>\n<p><b>⚡ Empty Files</b>: Use \"Empty\" size strategy for faster generation and less disk space</p>\n<p><b>📊 Monitor Logs</b>: Check bottom log panel for detailed operation feedback</p>\n<p><b>🧹 Clean Up</b>: Always wipe test data after testing to avoid clutter</p>\n<p><b>🔍 Verify Results</b>: Use Analysis tab to validate every test - don't assume success</p>\n\n<h2>⚠️ Important Notes</h2>\n<p><b>Developer/Admin Only</b>: This tab requires elevated permissions</p>\n<p><b>Test Data Only</b>: Tools can generate/delete files - use with caution!</p>\n<p><b>Database Impact</b>: Some operations add test entries to database - use test DB if possible</p>\n<p><b>Performance</b>: Generating 10,000+ files or deep nesting (50+ levels) may take several minutes</p>\n<p><b>Network Drives</b>: Test on local drives first - network operations are much slower</p>\n"
+core\domain\central_attendance.py:32: def _json_merge_sql(self, column: str, param_placeholder: str = "%s") -> str:
+core\domain\central_attendance.py:39: return f"{column} || {param_placeholder}::jsonb"
+core\domain\central_attendance.py:41: return f"json_patch(COALESCE({column}, '{{}}'), {param_placeholder})"
+core\domain\continuity_checker.py:65: results['direction'] = 'PASS'  # Placeholder for future
+core\domain\user_manager.py:170: ("admin", "admin123", ["Developer"], "System Admin", "Dev"),
+core\domain\user_manager.py:173: ("EMP0012", "admin123", ["Developer"], "Dev User", "Dev")
+core\domain\user_manager.py:189: pw_hash = self._hash_password("admin123")
+core\infra\async_postgres_manager.py:85: """Converts psycopg2 %s placeholders to asyncpg $1, $2 placeholders, safely ignoring quotes."""
+core\infra\sqlite_manager.py:628: placeholders = ", ".join(["?"] * len(insert_columns))
+core\infra\sqlite_manager.py:642: VALUES ({placeholders})
+core\infra\stock_repository.py:172: placeholders = ",".join(["%s"] * len(asset_ids))
+core\infra\stock_repository.py:173: where_clauses.append(f"id IN ({placeholders})")
+core\infra\stock_repository.py:182: placeholders = ",".join(["%s"] * len(file_types))
+core\infra\stock_repository.py:183: where_clauses.append(f"file_type IN ({placeholders})")
+gui\admin_panel.py:184: self.inp_broadcast.setPlaceholderText("📢 Broadcast Message...")
+gui\admin_panel.py:231: self.search.setPlaceholderText("🔍 Search Users...")
+gui\advanced_log_viewer.py:377: self.search = QLineEdit(); self.search.setPlaceholderText("Search User, Project or Action..."); self.search.setStyleSheet("padding:6px; background:#222; color:white; border:1px solid #444; border-radius:4px;")
+gui\attendance_tab.py:869: e_in = QLineEdit(t_in); e_in.setPlaceholderText("HH:MM")
+gui\attendance_tab.py:872: e_out = QLineEdit(t_out); e_out.setPlaceholderText("HH:MM")
+gui\cap_rename_tab.py:344: self.search_edit.setPlaceholderText("Find (e.g. 'shot_v01')...")
+gui\cap_rename_tab.py:349: self.replace_edit.setPlaceholderText("Replace with (e.g. 'shot_v02')...")
+gui\cap_rename_tab.py:440: self.seq_base.setPlaceholderText("e.g. shot_010_v01_")
+gui\database_explorer.py:525: self.inp_search.setPlaceholderText("\U0001F50D Search data...")
+gui\database_explorer.py:552: self.txt_sql.setPlaceholderText("SQL Query...")
+gui\gatekeeper_window.py:114: self.user.setPlaceholderText("User ID")
+gui\gatekeeper_window.py:118: self.pwd.setPlaceholderText("Password")
+gui\help_dialog.py:156: self.search_box.setPlaceholderText("🔍  Search documentation...")
+gui\login_dialog.py:126: self.user_input.setPlaceholderText("e.g. EMP0012")
+gui\login_dialog.py:134: self.pass_input.setPlaceholderText("******")
+gui\tester_panel.py:65: name = f"dummy_file_{i:04d}_{self._random_string(5)}{ext}"
+gui\tester_panel.py:525: self.btn_gen = QPushButton("▶ GENERATE DUMMY FILES"); self.btn_gen.setStyleSheet("background: #2E86C1; font-weight: bold; padding: 10px;")
+gui\tester_panel.py:667: self.an_src.setPlaceholderText("Original Files Location...")
+gui\tester_panel.py:668: self.an_dst.setPlaceholderText("Where files where moved to...")
+gui\tester_panel.py:670: self.an_dst.setPlaceholderText("Folder to verify against Database (e.g. Z:/Show/Reel_01)...")
+gui\tester_panel.py:875: if GlobalConfig._instance is None: GlobalConfig.get("DUMMY_INIT")
+gui\tester_panel.py:946: QMessageBox.information(self, "Success", "Dummy files created.")
+gui\components\quick_search_controller.py:347: search_input.setPlaceholderText("Type command, tab name, or 'shot 042'...")
+gui\dialogs\custom_template_dialog.py:33: self.name_input.setPlaceholderText("Enter template name...")
+gui\tabs\folder_creator_tab.py:115: self.project_name_input.setPlaceholderText("Enter Project Code / Name (e.g. PRJ_001)")
+gui\tabs\folder_creator_tab.py:161: self.excel_input.setPlaceholderText("Select Excel file with Reel/Shot columns...")
+gui\tabs\folder_creator_tab.py:176: self.scan_source_input.setPlaceholderText("Select the Client/Incoming Drive...")
+gui\tabs\folder_creator_tab.py:185: self.target_reel_input.setPlaceholderText("e.g. REEL_01 (Leave empty to Auto-Detect)")
+gui\tabs\incoming_delivery_tab.py:165: self.source_input.setPlaceholderText("Select incoming client drive or folder...")
+gui\tabs\incoming_delivery_tab.py:209: self.project_input.setPlaceholderText("e.g. PROJ_001")
+gui\tabs\incoming_delivery_tab.py:215: self.dest_input.setPlaceholderText("Root folder where the project will be created")
+gui\tabs\incoming_delivery_tab.py:226: self.reel_input.setPlaceholderText("Optional — leave blank for auto-detect")
+gui\tabs\settings_tab.py:235: self.project_root_input.setPlaceholderText("Project Root Directory")
+gui\tabs\settings_tab.py:249: self.excel_tracking_input.setPlaceholderText("Excel Tracking File (.xlsx)")
+gui\tabs\settings_tab.py:263: self.server_root_input.setPlaceholderText("UT_Central Server Root")
+gui\tabs\settings_tab.py:277: self.brand_logo_input.setPlaceholderText("Optional: Studio/Company Logo Image (.png/.jpg/.svg)")
+gui\tabs\settings_tab.py:308: self.db_host_input.setPlaceholderText("DB Host")
+gui\tabs\settings_tab.py:317: self.db_name_input.setPlaceholderText("DB Name")
+gui\tabs\settings_tab.py:321: self.db_user_input.setPlaceholderText("DB User")
+gui\tabs\settings_tab.py:344: self.kitsu_url_input.setPlaceholderText("https://your-kitsu-server")
+gui\tabs\settings_tab.py:349: self.kitsu_email_input.setPlaceholderText("Kitsu login email")
+gui\tabs\settings_tab.py:356: self.kitsu_secret_input.setPlaceholderText("Kitsu password or API key")
+gui\tabs\smart_move_scan_tab.py:223: self.excel_input.setPlaceholderText("Select Excel File")
+gui\tabs\smart_move_scan_tab.py:233: self.scan_dir_input.setPlaceholderText("Select Scan Directory")
+gui\tabs\smart_move_scan_tab.py:355: self.autoscan_source_input.setPlaceholderText("Select Client/Incoming Drive")
+gui\tabs\smart_move_scan_tab.py:366: self.autoscan_reel_input.setPlaceholderText("Optional: Enter Reel Name to enforce")
+gui\tabs\smart_move_scan_tab.py:383: self.delivery_source_input.setPlaceholderText("Select incoming drive or folder")
+gui\tabs\smart_move_scan_tab.py:431: self.inc_project_input.setPlaceholderText("e.g. PROJ_001")
+gui\tabs\smart_move_scan_tab.py:442: self.inc_reel_input.setPlaceholderText("Optional — leave blank for auto-detect")
+gui\tabs\shot_review\export_dialog.py:137: self.output_line.setPlaceholderText("Select output file...")
+gui\tabs\shot_review\image_viewer.py:64: self.set_placeholder()
+gui\tabs\shot_review\image_viewer.py:71: self.set_placeholder()
+gui\tabs\shot_review\image_viewer.py:73: def set_placeholder(self):
+gui\tabs\shot_review\image_viewer.py:74: """Show placeholder text"""
+gui\tabs\shot_review\image_viewer.py:260: self.set_placeholder()
+gui\tabs\stock_browser\ui\gallery.py:176: self.search_bar.setPlaceholderText("\U0001F50D  Search assets...")
+gui\tabs\vfx_dashboard_pro\config\projects.json:4: "name": "UT98 Dummy Project",
+gui\tabs\vfx_dashboard_pro\config\projects.json:6: "excel_path": "D:\\Soft\\UTCAP\\V0040\\demo\\UT98_DUMMY_SHEET.xlsx",
+gui\tabs\vfx_dashboard_pro\controllers\thumbnail_mixin.py:32: def _is_placeholder_thumb(path: str) -> bool:
+gui\tabs\vfx_dashboard_pro\controllers\thumbnail_mixin.py:34: return "placeholder_yellow" in path_text or "placeholder_red" in path_text
+gui\tabs\vfx_dashboard_pro\controllers\thumbnail_mixin.py:72: if self._is_placeholder_thumb(thumb_path):
+gui\tabs\vfx_dashboard_pro\ui\add_project_dialog.py:20: self.code_input.setPlaceholderText("e.g. AK74")
+gui\tabs\vfx_dashboard_pro\ui\add_project_dialog.py:24: self.name_input.setPlaceholderText("e.g. P038_AK74 (Project Name)")
+gui\tabs\vfx_dashboard_pro\ui\add_project_dialog.py:29: self.excel_input.setPlaceholderText("Select the Production Tracker (.xlsx)")
+gui\tabs\vfx_dashboard_pro\ui\add_project_dialog.py:40: self.sheet_combo.setPlaceholderText("Select or Type Sheet Name")
+gui\tabs\vfx_dashboard_pro\ui\concept_layout.py:216: input_field.setPlaceholderText("Add a note...")
+gui\tabs\vfx_dashboard_pro\ui\dashboard_layout_builder.py:101: widget.search_input.setPlaceholderText("Search...")
+gui\tabs\vfx_dashboard_pro\ui\dashboard_widget.py:516: yellow_path = self.thumb_gen.get_yellow_placeholder()
+gui\tabs\vfx_dashboard_pro\ui\edit_project_dialog.py:40: self.sheet_combo.setPlaceholderText("Select or Type Sheet Name")
+gui\tabs\vfx_dashboard_pro\ui\login_dialog.py:37: self.pass_input.setPlaceholderText("Password")
+gui\tabs\vfx_dashboard_pro\ui\login_dialog.py:66: self.pass_input.setPlaceholderText("No password required")
+gui\tabs\vfx_dashboard_pro\ui\login_dialog.py:71: self.pass_input.setPlaceholderText("Password")
+gui\tabs\vfx_dashboard_pro\ui\query_builder_dialog.py:37: self.value_input.setPlaceholderText("Value...")
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:323: self.curr_version_edit.setPlaceholderText("v001")
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:348: self.frames_edit.setPlaceholderText("0")
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:377: self.similar_combo.setPlaceholderText("Select hero shot...")
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:391: self.sow_edit.setPlaceholderText("Enter scope of work...")
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:510: def create_log_editor(placeholder):
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:521: editor.setPlaceholderText(placeholder)
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:583: if "placeholder_yellow" in path_str:
+gui\tabs\vfx_dashboard_pro\ui\shot_detail.py:586: elif "placeholder_red" in path_str:
+gui\tabs\vfx_dashboard_pro\utils\thumbnail.py:38: self.yellow_path = self.local_dir / "placeholder_yellow.png"
+gui\tabs\vfx_dashboard_pro\utils\thumbnail.py:39: self.red_path = self.local_dir / "placeholder_red.png"
+gui\tabs\vfx_dashboard_pro\utils\thumbnail.py:58: logger.warning("Failed to create placeholder %s: %s", path, e)
+gui\tabs\vfx_dashboard_pro\utils\thumbnail.py:61: def get_yellow_placeholder(self):
+gui\tabs\vfx_dashboard_pro\utils\thumbnail.py:64: def get_red_placeholder(self):
+gui\tabs\vfx_dashboard_pro\utils\thumbnail.py:306: return self.get_red_placeholder() # Return RED if source missing
+gui\tabs\vfx_dashboard_pro\utils\thumbnail.py:315: return self.get_yellow_placeholder()
+gui\tabs\vfx_dashboard_pro\utils\thumbnail.py:345: return self.get_red_placeholder() # Return RED if generation failed
+gui\widgets\advanced_player.py:147: self._placeholder = None
+gui\widgets\advanced_player.py:649: self._placeholder = QWidget(self._cached_parent)
+gui\widgets\advanced_player.py:650: self._placeholder.setSizePolicy(self.sizePolicy())
+gui\widgets\advanced_player.py:651: self._placeholder.setMinimumSize(self.minimumSize())
+gui\widgets\advanced_player.py:652: parent_layout.replaceWidget(self, self._placeholder)
+gui\widgets\advanced_player.py:676: if self._placeholder and self._cached_layout:
+gui\widgets\advanced_player.py:677: self._cached_layout.replaceWidget(self._placeholder, self)
+gui\widgets\advanced_player.py:678: self._placeholder.deleteLater()
+gui\widgets\advanced_player.py:679: self._placeholder = None
+gui\widgets\tag_edit_dialog.py:39: self.txt_input.setPlaceholderText("Type tag...")
+models\fastembed_cache\models--qdrant--bge-small-en-v1.5-onnx-q\snapshots\52398278842ec682c6f32300af41344b1c0b0bb2\tokenizer.json:24517: "dummy": 24369,
+scripts\final_tester_docs.py:22: <p>Create dummy files for testing Smart Ingest and file operations:</p>
+utils\image_loader.py:171: logger.info(f"EXR loading disabled, returning placeholder: {path.name}")
