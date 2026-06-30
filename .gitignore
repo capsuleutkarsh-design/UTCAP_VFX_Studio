@@ -52,16 +52,12 @@ V0040/.coverage.*
 python_portable/
 V0040/.venv/
 VFX Studio Solution/
-*.exe
-*.dll
 *.safetensors
 *.pth
 *.pt
 *.bin
 *.onnx
 
-# Specific external tools & bundled environments
-V0040/external/
-V0040/OpenRV/
-V0040/ut_server/bin/
-V0040/ut_vfx/bin/
+# Explicitly ignore files strictly > 100MB to prevent GitHub crashes
+"V0040/ut_server/bin/pgsql/pgAdmin 4/runtime/pgAdmin4.exe"
+V0040/ut_vfx/bin/ffprobe.exe
