@@ -38,13 +38,14 @@ where iscc >nul 2>nul
 if %errorlevel% equ 0 set "ISCC_PATH=iscc"
 
 REM 2. Check Standard Install Location (Override if found)
+if exist "C:\Program Files\Inno Setup 7\ISCC.exe" set "ISCC_PATH=C:\Program Files\Inno Setup 7\ISCC.exe"
 if exist "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" set "ISCC_PATH=C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 
-if defined ISCC_PATH goto run_iscc
-
-echo WARNING: Inno Setup Compiler (ISCC.exe) not found!
-echo Please install Inno Setup 6 or add it to PATH.
-goto failed
+if not defined ISCC_PATH (
+    echo WARNING: Inno Setup Compiler (ISCC.exe) not found!
+    echo Please install Inno Setup 7 or add it to PATH.
+    goto failed
+)
 
 :run_iscc
 echo Found ISCC...
