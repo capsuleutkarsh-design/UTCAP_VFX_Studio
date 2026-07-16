@@ -82,7 +82,7 @@ import time
 class HomeLoaderWorker(QThread):
     progress = Signal(int, str)
     data_loaded = Signal(list, dict)
-    telemetry_loaded = Signal(str, str, str)
+    telemetry_loaded = Signal(str, str, str, str, str)
     
     def __init__(self, display_name, app_context, parent=None):
         super().__init__(parent)
@@ -152,11 +152,21 @@ class HomeLoaderWorker(QThread):
             today_str = datetime.now().strftime('%Y-%m-%d')
             artists_online = database_manager.execute_query("SELECT COUNT(DISTINCT user_id) AS c FROM attendance_log WHERE day_date = %s AND punch_out IS NULL", (today_str,), fetch="one")
             
+            # Open IT Tickets
+            open_tickets = database_manager.execute_query("SELECT COUNT(*) AS c FROM it_tickets WHERE status != 'Resolved'", fetch="one")
+            
+            # Upcoming Leaves (approved, starting within next 7 days)
+            # SQLite / Postgres compatible basic check: just >= today for simplicity, but ideally between today and today+7
+            # For simplicity, count all Approved leaves that end >= today
+            upcoming_leaves = database_manager.execute_query("SELECT COUNT(*) AS c FROM leave_requests WHERE status = 'Approved' AND end_date >= %s", (today_str,), fetch="one")
+            
             ap_count = active_projects['c'] if isinstance(active_projects, dict) else (active_projects[0] if active_projects else 0)
             pr_count = pending_review['c'] if isinstance(pending_review, dict) else (pending_review[0] if pending_review else 0)
             ao_count = artists_online['c'] if isinstance(artists_online, dict) else (artists_online[0] if artists_online else 0)
+            ot_count = open_tickets['c'] if isinstance(open_tickets, dict) else (open_tickets[0] if open_tickets else 0)
+            ul_count = upcoming_leaves['c'] if isinstance(upcoming_leaves, dict) else (upcoming_leaves[0] if upcoming_leaves else 0)
             
-            self.telemetry_loaded.emit(str(ap_count), str(pr_count), str(ao_count))
+            self.telemetry_loaded.emit(str(ap_count), str(pr_count), str(ao_count), str(ot_count), str(ul_count))
         except Exception as e:
             logging.exception(f"Error async fetching telemetry: {e}")
 
@@ -188,16 +198,23 @@ class HomeTab(QWidget):
         self.loader_worker.progress.connect(self._on_load_progress)
         self.loader_worker.data_loaded.connect(self._on_data_loaded)
         self.loader_worker.telemetry_loaded.connect(self._update_telemetry_ui)
-        self.loader_worker.start()
+        if HAS_WEBENGINE:
+            self.web_view.loadFinished.connect(lambda ok: self.loader_worker.start())
+        else:
+            self.loader_worker.start()
 
-    @Slot(str, str, str)
-    def _update_telemetry_ui(self, ap_count: str, pr_count: str, ao_count: str):
+    @Slot(str, str, str, str, str)
+    def _update_telemetry_ui(self, ap_count: str, pr_count: str, ao_count: str, ot_count: str, ul_count: str):
         if hasattr(self, 'lbl_active_projects'):
             self.lbl_active_projects.setText(ap_count)
         if hasattr(self, 'lbl_pending_review'):
             self.lbl_pending_review.setText(pr_count)
         if hasattr(self, 'lbl_artists_online'):
             self.lbl_artists_online.setText(ao_count)
+        if hasattr(self, 'lbl_open_tickets'):
+            self.lbl_open_tickets.setText(ot_count)
+        if hasattr(self, 'lbl_upcoming_leaves'):
+            self.lbl_upcoming_leaves.setText(ul_count)
 
     def init_ui(self):
         # We use a Stacked Layout to put PySide6 UI ON TOP of QWebEngineView
@@ -362,6 +379,14 @@ class HomeTab(QWidget):
         stat_row.addWidget(w2)
         stat_row.addWidget(w3)
         stats_layout.addLayout(stat_row)
+        
+        stat_row_2 = QHBoxLayout()
+        w4, self.lbl_open_tickets = self._build_stat_item("Open IT Tickets", "-")
+        w5, self.lbl_upcoming_leaves = self._build_stat_item("Upcoming Leaves", "-")
+        stat_row_2.addWidget(w4)
+        stat_row_2.addWidget(w5)
+        stat_row_2.addStretch()
+        stats_layout.addLayout(stat_row_2)
         
         right_panel_layout.addWidget(stats_panel)
         

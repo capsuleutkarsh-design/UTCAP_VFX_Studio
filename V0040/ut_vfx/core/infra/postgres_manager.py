@@ -586,10 +586,82 @@ class PostgresManager:
             acquired_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
 
+        CREATE TABLE IF NOT EXISTS it_deployments (
+            id SERIAL PRIMARY KEY,
+            package_name TEXT NOT NULL,
+            target_machine TEXT NOT NULL,
+            deployed_by TEXT NOT NULL,
+            status TEXT NOT NULL,
+            deployed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+
         CREATE INDEX IF NOT EXISTS idx_change_history_project ON change_history(project_code);
         CREATE INDEX IF NOT EXISTS idx_tracking_tasks_project ON tracking_tasks(project_code);
         CREATE INDEX IF NOT EXISTS idx_tracking_shots_project ON tracking_shots(project_code);
         CREATE INDEX IF NOT EXISTS idx_attendance_user ON attendance_log(user_id);
+        
+        CREATE TABLE IF NOT EXISTS hardware_inventory (
+            id SERIAL PRIMARY KEY,
+            machine_name TEXT UNIQUE NOT NULL,
+            type TEXT DEFAULT '',
+            status TEXT DEFAULT 'Available',
+            gpu TEXT DEFAULT '',
+            ram TEXT DEFAULT '',
+            storage TEXT DEFAULT '',
+            assigned_to TEXT DEFAULT ''
+        );
+        
+        CREATE TABLE IF NOT EXISTS it_tickets (
+            id SERIAL PRIMARY KEY,
+            submitted_by TEXT,
+            category TEXT,
+            description TEXT,
+            status TEXT DEFAULT 'Open',
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        
+        CREATE TABLE IF NOT EXISTS it_licenses (
+            id SERIAL PRIMARY KEY,
+            software_name TEXT NOT NULL,
+            license_key TEXT,
+            seats_total INTEGER DEFAULT 1,
+            seats_used INTEGER DEFAULT 0,
+            expiry_date TEXT
+        );
+        
+        CREATE TABLE IF NOT EXISTS payroll_records (
+            id SERIAL PRIMARY KEY,
+            user_id TEXT NOT NULL,
+            month TEXT NOT NULL,
+            base_salary REAL,
+            total REAL,
+            status TEXT DEFAULT 'Pending'
+        );
+        
+        CREATE TABLE IF NOT EXISTS onboarding_workflows (
+            id SERIAL PRIMARY KEY,
+            user_id TEXT NOT NULL,
+            task_name TEXT NOT NULL,
+            department TEXT,
+            is_completed BOOLEAN DEFAULT FALSE
+        );
+        
+        CREATE TABLE IF NOT EXISTS prod_scheduling (
+            id SERIAL PRIMARY KEY,
+            project_code TEXT,
+            milestone TEXT,
+            start_date TEXT,
+            end_date TEXT,
+            status TEXT
+        );
+        
+        CREATE TABLE IF NOT EXISTS prod_bidding (
+            id SERIAL PRIMARY KEY,
+            project_name TEXT,
+            client_name TEXT,
+            estimated_budget REAL,
+            status TEXT DEFAULT 'Draft'
+        );
         """
         
         alter_sql = """

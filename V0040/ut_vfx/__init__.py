@@ -7,7 +7,7 @@ can import infra/domain modules without triggering GUI side effects.
 from importlib import import_module
 from typing import Any
 
-__version__ = "BETA 2.0.21"
+__version__ = "BETA 2.0.22"
 __author__ = "Utkarsh Tripathi <capsuleutkarsh@gmail.com>"
 
 _LAZY_IMPORTS = {

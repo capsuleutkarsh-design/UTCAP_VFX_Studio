@@ -254,16 +254,33 @@ class ThemeManager:
         /* 8. Scrollbars (Hidden/Minimal) */
         QScrollBar:vertical {
             background: transparent;
-            width: 8px;
-            margin: 0;
+            width: 10px;
+            margin: 0px;
+            border: none;
         }
         QScrollBar::handle:vertical {
-            background: #444;
-            border-radius: 4px;
-            min-height: 40px;
+            background: #555555;
+            border-radius: 5px;
+            min-height: 30px;
         }
-        QScrollBar::handle:vertical:hover { background: #666; }
-        QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
+        QScrollBar::handle:vertical:hover { background: #777777; }
+        QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0px; border: none; background: none; }
+        QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical { background: none; }
+        
+        QScrollBar:horizontal {
+            background: transparent;
+            height: 10px;
+            margin: 0px;
+            border: none;
+        }
+        QScrollBar::handle:horizontal {
+            background: #555555;
+            border-radius: 5px;
+            min-width: 30px;
+        }
+        QScrollBar::handle:horizontal:hover { background: #777777; }
+        QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { width: 0px; border: none; background: none; }
+        QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal { background: none; }
     """
 
     # Standard Light Mode (Clean White / Off-White)

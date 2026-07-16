@@ -6,9 +6,49 @@ Manages tab registration, initialization, visibility and navigation.
 Extracted from main_window.py for better maintainability.
 """
 
-from PySide6.QtWidgets import QListWidgetItem
+from PySide6.QtWidgets import QListWidgetItem, QWidget, QHBoxLayout, QLabel, QFrame, QSizePolicy
 from PySide6.QtCore import Qt, QSize, Signal, QObject
 import logging
+
+class CategoryHeaderWidget(QWidget):
+    def __init__(self, label_text: str, parent=None):
+        super().__init__(parent)
+        layout = QHBoxLayout(self)
+        # Remove vertical margins since QListWidgetItem already has 12px padding top/bottom
+        layout.setContentsMargins(15, 0, 15, 0)
+        layout.setSpacing(10)
+        
+        # Left line
+        self.left_line = QFrame()
+        self.left_line.setFixedHeight(1)
+        self.left_line.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
+        self.left_line.setStyleSheet("background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 180, 216, 0), stop:1 rgba(0, 180, 216, 0.4));")
+        
+        # Text label
+        self.lbl = QLabel(label_text.upper())
+        # Use a slightly bigger font and no margins
+        self.lbl.setStyleSheet("color: #00B4D8; font-size: 11px; font-weight: 900; letter-spacing: 2px; background: transparent; padding: 0px; margin: 0px;")
+        self.lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        
+        # Right line
+        self.right_line = QFrame()
+        self.right_line.setFixedHeight(1)
+        self.right_line.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
+        self.right_line.setStyleSheet("background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 180, 216, 0.4), stop:1 rgba(0, 180, 216, 0));")
+        
+        layout.addWidget(self.left_line)
+        layout.addWidget(self.lbl)
+        layout.addWidget(self.right_line)
+        
+    def set_collapsed(self, collapsed: bool):
+        if collapsed:
+            self.lbl.hide()
+            self.left_line.setStyleSheet("background-color: rgba(0, 180, 216, 0.5);")
+            self.right_line.hide()
+        else:
+            self.lbl.show()
+            self.left_line.setStyleSheet("background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 180, 216, 0), stop:1 rgba(0, 180, 216, 0.4));")
+            self.right_line.show()
 
 
 class TabCoordinator(QObject):
@@ -26,10 +66,10 @@ class TabCoordinator(QObject):
     
     def __init__(self, parent_window, sidebar_nav, content_stack):
         """
-        Initialize tab coordinator.
+        Initialize the coordinator.
         
         Args:
-            parent_window: Reference to main window
+            parent_window: The main window
             sidebar_nav: QListWidget for sidebar navigation
             content_stack: QStackedWidget for tab content
         """
@@ -43,6 +83,7 @@ class TabCoordinator(QObject):
         self.tab_factories = {}  # Factory functions for each tab
         self.tab_instances = {}  # Cached instances
         self.tab_labels = []  # Ordered list of tab labels
+        self.header_items = set()  # Set of row indices that are category headers
         
         # Connect navigation signal
         self.sidebar_nav.currentRowChanged.connect(self._on_nav_changed)
@@ -131,6 +172,34 @@ class TabCoordinator(QObject):
         logging.info(f"Tab registered: {label}")
         return True
     
+    def add_category_header(self, label: str):
+        """
+        Add a non-selectable category header to the sidebar.
+        
+        Args:
+            label: Display label for the header
+        """
+        item = QListWidgetItem("")
+        item.setSizeHint(QSize(0, 50))
+        
+        # Make it non-selectable
+        item.setFlags(item.flags() & ~Qt.ItemFlag.ItemIsSelectable)
+        
+        self.sidebar_nav.addItem(item)
+        
+        # Set premium widget
+        widget = CategoryHeaderWidget(label)
+        self.sidebar_nav.setItemWidget(item, widget)
+        
+        # Keep track of header indices
+        row_index = self.sidebar_nav.count() - 1
+        self.header_items.add(row_index)
+        
+        # Add a placeholder to tab_labels so indices stay aligned
+        self.tab_labels.append(f"__HEADER__{label}")
+        
+        logging.info(f"Category header added: {label}")
+    
     def set_tab_visible(self, page_widget, visible, rename_to=None):
         """
         Set visibility of a tab.
@@ -161,6 +230,12 @@ class TabCoordinator(QObject):
             item = self.sidebar_nav.item(i)
             if i < len(self.tab_labels):
                 label = self.tab_labels[i]
+                if label.startswith("__HEADER__"):
+                    widget = self.sidebar_nav.itemWidget(item)
+                    if widget and hasattr(widget, 'set_collapsed'):
+                        widget.set_collapsed(collapsed)
+                    continue # Do not modify headers
+                
                 factory_data = self.tab_factories.get(label, {})
                 icon = factory_data.get('icon', '')
                 is_locked = factory_data.get('locked', False)
@@ -372,7 +447,7 @@ class TabCoordinator(QObject):
     
     def _on_nav_changed(self, row):
         """Handle sidebar navigation change with lazy loading and fade-in."""
-        if row < 0:
+        if row < 0 or row in self.header_items:
             return
 
         is_first_load = (

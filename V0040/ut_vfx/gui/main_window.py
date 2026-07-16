@@ -1097,6 +1097,33 @@ class VFXFolderCreatorApp(QMainWindow, SessionManagerMixin, SidebarControllerMix
                 self.status_bar.showMessage("\u2139\uFE0F  This tab doesn't support refresh", 2000)
             logging.debug(f"[SHORTCUT] Refresh triggered on {self.tab_coordinator.get_current_tab_name()}")
     
+    def closeEvent(self, event):
+        """Handle application shutdown cleanly."""
+        try:
+            if hasattr(self, 'db_monitor') and self.db_monitor:
+                self.db_monitor.stop()
+        except Exception as e:
+            logging.debug(f"Error stopping db monitor: {e}")
+            
+        try:
+            # Attempt to stop any other background services explicitly
+            from ..core.infra.network_manager import network_manager
+            if network_manager:
+                network_manager.stop()
+        except Exception:
+            pass
+            
+        try:
+            if hasattr(self, 'sweeper_engine') and self.sweeper_engine:
+                self.sweeper_engine.stop()
+        except Exception:
+            pass
+            
+        # Give threads a tiny moment to exit
+        import time
+        time.sleep(0.1)
+        super().closeEvent(event)
+
     def show_settings_tab(self):
         """Jump directly to Settings tab"""
         for i, label in enumerate(self.tab_coordinator.tab_labels):

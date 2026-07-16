@@ -22,8 +22,11 @@ class NetworkLogHandler(logging.FileHandler):
         try:
             super().__init__(filename, mode, encoding, delay)
         except Exception as e:
-            logging.exception(f"Network Log Init Failed: {e}")
+            # Downgrade to warning without traceback to avoid spamming the console on startup
+            # when the network drive is unavailable.
+            logging.warning(f"Network Log Init Failed: {e} (Continuing with local logs)")
             self.disabled = True
+            raise
 
     def emit(self, record):
         if self.disabled: return

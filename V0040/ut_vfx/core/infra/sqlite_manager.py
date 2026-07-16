@@ -162,7 +162,108 @@ CREATE TABLE IF NOT EXISTS attendance_log (
 CREATE TABLE IF NOT EXISTS ut_vfx_json_write_locks (
     lock_name TEXT PRIMARY KEY,
     holder TEXT DEFAULT '',
-    acquired_at TEXT DEFAULT (datetime('now'))
+    acquired_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS it_deployments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    package_name TEXT NOT NULL,
+    target_machine TEXT NOT NULL,
+    deployed_by TEXT,
+    status TEXT DEFAULT 'Pending',
+    deployed_at TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE IF NOT EXISTS hardware_inventory (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    machine_name TEXT UNIQUE NOT NULL,
+    assigned_to TEXT,
+    gpu TEXT,
+    ram TEXT,
+    cpu TEXT,
+    storage TEXT,
+    type TEXT,
+    status TEXT DEFAULT 'Active',
+    location TEXT DEFAULT '',
+    last_seen TEXT
+);
+
+CREATE TABLE IF NOT EXISTS it_tickets (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    submitted_by TEXT,
+    category TEXT,
+    description TEXT,
+    status TEXT DEFAULT 'Open',
+    priority TEXT DEFAULT 'Medium',
+    assigned_to TEXT,
+    created_at TEXT DEFAULT (datetime('now')),
+    resolved_at TEXT
+);
+
+CREATE TABLE IF NOT EXISTS ticket_comments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ticket_id INTEGER,
+    user_id TEXT,
+    comment TEXT,
+    timestamp TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE IF NOT EXISTS it_licenses (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    software_name TEXT NOT NULL,
+    license_key TEXT,
+    seats_total INTEGER DEFAULT 0,
+    seats_used INTEGER DEFAULT 0,
+    expiry_date TEXT
+);
+
+CREATE TABLE IF NOT EXISTS leave_requests (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id TEXT NOT NULL,
+    type TEXT NOT NULL,
+    start_date TEXT NOT NULL,
+    end_date TEXT NOT NULL,
+    half_day BOOLEAN DEFAULT 0,
+    reason TEXT,
+    status TEXT DEFAULT 'Pending',
+    approved_by TEXT,
+    created_at TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE IF NOT EXISTS leave_balances (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id TEXT UNIQUE NOT NULL,
+    cl_balance REAL DEFAULT 10.0,
+    sl_balance REAL DEFAULT 5.0,
+    el_balance REAL DEFAULT 5.0,
+    lwp_balance REAL DEFAULT 0.0,
+    last_updated TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE IF NOT EXISTS onboarding_workflows (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id TEXT NOT NULL,
+    task_name TEXT NOT NULL,
+    department TEXT,
+    is_completed BOOLEAN DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS prod_scheduling (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_code TEXT,
+    milestone TEXT,
+    start_date TEXT,
+    end_date TEXT,
+    status TEXT
+);
+
+CREATE TABLE IF NOT EXISTS prod_bidding (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_code TEXT,
+    shot_count INTEGER DEFAULT 0,
+    cost_per_shot REAL DEFAULT 0,
+    estimated_budget REAL,
+    status TEXT DEFAULT 'Draft'
 );
 
 CREATE INDEX IF NOT EXISTS idx_change_history_project ON change_history(project_code);

@@ -202,7 +202,7 @@ QScrollBar::handle:vertical:hover {
 }
 QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
 QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
-    border: none; background: none; height: 0px;
+    border: none; background: none; background: none;
 }
 
 QScrollBar:horizontal {
@@ -221,7 +221,7 @@ QScrollBar::handle:horizontal:hover {
 }
 QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal,
 QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
-    border: none; background: none; width: 0px;
+    border: none; background: none; background: none;
 }
 
 /* --- PROGRESS BARS --- */

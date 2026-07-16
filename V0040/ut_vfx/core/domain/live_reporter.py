@@ -77,7 +77,8 @@ class LiveReporter(QThread):
             file_path = self.report_dir / f"{self.pc_name}.json"
             with open(file_path, 'w') as f: json.dump(data, f)
         except Exception as e:
-            logging.error(f"Report Error: {e}")
+            # Downgrade to debug to avoid spamming the console for offline drives
+            logging.debug(f"LiveStatus Report Failed: {e}")
             self.cached_dynamic_specs = {} # Invalidate cache on error so we retry next time
 
     def stop(self):

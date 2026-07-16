@@ -109,6 +109,25 @@ class HeaderBuilder:
         self.logout_button = self._create_logout_button()
         header_layout.addWidget(self.logout_button)
 
+        # 3a-1. RIGHT: DEV ROLE SWITCHER
+        roles_data = self.user_data.get('roles', self.user_data.get('role', []))
+        user_roles = [r.lower() for r in (roles_data if isinstance(roles_data, list) else [roles_data])]
+        if any(r in ['dev', 'developer', 'admin', 'superuser'] for r in user_roles):
+            self.dev_role_btn = QPushButton("🔧 Dev: Switch Role")
+            self.dev_role_btn.setStyleSheet("""
+                QPushButton {
+                    background-color: #8B5CF6;
+                    color: white;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 8px 12px;
+                    font-weight: bold;
+                }
+                QPushButton:hover { background-color: #7C3AED; }
+            """)
+            self.dev_role_btn.clicked.connect(self._on_dev_switch_role)
+            header_layout.addWidget(self.dev_role_btn)
+
         # 3a-2. RIGHT: SYNC BUTTON
         self.sync_button = self._create_sync_button()
         header_layout.addWidget(self.sync_button)
@@ -197,6 +216,27 @@ class HeaderBuilder:
     def update_db_status(self, is_connected, latency_ms):
         """Update the connection indicator (deprecated - new widget is self-updating)."""
         pass  # DBSpeed IndicatorCompact handles its own updates
+
+    def _on_dev_switch_role(self):
+        """Secret Dev feature: switch user role dynamically to test UI layout variations."""
+        from PySide6.QtWidgets import QInputDialog, QMessageBox
+        roles = ["Developer", "HR", "Admin", "Supervisor", "Artist", "Producer", "Manager"]
+        current = getattr(self.parent, "user_role", "Developer")
+        try:
+            default_idx = roles.index(current)
+        except ValueError:
+            default_idx = 0
+            
+        role, ok = QInputDialog.getItem(
+            self.parent, "Dev Mode: Switch Role", "Select Role to simulate:",
+            roles, default_idx, False
+        )
+        if ok and role:
+            self.parent.user_role = role
+            QMessageBox.information(
+                self.parent, "Role Switched", 
+                f"Simulated role changed to: {role}\\n\\nPlease restart the application for the new tabs and layout to fully take effect."
+            )
 
     def set_db_runtime_status(self, active_mode: str, fallback_used: bool = False):
         """Update DB mode indicator text and style."""

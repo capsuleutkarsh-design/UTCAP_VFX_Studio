@@ -59,6 +59,13 @@ class SweeperEngine(QObject):
         self._thread.finished.connect(lambda: setattr(self, '_is_running', False))
         self._thread.start()
 
+    def stop(self):
+        """Stop the sweeper thread gracefully."""
+        self._is_running = False
+        if self._thread and self._thread.isRunning():
+            self._thread.quit()
+            self._thread.wait(2000)
+
     def _run_process(self, dry_run):
         logger.info(f"🧹 Sweeper Engine Started (Dry Run: {dry_run})")
         

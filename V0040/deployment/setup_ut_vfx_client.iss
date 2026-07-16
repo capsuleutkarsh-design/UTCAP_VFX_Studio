@@ -3,7 +3,7 @@
 ; Features: Auto-Updater, Cleanup Old Configs, Bundled Dependencies.
 
 #define MyAppName "UT_VFX Production"
-#define MyAppVersion "BETA 2.0.21"
+#define MyAppVersion "BETA 2.0.22"
 #define MyAppPublisher "UT Studio"
 #define MyAppURL "https://www.capsulestudio.com"
 #define MyAppExeName "UTVFX.exe"

@@ -20,8 +20,14 @@ depends_on: Union[str, Sequence[str], None] = None
 
 def upgrade() -> None:
     """Upgrade schema."""
+    # Drop defaults first
+    op.execute('ALTER TABLE tracking_shots ALTER COLUMN data_json DROP DEFAULT')
     op.execute('ALTER TABLE tracking_shots ALTER COLUMN data_json TYPE JSONB USING data_json::jsonb')
+    op.execute("ALTER TABLE tracking_shots ALTER COLUMN data_json SET DEFAULT '{}'::jsonb")
+    
+    op.execute('ALTER TABLE tracking_projects ALTER COLUMN config_json DROP DEFAULT')
     op.execute('ALTER TABLE tracking_projects ALTER COLUMN config_json TYPE JSONB USING config_json::jsonb')
+    op.execute("ALTER TABLE tracking_projects ALTER COLUMN config_json SET DEFAULT '{}'::jsonb")
 
 def downgrade() -> None:
     """Downgrade schema."""

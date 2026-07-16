@@ -30,6 +30,15 @@ class MainWindowBuilderMixin:
             from ..attendance_tab import AttendanceTab
             from ..tabs.incoming_delivery_tab import IncomingDeliveryTab
 
+            from ..tabs.hrms_leave_tab import HrmsLeaveTab
+            from ..tabs.hrms_onboarding_tab import HrmsOnboardingTab
+            from ..tabs.prod_scheduling_tab import ProdSchedulingTab
+            from ..tabs.prod_bidding_tab import ProdBiddingTab
+            from ..tabs.it_inventory_tab import ItInventoryTab
+            from ..tabs.it_licenses_tab import ItLicensesTab
+            from ..tabs.it_ticketing_tab import ItTicketingTab
+            from ..tabs.it_deployment_tab import ItDeploymentTab
+            from ..tabs.admin_users_tab import AdminUsersTab
             central_widget = QWidget()
             self.setCentralWidget(central_widget)
 
@@ -145,6 +154,8 @@ class MainWindowBuilderMixin:
 
             logging.info("[LAZY] Registering tab factories...")
 
+            self.tab_coordinator.add_category_header("PRODUCTION")
+
             # Home Tab (Cinematic Hub)
             self.tab_coordinator.register_tab_factory(
                 "Home",
@@ -251,23 +262,78 @@ class MainWindowBuilderMixin:
 
 
 
-            # Settings
-            def create_settings():
-                settings = SettingsTab(self.config_manager)
-                settings.templates_refresh_requested.connect(self.on_templates_refreshed)
-                settings.global_settings_updated.connect(self.on_global_settings_updated)
-                return settings
 
+
+            # Production Scheduling
             self.tab_coordinator.register_tab_factory(
-                "Settings",
-                create_settings,
-                icon="⚙️",
-                permission_key="Settings",
+                "Scheduling",
+                lambda: ProdSchedulingTab(),
+                icon="📅",
+                permission_key="Scheduling",
                 user_role=self.user_role,
-                allowed_tabs=self.allowed_tabs
-            ,
-                tooltip="Configure application paths, templates and global preferences"
+                allowed_tabs=self.allowed_tabs,
+                tooltip="Production Scheduling & Gantt Charts"
             )
+
+            # Production Bidding
+            self.tab_coordinator.register_tab_factory(
+                "Bidding",
+                lambda: ProdBiddingTab(),
+                icon="💰",
+                permission_key="Bidding",
+                user_role=self.user_role,
+                allowed_tabs=self.allowed_tabs,
+                tooltip="Project Bidding & Cost Tracking"
+            )
+
+
+            self.tab_coordinator.add_category_header("IT & INFRA")
+
+            # Hardware Inventory
+            self.tab_coordinator.register_tab_factory(
+                "Hardware",
+                lambda: ItInventoryTab(),
+                icon="🖥️",
+                permission_key="IT",
+                user_role=self.user_role,
+                allowed_tabs=self.allowed_tabs,
+                tooltip="Studio Hardware Inventory"
+            )
+
+            # Software Licenses
+            self.tab_coordinator.register_tab_factory(
+                "Licenses",
+                lambda: ItLicensesTab(),
+                icon="🔑",
+                permission_key="IT",
+                user_role=self.user_role,
+                allowed_tabs=self.allowed_tabs,
+                tooltip="DCC Software Licenses Tracking"
+            )
+
+            # IT Ticketing
+            self.tab_coordinator.register_tab_factory(
+                "Ticketing",
+                lambda: ItTicketingTab(user_role=self.user_role, user_data=self.user_data),
+                icon="🎫",
+                permission_key="IT",
+                user_role=self.user_role,
+                allowed_tabs=self.allowed_tabs,
+                tooltip="IT Support Tickets"
+            )
+
+            # Auto Deployment
+            self.tab_coordinator.register_tab_factory(
+                "Deployment",
+                lambda: ItDeploymentTab(user_data=self.user_data),
+                icon="📦",
+                permission_key="IT",
+                user_role=self.user_role,
+                allowed_tabs=self.allowed_tabs,
+                tooltip="Manage automated script and software deployments"
+            )
+
+            self.tab_coordinator.add_category_header("SYSTEM")
 
             # Admin Panel
             self.tab_coordinator.register_tab_factory(
@@ -315,6 +381,33 @@ class MainWindowBuilderMixin:
 
 
 
+
+            self.tab_coordinator.add_category_header("HRMS")
+
+            # Leave Management
+            self.tab_coordinator.register_tab_factory(
+                "Leave Management",
+                lambda: HrmsLeaveTab(user_role=self.user_role, user_data=self.user_data),
+                icon="🌴",
+                permission_key="HRMS",
+                user_role=self.user_role,
+                allowed_tabs=self.allowed_tabs,
+                tooltip="Manage Paid Time Off and Leaves"
+            )
+
+            # Onboarding
+            self.tab_coordinator.register_tab_factory(
+                "Onboarding",
+                lambda: HrmsOnboardingTab(user_role=self.user_role, user_data=self.user_data),
+                icon="🤝",
+                permission_key="HRMS",
+                user_role=self.user_role,
+                allowed_tabs=self.allowed_tabs,
+                tooltip="Employee Onboarding Workflows"
+            )
+
+
+
             # Attendance
             self.tab_coordinator.register_tab_factory(
                 "Attendance",
@@ -336,6 +429,7 @@ class MainWindowBuilderMixin:
                 )
             )
 
+
             # Incoming Delivery (Final - Smart Ingest) - hidden by default.
             # Shown only when Workflow Mode 2 is selected via WorkflowManager.
             self.tab_coordinator.register_tab_factory(
@@ -347,7 +441,36 @@ class MainWindowBuilderMixin:
                 allowed_tabs=self.allowed_tabs,
                 visible=False
             )
+            
+            self.tab_coordinator.add_category_header("ADMINISTRATION")
+            
+            # User Management
+            self.tab_coordinator.register_tab_factory(
+                "Users & Roles",
+                lambda: AdminUsersTab(user_role=self.user_role, user_data=self.user_data),
+                icon="👥",
+                permission_key="HRMS",
+                user_role=self.user_role,
+                allowed_tabs=self.allowed_tabs,
+                tooltip="Manage users, roles, departments, and access"
+            )
 
+            # Settings
+            def create_settings():
+                settings = SettingsTab(self.config_manager)
+                settings.templates_refresh_requested.connect(self.on_templates_refreshed)
+                settings.global_settings_updated.connect(self.on_global_settings_updated)
+                return settings
+
+            self.tab_coordinator.register_tab_factory(
+                "Settings",
+                create_settings,
+                icon="⚙️",
+                permission_key="Settings",
+                user_role=self.user_role,
+                allowed_tabs=self.allowed_tabs,
+                tooltip="Configure application paths, templates and global preferences"
+            )
 
             # Store nav_items reference for backward compatibility
             self.nav_items = self.tab_coordinator.nav_items
